@@ -1,0 +1,23 @@
+{"level":30,"time":1644381917668,"pid":12597,"hostname":"tech9logy","msg":"connected to WA Web"}
+{"level":30,"time":1644381919753,"pid":12597,"hostname":"tech9logy","error":{"data":null,"isBoom":true,"isServer":false,"output":{"statusCode":428,"payload":{"statusCode":428,"error":"Precondition Required","message":"Connection Terminated"},"headers":{}}},"msg":"connection closed"}
+{"level":30,"time":1644398660873,"pid":4833,"hostname":"tech9logy","msg":"connected to WA Web"}
+{"level":20,"time":1644398661128,"pid":4833,"hostname":"tech9logy","msg":"handshake recv from WA Web"}
+{"level":30,"time":1644398661134,"pid":4833,"hostname":"tech9logy","msg":"handshake complete"}
+{"level":30,"time":1644398661134,"pid":4833,"hostname":"tech9logy","msg":"not logged in, attempting registration..."}
+{"level":30,"time":1644398679740,"pid":4833,"hostname":"tech9logy","msg":"connected to WA Web"}
+{"level":20,"time":1644398680031,"pid":4833,"hostname":"tech9logy","msg":"handshake recv from WA Web"}
+{"level":30,"time":1644398680037,"pid":4833,"hostname":"tech9logy","msg":"handshake complete"}
+{"level":30,"time":1644398680037,"pid":4833,"hostname":"tech9logy","msg":"not logged in, attempting registration..."}
+{"level":20,"time":1644398693786,"pid":5047,"hostname":"tech9logy","path":"./baileys_store_multi.json","msg":"reading from file"}
+{"level":20,"time":1644398701540,"pid":5061,"hostname":"tech9logy","path":"./baileys_store_multi.json","msg":"reading from file"}
+{"level":30,"time":1644398702835,"pid":5061,"hostname":"tech9logy","msg":"connected to WA Web"}
+{"level":20,"time":1644398703135,"pid":5061,"hostname":"tech9logy","msg":"handshake recv from WA Web"}
+{"level":30,"time":1644398703149,"pid":5061,"hostname":"tech9logy","msg":"handshake complete"}
+{"level":30,"time":1644398703149,"pid":5061,"hostname":"tech9logy","msg":"not logged in, attempting registration..."}
+{"level":20,"time":1644398712347,"pid":5112,"hostname":"tech9logy","path":"./baileys_store_multi.json","msg":"reading from file"}
+{"level":30,"time":1644398713944,"pid":5112,"hostname":"tech9logy","msg":"connected to WA Web"}
+{"level":20,"time":1644398714197,"pid":5112,"hostname":"tech9logy","msg":"handshake recv from WA Web"}
+{"level":30,"time":1644398714203,"pid":5112,"hostname":"tech9logy","msg":"handshake complete"}
+{"level":30,"time":1644398714203,"pid":5112,"hostname":"tech9logy","msg":"not logged in, attempting registration..."}
+{"level":20,"time":1644398737377,"pid":5164,"hostname":"tech9logy","path":"./baileys_store_multi.json","msg":"reading from file"}
+{"level":20,"time":1644399420549,"pid":5971,"hostname":"tech9logy","path":"./baileys_store_multi.json","msg":"reading from file"}

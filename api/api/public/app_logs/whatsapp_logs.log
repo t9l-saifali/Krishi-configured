@@ -1,0 +1,68 @@
+[2022-02-09T10:15:15.319] [INFO] whatsapp_logs - connection update :::::  {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2022-02-09T10:15:19.756] [INFO] whatsapp_logs - connection update :::::  {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Connection Terminated
+        at WebSocket.<anonymous> (/home/t9l_rishi/Desktop/Abhishek/projects/krishicress/17Jan2022/node_modules/@adiwajshing/baileys/lib/Socket/socket.js:358:30)
+        at WebSocket.emit (node:events:381:22)
+        at WebSocket.emit (node:domain:470:12)
+        at WebSocket.emitClose (/home/t9l_rishi/Desktop/Abhishek/projects/krishicress/17Jan2022/node_modules/ws/lib/websocket.js:257:10)
+        at TLSSocket.socketOnClose (/home/t9l_rishi/Desktop/Abhishek/projects/krishicress/17Jan2022/node_modules/ws/lib/websocket.js:1178:15)
+        at TLSSocket.emit (node:events:381:22)
+        at TLSSocket.emit (node:domain:470:12)
+        at node:net:666:12
+        at TCP.done (node:_tls_wrap:577:7) {
+      data: null,
+      isBoom: true,
+      isServer: false,
+      output: [Object]
+    },
+    date: 2022-02-09T04:45:19.753Z
+  }
+}
+[2022-02-09T10:39:17.709] [INFO] whatsapp_logs - connection update :::::  {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2022-02-09T14:54:20.151] [INFO] whatsapp_logs - connection update :::::  {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2022-02-09T14:54:21.454] [INFO] whatsapp_logs - connection update :::::  {
+  qr: '2@8dE4w15+TRAaCtRvU8/fd2JjRKRMWTeogw6Z28ZZ9ojcnYMRDVjK6dJe0p1BhwVsaPCgm247/nmShw==,2ujXjhAZM3AfVF2aWduAIMOKFYxg/bgWFOZeSFVhUE0=,I53mAWYQ0ENLveuA7QyJje4zQbG9qhMEBjjP33DxZm8=,75iofZBPWMpJGlG5q6iBF6XsFF6EWEj6eSLWqRhE1ow='
+}
+[2022-02-09T14:54:38.822] [INFO] whatsapp_logs - connection update :::::  {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2022-02-09T14:54:40.452] [INFO] whatsapp_logs - connection update :::::  {
+  qr: '2@86gkVCfeEG/aI7Sjg/reCjMGKZBQ0swX6ms2i8iF0ZgsJ+NpGrNYRegmBkzfZcBNbTXoQg52PGAD5w==,2ujXjhAZM3AfVF2aWduAIMOKFYxg/bgWFOZeSFVhUE0=,I53mAWYQ0ENLveuA7QyJje4zQbG9qhMEBjjP33DxZm8=,75iofZBPWMpJGlG5q6iBF6XsFF6EWEj6eSLWqRhE1ow='
+}
+[2022-02-09T14:54:54.395] [INFO] whatsapp_logs - connection update :::::  {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2022-02-09T14:55:02.175] [INFO] whatsapp_logs - connection update :::::  {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2022-02-09T14:55:03.492] [INFO] whatsapp_logs - connection update :::::  {
+  qr: '2@IKEpR9FxzmrCfxDwIDKeORKFVucUBH8X860l2U38yUtDX9VEZZmk/wHOaeBPJ+T+r/tJXPMUn+iNpA==,eb+aoS/c539LJsHF4bTMa7mOzbzgqSHMZ/oASPjo4BQ=,Id/0gD92U1rRY83uNPpI0JQRWHssqnC+EpjFnHJV8kA=,5P4haT+KmA1jLUTvwNMVRzPf7Z3uRV1mZqbKncVupaM='
+}
+[2022-02-09T14:55:12.944] [INFO] whatsapp_logs - connection update :::::  {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2022-02-09T14:55:14.559] [INFO] whatsapp_logs - connection update :::::  {
+  qr: '2@RkJ2P8QZSXmM0iDErYAG2I1iYLUG3DT/j8DlWLFQ7ubldLxz+elTZxOsNiUu7EvV+yli00Ns78EFOw==,KtcvKa2zy9E7kjChKKnAKcTOFvNNazyXxZ2FIS+1uwA=,T4wqFVi3qVeZkpbiHCyQgWOlaqn442WG9CSzdtOIkik=,zzOlOG7x005zKddlsYkmwyldZn4OHkceaBatXcptOBY='
+}

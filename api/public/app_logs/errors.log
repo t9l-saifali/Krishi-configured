@@ -1,0 +1,1367 @@
+[2022-06-27T18:00:00.424] [ERROR] errors - MongoNotConnectedError: MongoClient must be connected to perform this operation
+    at getTopology (/home/t9l_rishi/Desktop/krishi api/node_modules/mongoose/node_modules/mongodb/lib/utils.js:369:11)
+    at Collection.find (/home/t9l_rishi/Desktop/krishi api/node_modules/mongoose/node_modules/mongodb/lib/collection.js:241:69)
+    at Collection.findOne (/home/t9l_rishi/Desktop/krishi api/node_modules/mongoose/node_modules/mongodb/lib/collection.js:232:21)
+    at NativeCollection.<computed> [as findOne] (/home/t9l_rishi/Desktop/krishi api/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:202:33)
+    at NodeCollection.findOne (/home/t9l_rishi/Desktop/krishi api/node_modules/mquery/lib/collection/node.js:34:21)
+    at model.Query.Query.findOne (/home/t9l_rishi/Desktop/krishi api/node_modules/mquery/lib/mquery.js:2021:20)
+    at model.Query.<anonymous> (/home/t9l_rishi/Desktop/krishi api/node_modules/mongoose/lib/query.js:2435:22)
+    at model.Query._wrappedThunk [as _findOne] (/home/t9l_rishi/Desktop/krishi api/node_modules/mongoose/lib/helpers/query/wrapThunk.js:27:8)
+    at /home/t9l_rishi/Desktop/krishi api/node_modules/kareem/index.js:372:33
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+ 
+
+[2022-12-22T11:57:24.934] [ERROR] errors - TypeError: Cannot read properties of null (reading 'ProductAllowedWithPre')
+    at module.exports.AddOne (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:837:37)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-22T11:57:31.451] [ERROR] errors - TypeError: Cannot read properties of null (reading 'ProductAllowedWithPre')
+    at module.exports.AddOne (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:837:37)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-22T11:57:35.138] [ERROR] errors - TypeError: Cannot read properties of null (reading 'ProductAllowedWithPre')
+    at module.exports.AddOne (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:837:37)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-22T11:57:48.955] [ERROR] errors - TypeError: Cannot read properties of null (reading 'ProductAllowedWithPre')
+    at module.exports.AddOne (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:837:37)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-22T12:05:40.467] [ERROR] errors - TypeError: Cannot read properties of null (reading 'refferalPointsOnOff')
+    at module.exports.checkRefferalStatus (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:16352:37)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-22T12:05:48.161] [ERROR] errors - TypeError: Cannot read properties of null (reading 'refferalPointsOnOff')
+    at module.exports.checkRefferalStatus (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:16352:37)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-22T12:08:10.141] [ERROR] errors - TypeError: Cannot read properties of null (reading 'refferalPointsOnOff')
+    at module.exports.checkRefferalStatus (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:16352:37)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-22T12:08:20.723] [ERROR] errors - TypeError: Cannot read properties of undefined (reading 'seedValue')
+    at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:11519:99
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-22T12:09:48.386] [ERROR] errors - Error: bookings validation failed: billingCompany: Cast to ObjectId failed for value "billingCompany._id" (type string) at path "billingCompany"
+    at ValidationError.inspect (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/error/validation.js:48:26)
+    at formatValue (node:internal/util/inspect:806:19)
+    at inspect (node:internal/util/inspect:365:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+    at Object.format (node:internal/util/inspect:2149:10)
+    at basicLayout (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/log4js/lib/layouts.js:63:57)
+    at app (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/log4js/lib/appenders/file.js:76:23)
+    at appender (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/log4js/lib/appenders/multiFile.js:60:7)
+    at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/log4js/lib/log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/log4js/lib/log4js.js:42:21)
+    at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/log4js/lib/clustering.js:24:26
+    at Array.forEach (<anonymous>)
+    at sendToListeners (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/log4js/lib/clustering.js:24:13)
+    at Object.send (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/log4js/lib/clustering.js:90:7)
+    at Logger._log (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/log4js/lib/logger.js:106:16)
+    at Logger.log (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/log4js/lib/logger.js:89:12)
+    at Logger.<computed> [as error] (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/log4js/lib/logger.js:140:10)
+    at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:12523:39
+    at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:17:11
+    at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:5011:21
+    at _done (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:3150:16) {
+  errors: {
+    billingCompany: CastError: Cast to ObjectId failed for value "billingCompany._id" (type string) at path "billingCompany"
+        at ObjectId.cast (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/objectid.js:249:11)
+        at ObjectId.SchemaType.applySetters (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1180:12)
+        at model.$set (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/document.js:1407:20)
+        at model.$set (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/document.js:1141:16)
+        at model.Document (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/document.js:161:12)
+        at model.Model (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:114:12)
+        at new model (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:4819:15)
+        at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:3126:22
+        at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:3162:7
+        at Array.forEach (<anonymous>)
+        at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:3161:15
+        at promiseOrCallback (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:10:12)
+        at Mongoose._promiseOrCallback (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/index.js:1176:10)
+        at Function.create (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:3091:23)
+        at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:12521:39
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      stringValue: '"billingCompany._id"',
+      messageFormat: undefined,
+      kind: 'ObjectId',
+      value: 'billingCompany._id',
+      path: 'billingCompany',
+      reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+          at new BSONTypeError (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/bson/lib/error.js:41:28)
+          at new ObjectId (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/bson/lib/objectid.js:65:23)
+          at castObjectId (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/cast/objectid.js:24:12)
+          at ObjectId.cast (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/objectid.js:247:12)
+          at ObjectId.SchemaType.applySetters (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1180:12)
+          at model.$set (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/document.js:1407:20)
+          at model.$set (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/document.js:1141:16)
+          at model.Document (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/document.js:161:12)
+          at model.Model (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:114:12)
+          at new model (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:4819:15)
+          at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:3126:22
+          at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:3162:7
+          at Array.forEach (<anonymous>)
+          at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:3161:15
+          at promiseOrCallback (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:10:12)
+          at Mongoose._promiseOrCallback (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/index.js:1176:10)
+          at Function.create (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:3091:23)
+          at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:12521:39
+          at processTicksAndRejections (node:internal/process/task_queues:96:5),
+      valueType: 'string'
+    }
+  },
+  _message: 'bookings validation failed'
+} 
+ 
+
+[2022-12-22T12:59:00.537] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-22T13:00:00.614] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-22T13:59:00.112] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-22T14:00:00.173] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-22T14:59:00.993] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-22T15:00:00.070] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-22T15:59:00.299] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-22T16:00:00.367] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-22T16:59:00.248] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-22T17:00:00.309] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-22T17:59:00.671] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-22T18:00:00.767] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-23T09:59:00.757] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-23T10:00:00.809] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-23T10:59:00.483] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-23T11:00:00.613] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-30T09:25:40.035] [ERROR] errors - Error: bookings validation failed: total_payment: Cast to Number failed for value "NaN" (type string) at path "total_payment"
+    at ValidationError.inspect (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/error/validation.js:50:26)
+    at formatValue (node:internal/util/inspect:806:19)
+    at inspect (node:internal/util/inspect:365:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+    at Object.format (node:internal/util/inspect:2149:10)
+    at basicLayout (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/log4js/lib/layouts.js:65:52)
+    at app (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/log4js/lib/appenders/file.js:98:23)
+    at appender (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/log4js/lib/appenders/multiFile.js:62:7)
+    at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/log4js/lib/log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/log4js/lib/log4js.js:42:21)
+    at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/log4js/lib/clustering.js:25:28
+    at Array.forEach (<anonymous>)
+    at sendToListeners (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/log4js/lib/clustering.js:25:13)
+    at Object.send (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/log4js/lib/clustering.js:91:7)
+    at Logger._log (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/log4js/lib/logger.js:195:16)
+    at Logger.log (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/log4js/lib/logger.js:155:12)
+    at Logger.<computed> [as error] (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/log4js/lib/logger.js:235:10)
+    at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:12523:39
+    at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:18:13
+    at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:5253:21
+    at _done (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:3219:16) {
+  errors: {
+    total_payment: CastError: Cast to Number failed for value "NaN" (type string) at path "total_payment"
+        at SchemaNumber.cast (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/number.js:378:11)
+        at SchemaNumber.SchemaType.applySetters (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1201:12)
+        at model.$set (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/document.js:1421:22)
+        at model.$set (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/document.js:1146:16)
+        at model.Document (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/document.js:166:12)
+        at model.Model (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:121:12)
+        at new model (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:5048:15)
+        at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:3196:22
+        at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:3231:7
+        at Array.forEach (<anonymous>)
+        at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:3230:15
+        at promiseOrCallback (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:11:14)
+        at Mongoose._promiseOrCallback (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/index.js:1272:10)
+        at Function.create (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:3161:23)
+        at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:12521:39
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      stringValue: '"NaN"',
+      messageFormat: undefined,
+      kind: 'Number',
+      value: 'NaN',
+      path: 'total_payment',
+      reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+      
+        assert.ok(!isNaN(val))
+      
+          at castNumber (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/cast/number.js:27:10)
+          at SchemaNumber.cast (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/number.js:376:12)
+          at SchemaNumber.SchemaType.applySetters (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1201:12)
+          at model.$set (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/document.js:1421:22)
+          at model.$set (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/document.js:1146:16)
+          at model.Document (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/document.js:166:12)
+          at model.Model (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:121:12)
+          at new model (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:5048:15)
+          at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:3196:22
+          at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:3231:7
+          at Array.forEach (<anonymous>)
+          at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:3230:15
+          at promiseOrCallback (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:11:14)
+          at Mongoose._promiseOrCallback (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/index.js:1272:10)
+          at Function.create (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:3161:23)
+          at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:12521:39
+          at runMicrotasks (<anonymous>)
+          at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+        generatedMessage: true,
+        code: 'ERR_ASSERTION',
+        actual: false,
+        expected: true,
+        operator: '=='
+      },
+      valueType: 'string'
+    }
+  },
+  _message: 'bookings validation failed'
+} 
+ 
+
+[2022-12-30T14:19:12.861] [ERROR] errors - Error: [DecimalError] Invalid argument: null
+    at new Decimal (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/decimal.js/decimal.js:4373:15)
+    at Decimal (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/decimal.js/decimal.js:4290:43)
+    at Object.reduceQtyFormproductAndInventory (/home/t9l_saif/Desktop/Saif/Configured/api/common.js:2385:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async module.exports.updateRazorpayPaymentStatus (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:13585:7) 
+ 
+
+[2022-12-30T14:20:44.149] [ERROR] errors - TypeError: Cannot read properties of null (reading 'image')
+    at module.exports.generateInvoice (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:9078:91)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-30T14:21:17.933] [ERROR] errors - Error: [DecimalError] Invalid argument: null
+    at new Decimal (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/decimal.js/decimal.js:4373:15)
+    at Decimal (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/decimal.js/decimal.js:4290:43)
+    at Object.reduceQtyFormproductAndInventory (/home/t9l_saif/Desktop/Saif/Configured/api/common.js:2385:21)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:19110:9 
+ 
+
+[2022-12-30T14:22:11.545] [ERROR] errors - Error: [DecimalError] Invalid argument: null
+    at new Decimal (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/decimal.js/decimal.js:4373:15)
+    at Decimal (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/decimal.js/decimal.js:4290:43)
+    at Object.reduceQtyFormproductAndInventory (/home/t9l_saif/Desktop/Saif/Configured/api/common.js:2385:21)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:19110:9 
+ 
+
+[2022-12-30T14:22:18.498] [ERROR] errors - TypeError: Cannot read properties of null (reading 'image')
+    at module.exports.generateInvoice (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:9078:91)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-30T14:22:27.226] [ERROR] errors - Error: [DecimalError] Invalid argument: null
+    at new Decimal (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/decimal.js/decimal.js:4373:15)
+    at Decimal (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/decimal.js/decimal.js:4290:43)
+    at Object.reduceQtyFormproductAndInventory (/home/t9l_saif/Desktop/Saif/Configured/api/common.js:2385:21)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:19110:9 
+ 
+
+[2022-12-30T14:24:21.586] [ERROR] errors - Error: [DecimalError] Invalid argument: null
+    at new Decimal (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/decimal.js/decimal.js:4373:15)
+    at Decimal (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/decimal.js/decimal.js:4290:43)
+    at Object.reduceQtyFormproductAndInventory (/home/t9l_saif/Desktop/Saif/Configured/api/common.js:2385:21)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:19110:9 
+ 
+
+[2022-12-30T16:55:00.135] [ERROR] errors - ReferenceError: cur is not defined
+    at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:157:91
+    at Array.map (<anonymous>)
+    at Proxy.methods.<computed> (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/types/array/methods/index.js:1011:24)
+    at module.exports.AddOne (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:86:47)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-30T16:55:00.959] [ERROR] errors - ReferenceError: cur is not defined
+    at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:157:91
+    at Array.map (<anonymous>)
+    at Proxy.methods.<computed> (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/types/array/methods/index.js:1011:24)
+    at module.exports.AddOne (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:86:47)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-30T16:55:01.592] [ERROR] errors - ReferenceError: cur is not defined
+    at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:157:91
+    at Array.map (<anonymous>)
+    at Proxy.methods.<computed> (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/types/array/methods/index.js:1011:24)
+    at module.exports.AddOne (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:86:47)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-30T16:55:10.512] [ERROR] errors - ReferenceError: cur is not defined
+    at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:157:91
+    at Array.map (<anonymous>)
+    at Proxy.methods.<computed> (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/types/array/methods/index.js:1011:24)
+    at module.exports.AddOne (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:86:47)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-30T16:58:14.217] [ERROR] errors - ReferenceError: cur is not defined
+    at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:158:101
+    at Array.map (<anonymous>)
+    at Proxy.methods.<computed> (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/types/array/methods/index.js:1011:24)
+    at module.exports.AddOne (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:86:47)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-30T16:58:24.299] [ERROR] errors - ReferenceError: cur is not defined
+    at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:158:101
+    at Array.map (<anonymous>)
+    at Proxy.methods.<computed> (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/types/array/methods/index.js:1011:24)
+    at module.exports.AddOne (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:86:47)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-30T16:59:17.320] [ERROR] errors - ReferenceError: product_id is not defined
+    at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:158:68
+    at Array.filter (<anonymous>)
+    at Proxy.methods.<computed> (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/types/array/methods/index.js:1011:24)
+    at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:158:43
+    at Array.map (<anonymous>)
+    at Proxy.methods.<computed> (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/types/array/methods/index.js:1011:24)
+    at module.exports.AddOne (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:86:47)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-30T16:59:20.027] [ERROR] errors - ReferenceError: product_id is not defined
+    at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:158:68
+    at Array.filter (<anonymous>)
+    at Proxy.methods.<computed> (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/types/array/methods/index.js:1011:24)
+    at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:158:43
+    at Array.map (<anonymous>)
+    at Proxy.methods.<computed> (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/types/array/methods/index.js:1011:24)
+    at module.exports.AddOne (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:86:47)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-30T17:08:23.492] [ERROR] errors - TypeError: existingCart.cartData1 is not iterable
+    at module.exports.AddOne (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:184:36)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-30T17:08:29.470] [ERROR] errors - TypeError: existingCart.cartData1 is not iterable
+    at module.exports.AddOne (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:184:36)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-30T17:45:17.798] [ERROR] errors - Error: [DecimalError] Invalid argument: null
+    at new Decimal (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/decimal.js/decimal.js:4373:15)
+    at Decimal (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/decimal.js/decimal.js:4290:43)
+    at Object.reduceQtyFormproductAndInventory (/home/t9l_saif/Desktop/Saif/Configured/api/common.js:2385:21)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:19110:9 
+ 
+
+[2022-12-30T17:45:30.605] [ERROR] errors - TypeError: Cannot read properties of null (reading 'image')
+    at module.exports.generateInvoice (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:9078:91)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2022-12-30T17:46:51.105] [ERROR] errors - TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:387:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.join (node:path:1172:7)
+    at module.exports.generateInvoice (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:9078:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ERR_INVALID_ARG_TYPE'
+} 
+ 
+
+[2022-12-30T17:47:20.282] [ERROR] errors - Error: ENOENT: no such file or directory, open '/home/t9l_saif/Desktop/Saif/Configured/api/public/upload/settings?.image'
+    at Object.openSync (node:fs:590:3)
+    at Object.readFileSync (node:fs:458:35)
+    at module.exports.generateInvoice (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:9078:24)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/home/t9l_saif/Desktop/Saif/Configured/api/public/upload/settings?.image'
+} 
+ 
+
+[2023-01-02T10:22:20.179] [ERROR] errors - TypeError: Cannot read properties of null (reading 'product_id')
+    at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:215:51
+    at Array.filter (<anonymous>)
+    at module.exports.AddOne (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:215:24)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-02T10:22:25.301] [ERROR] errors - TypeError: Cannot read properties of null (reading 'product_id')
+    at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:215:51
+    at Array.filter (<anonymous>)
+    at module.exports.AddOne (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:215:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-02T10:28:08.427] [ERROR] errors - TypeError: Cannot read properties of undefined (reading 'product_id')
+    at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:216:51
+    at Array.filter (<anonymous>)
+    at module.exports.AddOne (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:216:24)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-02T10:28:12.261] [ERROR] errors - TypeError: Cannot read properties of undefined (reading 'product_id')
+    at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:216:51
+    at Array.filter (<anonymous>)
+    at module.exports.AddOne (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:216:24)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-02T10:28:21.239] [ERROR] errors - TypeError: Cannot read properties of null (reading 'product_id')
+    at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:216:51
+    at Array.filter (<anonymous>)
+    at module.exports.AddOne (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:216:24)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-02T10:29:06.624] [ERROR] errors - TypeError: Cannot read properties of null (reading 'product_id')
+    at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:223:37
+    at Array.find (<anonymous>)
+    at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:223:18
+    at Array.reduce (<anonymous>)
+    at module.exports.AddOne (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:222:33)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-02T13:46:15.491] [ERROR] errors - ReferenceError: o is not defined
+    at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:228:89
+    at Array.reduce (<anonymous>)
+    at module.exports.AddOne (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:221:43)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-02T13:46:15.594] [ERROR] errors - ReferenceError: o is not defined
+    at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:228:89
+    at Array.reduce (<anonymous>)
+    at module.exports.AddOne (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:221:43)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-02T13:48:21.306] [ERROR] errors - ReferenceError: o is not defined
+    at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:198:89
+    at Array.reduce (<anonymous>)
+    at module.exports.AddOne (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:191:43)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-02T13:48:21.425] [ERROR] errors - ReferenceError: o is not defined
+    at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:198:89
+    at Array.reduce (<anonymous>)
+    at module.exports.AddOne (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:191:43)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-02T13:50:22.629] [ERROR] errors - ReferenceError: o is not defined
+    at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:198:89
+    at Array.reduce (<anonymous>)
+    at module.exports.AddOne (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:191:43)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-02T13:50:22.731] [ERROR] errors - ReferenceError: o is not defined
+    at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:198:89
+    at Array.reduce (<anonymous>)
+    at module.exports.AddOne (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/addtocart.controller.js:191:43)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-04T09:59:00.230] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-04T10:00:00.355] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-04T10:41:47.284] [ERROR] errors - CastError: Cast to [ObjectId] failed for value "[\n' +
+  "  { value: '63a3ee8c317b2b2f634e63b2', label: 'fruits' },\n" +
+  "  { value: '63a3ee9f317b2b2f634e63b9', label: 'veges' }\n" +
+  ']" (type string) at path "product_categories.0" because of "CastError"
+    at model.Query.exec (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4913:21)
+    at model.Query.Query.exec (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose-sub-references-populate/index.js:51:34)
+    at _update (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4758:11)
+    at model.Query.Query.updateMany (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4577:10)
+    at _update (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:4239:16)
+    at Function.updateMany (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:4128:10)
+    at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/product.controller.js:3923:23
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: `"[\\n' +\n` +
+    `  "  { value: '63a3ee8c317b2b2f634e63b2', label: 'fruits' },\\n" +\n` +
+    `  "  { value: '63a3ee9f317b2b2f634e63b9', label: 'veges' }\\n" +\n` +
+    `  ']"`,
+  kind: '[ObjectId]',
+  value: '[\n' +
+    "  { value: '63a3ee8c317b2b2f634e63b2', label: 'fruits' },\n" +
+    "  { value: '63a3ee9f317b2b2f634e63b9', label: 'veges' }\n" +
+    ']',
+  path: 'product_categories.0',
+  reason: CastError: Cast to ObjectId failed for value "{ value: '63a3ee8c317b2b2f634e63b2', label: 'fruits' }" (type Object) at path "product_categories" because of "BSONTypeError"
+      at ObjectId.cast (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/objectid.js:248:11)
+      at ObjectId.SchemaType.applySetters (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1201:12)
+      at SchemaArray.cast (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/array.js:385:32)
+      at SchemaArray.SchemaType.applySetters (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1201:12)
+      at SchemaArray.SchemaType._castForQuery (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1648:15)
+      at SchemaArray.SchemaType.castForQueryWrapper (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1607:22)
+      at castUpdateVal (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:560:19)
+      at walkUpdatePath (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:371:24)
+      at castUpdate (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:98:7)
+      at model.Query._castUpdate (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:5126:10)
+      at model.Query._updateThunk (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4265:27)
+      at model.Query.<anonymous> (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4365:23)
+      at model.Query._wrappedThunk [as _updateMany] (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/wrapThunk.js:29:8)
+      at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/kareem/index.js:494:25
+      at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+    stringValue: `"{ value: '63a3ee8c317b2b2f634e63b2', label: 'fruits' }"`,
+    messageFormat: undefined,
+    kind: 'ObjectId',
+    value: { value: '63a3ee8c317b2b2f634e63b2', label: 'fruits' },
+    path: 'product_categories',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/bson/lib/error.js:41:28)
+        at new ObjectId (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/bson/lib/objectid.js:67:23)
+        at castObjectId (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/cast/objectid.js:25:12)
+        at ObjectId.cast (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1201:12)
+        at SchemaArray.cast (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/array.js:385:32)
+        at SchemaArray.SchemaType.applySetters (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1201:12)
+        at SchemaArray.SchemaType._castForQuery (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1648:15)
+        at SchemaArray.SchemaType.castForQueryWrapper (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1607:22)
+        at castUpdateVal (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:560:19)
+        at walkUpdatePath (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:371:24)
+        at castUpdate (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:98:7)
+        at model.Query._castUpdate (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:5126:10)
+        at model.Query._updateThunk (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4265:27)
+        at model.Query.<anonymous> (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4365:23)
+        at model.Query._wrappedThunk [as _updateMany] (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/wrapThunk.js:29:8)
+        at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/kareem/index.js:494:25
+        at processTicksAndRejections (node:internal/process/task_queues:78:11),
+    valueType: 'Object'
+  },
+  valueType: 'string'
+} 
+ 
+
+[2023-01-04T10:41:52.537] [ERROR] errors - CastError: Cast to [ObjectId] failed for value "[\n' +
+  "  { value: '63a3ee8c317b2b2f634e63b2', label: 'fruits' },\n" +
+  "  { value: '63a3ee9f317b2b2f634e63b9', label: 'veges' }\n" +
+  ']" (type string) at path "product_categories.0" because of "CastError"
+    at model.Query.exec (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4913:21)
+    at model.Query.Query.exec (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose-sub-references-populate/index.js:51:34)
+    at _update (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4758:11)
+    at model.Query.Query.updateMany (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4577:10)
+    at _update (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:4239:16)
+    at Function.updateMany (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:4128:10)
+    at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/product.controller.js:3923:23
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: `"[\\n' +\n` +
+    `  "  { value: '63a3ee8c317b2b2f634e63b2', label: 'fruits' },\\n" +\n` +
+    `  "  { value: '63a3ee9f317b2b2f634e63b9', label: 'veges' }\\n" +\n` +
+    `  ']"`,
+  kind: '[ObjectId]',
+  value: '[\n' +
+    "  { value: '63a3ee8c317b2b2f634e63b2', label: 'fruits' },\n" +
+    "  { value: '63a3ee9f317b2b2f634e63b9', label: 'veges' }\n" +
+    ']',
+  path: 'product_categories.0',
+  reason: CastError: Cast to ObjectId failed for value "{ value: '63a3ee8c317b2b2f634e63b2', label: 'fruits' }" (type Object) at path "product_categories" because of "BSONTypeError"
+      at ObjectId.cast (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/objectid.js:248:11)
+      at ObjectId.SchemaType.applySetters (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1201:12)
+      at SchemaArray.cast (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/array.js:385:32)
+      at SchemaArray.SchemaType.applySetters (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1201:12)
+      at SchemaArray.SchemaType._castForQuery (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1648:15)
+      at SchemaArray.SchemaType.castForQueryWrapper (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1607:22)
+      at castUpdateVal (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:560:19)
+      at walkUpdatePath (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:371:24)
+      at castUpdate (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:98:7)
+      at model.Query._castUpdate (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:5126:10)
+      at model.Query._updateThunk (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4265:27)
+      at model.Query.<anonymous> (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4365:23)
+      at model.Query._wrappedThunk [as _updateMany] (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/wrapThunk.js:29:8)
+      at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/kareem/index.js:494:25
+      at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+    stringValue: `"{ value: '63a3ee8c317b2b2f634e63b2', label: 'fruits' }"`,
+    messageFormat: undefined,
+    kind: 'ObjectId',
+    value: { value: '63a3ee8c317b2b2f634e63b2', label: 'fruits' },
+    path: 'product_categories',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/bson/lib/error.js:41:28)
+        at new ObjectId (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/bson/lib/objectid.js:67:23)
+        at castObjectId (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/cast/objectid.js:25:12)
+        at ObjectId.cast (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1201:12)
+        at SchemaArray.cast (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/array.js:385:32)
+        at SchemaArray.SchemaType.applySetters (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1201:12)
+        at SchemaArray.SchemaType._castForQuery (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1648:15)
+        at SchemaArray.SchemaType.castForQueryWrapper (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1607:22)
+        at castUpdateVal (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:560:19)
+        at walkUpdatePath (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:371:24)
+        at castUpdate (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:98:7)
+        at model.Query._castUpdate (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:5126:10)
+        at model.Query._updateThunk (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4265:27)
+        at model.Query.<anonymous> (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4365:23)
+        at model.Query._wrappedThunk [as _updateMany] (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/wrapThunk.js:29:8)
+        at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/kareem/index.js:494:25
+        at processTicksAndRejections (node:internal/process/task_queues:78:11),
+    valueType: 'Object'
+  },
+  valueType: 'string'
+} 
+ 
+
+[2023-01-04T10:42:01.498] [ERROR] errors - CastError: Cast to [ObjectId] failed for value "[\n' +
+  "  { value: '63a3ee8c317b2b2f634e63b2', label: 'fruits' },\n" +
+  "  { value: '63a3ee9f317b2b2f634e63b9', label: 'veges' }\n" +
+  ']" (type string) at path "product_categories.0" because of "CastError"
+    at model.Query.exec (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4913:21)
+    at model.Query.Query.exec (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose-sub-references-populate/index.js:51:34)
+    at _update (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4758:11)
+    at model.Query.Query.updateMany (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4577:10)
+    at _update (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:4239:16)
+    at Function.updateMany (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:4128:10)
+    at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/product.controller.js:3923:23
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: `"[\\n' +\n` +
+    `  "  { value: '63a3ee8c317b2b2f634e63b2', label: 'fruits' },\\n" +\n` +
+    `  "  { value: '63a3ee9f317b2b2f634e63b9', label: 'veges' }\\n" +\n` +
+    `  ']"`,
+  kind: '[ObjectId]',
+  value: '[\n' +
+    "  { value: '63a3ee8c317b2b2f634e63b2', label: 'fruits' },\n" +
+    "  { value: '63a3ee9f317b2b2f634e63b9', label: 'veges' }\n" +
+    ']',
+  path: 'product_categories.0',
+  reason: CastError: Cast to ObjectId failed for value "{ value: '63a3ee8c317b2b2f634e63b2', label: 'fruits' }" (type Object) at path "product_categories" because of "BSONTypeError"
+      at ObjectId.cast (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/objectid.js:248:11)
+      at ObjectId.SchemaType.applySetters (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1201:12)
+      at SchemaArray.cast (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/array.js:385:32)
+      at SchemaArray.SchemaType.applySetters (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1201:12)
+      at SchemaArray.SchemaType._castForQuery (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1648:15)
+      at SchemaArray.SchemaType.castForQueryWrapper (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1607:22)
+      at castUpdateVal (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:560:19)
+      at walkUpdatePath (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:371:24)
+      at castUpdate (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:98:7)
+      at model.Query._castUpdate (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:5126:10)
+      at model.Query._updateThunk (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4265:27)
+      at model.Query.<anonymous> (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4365:23)
+      at model.Query._wrappedThunk [as _updateMany] (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/wrapThunk.js:29:8)
+      at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/kareem/index.js:494:25
+      at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+    stringValue: `"{ value: '63a3ee8c317b2b2f634e63b2', label: 'fruits' }"`,
+    messageFormat: undefined,
+    kind: 'ObjectId',
+    value: { value: '63a3ee8c317b2b2f634e63b2', label: 'fruits' },
+    path: 'product_categories',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/bson/lib/error.js:41:28)
+        at new ObjectId (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/bson/lib/objectid.js:67:23)
+        at castObjectId (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/cast/objectid.js:25:12)
+        at ObjectId.cast (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1201:12)
+        at SchemaArray.cast (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/array.js:385:32)
+        at SchemaArray.SchemaType.applySetters (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1201:12)
+        at SchemaArray.SchemaType._castForQuery (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1648:15)
+        at SchemaArray.SchemaType.castForQueryWrapper (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1607:22)
+        at castUpdateVal (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:560:19)
+        at walkUpdatePath (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:371:24)
+        at castUpdate (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:98:7)
+        at model.Query._castUpdate (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:5126:10)
+        at model.Query._updateThunk (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4265:27)
+        at model.Query.<anonymous> (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4365:23)
+        at model.Query._wrappedThunk [as _updateMany] (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/wrapThunk.js:29:8)
+        at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/kareem/index.js:494:25
+        at processTicksAndRejections (node:internal/process/task_queues:78:11),
+    valueType: 'Object'
+  },
+  valueType: 'string'
+} 
+ 
+
+[2023-01-04T10:59:00.751] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-04T11:00:00.884] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-04T11:59:00.108] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-04T12:00:00.239] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processImmediate (node:internal/timers:437:9) 
+ 
+
+[2023-01-04T12:59:00.458] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-04T13:00:00.602] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-04T13:59:00.846] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-04T14:00:01.002] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-04T14:59:00.914] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-04T15:00:00.064] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-04T15:59:00.344] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-04T16:00:00.470] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-04T16:59:00.795] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-04T17:00:00.960] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-04T18:00:00.140] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-05T09:59:00.895] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-05T10:00:00.062] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-05T10:59:00.328] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-05T11:00:00.482] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-05T11:59:00.952] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-05T12:00:00.106] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-05T12:59:00.269] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-05T12:59:00.271] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-05T13:00:00.425] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-05T13:00:00.427] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-05T13:59:00.801] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processImmediate (node:internal/timers:437:9) 
+ 
+
+[2023-01-05T13:59:00.807] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-05T14:00:00.969] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processImmediate (node:internal/timers:437:9) 
+ 
+
+[2023-01-05T14:00:00.970] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-05T14:59:00.272] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-05T14:59:00.276] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-05T15:00:00.438] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-05T15:00:00.448] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-05T15:59:00.507] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processImmediate (node:internal/timers:437:9) 
+ 
+
+[2023-01-05T15:59:00.511] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-05T16:00:00.628] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-05T16:00:00.631] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-06T13:59:00.975] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processImmediate (node:internal/timers:437:9) 
+ 
+
+[2023-01-06T13:59:00.977] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-06T14:00:00.116] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-06T14:00:00.120] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-06T14:59:00.282] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-06T14:59:00.284] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-06T15:00:00.430] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processImmediate (node:internal/timers:437:9) 
+ 
+
+[2023-01-06T15:00:00.430] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-06T15:59:00.532] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processImmediate (node:internal/timers:437:9) 
+ 
+
+[2023-01-06T15:59:00.533] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-06T16:00:00.683] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-06T16:00:00.686] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-06T16:59:00.876] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processImmediate (node:internal/timers:437:9) 
+ 
+
+[2023-01-06T16:59:00.878] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-06T17:59:00.250] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processImmediate (node:internal/timers:437:9) 
+ 
+
+[2023-01-06T17:59:00.252] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-06T18:00:00.384] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processImmediate (node:internal/timers:437:9) 
+ 
+
+[2023-01-06T18:00:00.385] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-07T10:59:00.159] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-07T10:59:00.164] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-07T11:00:00.314] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-07T11:00:00.316] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-07T11:59:00.928] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processImmediate (node:internal/timers:437:9) 
+ 
+
+[2023-01-07T11:59:00.930] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-07T12:00:00.091] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-07T12:00:00.096] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-09T09:59:00.117] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-09T09:59:00.120] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-09T10:00:00.243] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processImmediate (node:internal/timers:437:9) 
+ 
+
+[2023-01-09T10:00:00.244] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-09T10:59:01.008] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-09T11:00:00.171] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-09T11:00:00.180] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-09T11:59:00.460] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processImmediate (node:internal/timers:437:9) 
+ 
+
+[2023-01-09T11:59:00.461] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-09T12:00:00.595] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processImmediate (node:internal/timers:437:9) 
+ 
+
+[2023-01-09T12:00:00.595] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-09T12:59:00.935] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-09T12:59:00.937] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-09T13:00:00.088] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-09T13:00:00.090] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-09T13:59:00.046] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-09T13:59:00.049] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-09T14:00:00.155] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-09T14:00:00.157] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-09T14:59:00.723] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processImmediate (node:internal/timers:437:9) 
+ 
+
+[2023-01-09T14:59:00.725] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-09T15:00:00.864] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-09T15:00:00.867] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-09T15:54:21.366] [ERROR] errors - TypeError: Cannot read properties of null (reading 'image')
+    at module.exports.generateInvoice (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:9078:91)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-09T15:54:29.048] [ERROR] errors - TypeError: Cannot read properties of null (reading 'image')
+    at module.exports.generateInvoice (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:9078:91)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-09T15:59:00.641] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-09T15:59:00.642] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-09T16:00:00.796] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-09T16:00:00.797] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-09T16:59:00.256] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processImmediate (node:internal/timers:437:9) 
+ 
+
+[2023-01-09T16:59:00.257] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-09T17:00:00.399] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-09T17:00:00.402] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-09T17:59:00.343] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-09T17:59:00.346] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-09T18:00:00.510] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-09T18:00:00.518] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processImmediate (node:internal/timers:437:9) 
+ 
+

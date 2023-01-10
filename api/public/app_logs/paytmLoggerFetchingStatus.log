@@ -1,0 +1,940 @@
+[2022-06-27T13:45:00.163] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2772' } }
+[2022-06-27T13:45:00.211] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2802' } }
+[2022-06-27T13:45:00.241] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2814' } }
+[2022-06-27T13:45:00.243] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2815' } }
+[2022-06-27T13:45:00.245] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2816' } }
+[2022-06-27T13:45:00.762] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656317700689', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T13:45:00.770] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656317700694', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T13:45:00.774] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656317700700', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T13:45:00.787] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656317700727', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T13:45:00.796] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656317700751', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T14:00:00.104] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2772' } }
+[2022-06-27T14:00:00.106] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2802' } }
+[2022-06-27T14:00:00.109] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2814' } }
+[2022-06-27T14:00:00.110] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2815' } }
+[2022-06-27T14:00:00.112] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2816' } }
+[2022-06-27T14:00:00.352] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656318600293', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T14:00:00.354] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656318600294', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T14:00:00.356] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656318600302', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T14:00:00.457] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656318600335', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T14:00:00.478] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656318600318', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T14:15:00.242] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2772' } }
+[2022-06-27T14:15:00.245] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2802' } }
+[2022-06-27T14:15:00.247] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2814' } }
+[2022-06-27T14:15:00.248] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2815' } }
+[2022-06-27T14:15:00.249] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2816' } }
+[2022-06-27T14:15:00.521] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656319500499', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T14:15:00.523] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656319500503', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T14:15:00.536] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656319500499', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T14:15:00.567] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656319500519', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T14:15:00.568] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656319500500', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T14:30:00.270] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2772' } }
+[2022-06-27T14:30:00.564] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2802' } }
+[2022-06-27T14:30:00.572] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2814' } }
+[2022-06-27T14:30:00.574] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2815' } }
+[2022-06-27T14:30:00.576] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2816' } }
+[2022-06-27T14:30:00.739] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656320400713', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T14:30:00.742] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656320400711', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T14:30:00.753] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656320400706', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T14:30:00.755] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656320400728', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T14:30:00.782] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656320400721', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T14:45:00.324] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2772' } }
+[2022-06-27T14:45:00.327] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2802' } }
+[2022-06-27T14:45:00.329] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2814' } }
+[2022-06-27T14:45:00.331] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2815' } }
+[2022-06-27T14:45:00.333] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2816' } }
+[2022-06-27T14:45:00.635] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656321300625', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T14:45:00.653] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656321300628', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T14:45:00.656] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656321300634', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T14:45:00.659] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656321300643', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T14:45:00.689] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656321300668', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T15:00:00.399] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2772' } }
+[2022-06-27T15:00:00.400] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2802' } }
+[2022-06-27T15:00:00.410] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2814' } }
+[2022-06-27T15:00:00.410] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2815' } }
+[2022-06-27T15:00:00.411] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2816' } }
+[2022-06-27T15:00:00.633] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656322200599', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T15:00:00.642] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656322200620', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T15:00:00.753] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656322200612', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T15:00:00.757] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656322200626', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T15:00:00.759] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656322200650', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T15:15:00.468] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2772' } }
+[2022-06-27T15:15:00.488] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2802' } }
+[2022-06-27T15:15:00.506] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2814' } }
+[2022-06-27T15:15:00.508] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2815' } }
+[2022-06-27T15:15:00.509] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2816' } }
+[2022-06-27T15:15:01.551] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656323101440', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T15:15:01.553] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656323101452', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T15:15:01.568] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656323101442', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T15:15:04.300] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656323101793', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T15:15:04.653] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656323101812', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T15:30:00.501] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2772' } }
+[2022-06-27T15:30:00.502] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2802' } }
+[2022-06-27T15:30:00.503] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2814' } }
+[2022-06-27T15:30:00.504] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2815' } }
+[2022-06-27T15:30:00.505] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2816' } }
+[2022-06-27T15:30:00.932] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656324000976', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T15:30:00.955] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656324000992', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T15:30:01.033] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656324000996', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T15:30:01.039] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656324000997', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T15:30:01.120] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656324001014', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T15:45:00.456] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2772' } }
+[2022-06-27T15:45:00.458] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2802' } }
+[2022-06-27T15:45:00.458] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2814' } }
+[2022-06-27T15:45:00.459] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2815' } }
+[2022-06-27T15:45:00.460] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2816' } }
+[2022-06-27T15:45:00.704] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656324900762', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T15:45:00.918] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656324900994', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T15:45:00.952] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656324900998', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T15:45:00.955] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656324901002', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T15:45:00.957] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656324901001', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T16:00:00.375] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2772' } }
+[2022-06-27T16:00:00.453] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2802' } }
+[2022-06-27T16:00:00.472] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2814' } }
+[2022-06-27T16:00:00.479] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2815' } }
+[2022-06-27T16:00:00.576] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2816' } }
+[2022-06-27T16:00:00.715] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656325800752', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T16:00:00.716] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656325800750', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T16:00:00.771] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656325800776', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T16:00:00.794] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656325800842', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T16:00:00.812] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656325800843', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T16:15:00.284] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2772' } }
+[2022-06-27T16:15:00.286] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2802' } }
+[2022-06-27T16:15:00.287] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2814' } }
+[2022-06-27T16:15:00.288] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2815' } }
+[2022-06-27T16:15:00.289] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2816' } }
+[2022-06-27T16:15:00.437] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656326700488', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T16:15:00.452] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656326700492', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T16:15:00.453] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656326700497', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T16:15:00.456] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656326700495', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T16:15:00.459] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656326700505', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T16:30:00.176] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2772' } }
+[2022-06-27T16:30:00.180] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2802' } }
+[2022-06-27T16:30:00.182] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2814' } }
+[2022-06-27T16:30:00.185] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2815' } }
+[2022-06-27T16:30:00.187] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2816' } }
+[2022-06-27T16:30:00.381] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656327600377', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T16:30:00.383] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656327600374', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T16:30:00.385] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656327600370', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T16:30:00.387] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656327600379', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T16:30:00.390] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656327600387', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T16:45:00.161] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2772' } }
+[2022-06-27T16:45:00.162] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2802' } }
+[2022-06-27T16:45:00.164] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2814' } }
+[2022-06-27T16:45:00.164] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2815' } }
+[2022-06-27T16:45:00.167] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2816' } }
+[2022-06-27T16:45:00.300] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656328500298', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T16:45:00.307] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656328500309', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T16:45:00.338] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656328500333', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T16:45:00.355] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656328500354', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T16:45:00.361] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656328500341', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T17:00:00.346] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2772' } }
+[2022-06-27T17:00:00.349] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2802' } }
+[2022-06-27T17:00:00.352] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2814' } }
+[2022-06-27T17:00:00.353] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2815' } }
+[2022-06-27T17:00:00.355] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2816' } }
+[2022-06-27T17:00:00.559] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656329400561', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T17:00:00.561] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656329400568', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T17:00:00.562] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656329400570', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T17:00:00.563] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656329400570', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T17:00:00.565] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656329400578', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T17:15:00.040] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2772' } }
+[2022-06-27T17:15:00.042] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2802' } }
+[2022-06-27T17:15:00.044] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2814' } }
+[2022-06-27T17:15:00.052] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2815' } }
+[2022-06-27T17:15:00.055] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2816' } }
+[2022-06-27T17:15:00.710] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656330300721', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T17:15:00.711] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656330300721', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T17:15:00.763] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656330300771', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T17:15:01.265] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656330301254', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T17:15:01.266] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656330301257', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T17:30:00.055] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2772' } }
+[2022-06-27T17:30:00.056] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2802' } }
+[2022-06-27T17:30:00.058] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2814' } }
+[2022-06-27T17:30:00.059] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2815' } }
+[2022-06-27T17:30:00.060] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2816' } }
+[2022-06-27T17:30:00.379] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656331200355', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T17:30:00.381] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656331200358', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T17:30:00.403] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656331200359', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T17:30:00.425] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656331200377', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T17:30:00.433] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656331200394', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T17:45:00.056] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2772' } }
+[2022-06-27T17:45:00.058] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2802' } }
+[2022-06-27T17:45:00.059] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2814' } }
+[2022-06-27T17:45:00.074] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2815' } }
+[2022-06-27T17:45:00.077] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2816' } }
+[2022-06-27T17:45:00.339] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656332100290', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T17:45:00.341] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656332100293', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T17:45:00.343] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656332100295', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T17:45:00.345] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656332100297', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T17:45:00.347] [DEBUG] paytmLoggerFetchingStatus - /PaytmResponseCallback ::::::  getting following from paytm :  {
+  head: { responseTimestamp: '1656332100297', version: 'v1' },
+  body: {
+    resultInfo: {
+      resultStatus: 'TXN_FAILURE',
+      resultCode: '501',
+      resultMsg: 'System Error.'
+    }
+  }
+}
+[2022-06-27T18:00:00.103] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2772' } }
+[2022-06-27T18:00:00.107] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2802' } }
+[2022-06-27T18:00:00.166] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2814' } }
+[2022-06-27T18:00:00.172] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2815' } }
+[2022-06-27T18:00:00.207] [DEBUG] paytmLoggerFetchingStatus - sending to paytm following params :  { body: { mid: 'krDbEz93526139479589', orderId: 'KC2816' } }

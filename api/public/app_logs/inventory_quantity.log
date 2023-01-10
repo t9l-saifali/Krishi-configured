@@ -1,0 +1,70 @@
+[2022-12-22T12:20:18.533] [DEBUG] inventory_quantity - Reduce Quantity Start
+[2022-12-22T12:20:18.535] [TRACE] inventory_quantity - module.exports.updateRazorpayPaymentStatus (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:13585:20)
+[2022-12-22T12:20:18.546] [INFO] inventory_quantity - booking Id and code:  new ObjectId("63a3fe2062716af2502cf8d6") KC03
+[2022-12-22T12:20:18.548] [INFO] inventory_quantity - starting for id 1671691818548 :::::: {"product_id":"63a3f6fca8d140a816065b8a","regionID":"63a3eeea317b2b2f634e63dd","total_quantity":4,"bookingID":"63a3fe2062716af2502cf8d6","MainProductId":"63a3f6fca8d140a816065b8a"}
+[2022-12-22T12:20:18.569] [INFO] inventory_quantity - end successfull for id 1671691818548
+[2022-12-22T12:20:18.569] [INFO] inventory_quantity - starting for id 1671691818569 :::::: {"product_id":"63a3f59fa8d140a816065a8b","regionID":"63a3eeea317b2b2f634e63dd","total_quantity":4,"bookingID":"63a3fe2062716af2502cf8d6","MainProductId":"63a3f59fa8d140a816065a8b"}
+[2022-12-22T12:20:18.579] [INFO] inventory_quantity - end successfull for id 1671691818569
+[2022-12-22T12:20:18.581] [DEBUG] inventory_quantity - Reduce Quantity End 
+
+[2022-12-30T14:19:12.846] [DEBUG] inventory_quantity - Reduce Quantity Start
+[2022-12-30T14:19:12.852] [TRACE] inventory_quantity - module.exports.updateRazorpayPaymentStatus (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:13585:20)
+[2022-12-30T14:19:12.860] [INFO] inventory_quantity - booking Id and code:  new ObjectId("63aea5e89ea35f3614b95d69") KC05
+[2022-12-30T14:21:17.930] [DEBUG] inventory_quantity - Reduce Quantity Start
+[2022-12-30T14:21:17.930] [TRACE] inventory_quantity - /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:19110:22
+[2022-12-30T14:21:17.933] [INFO] inventory_quantity - booking Id and code:  63aea5e89ea35f3614b95d69 KC05
+[2022-12-30T14:22:11.544] [DEBUG] inventory_quantity - Reduce Quantity Start
+[2022-12-30T14:22:11.544] [TRACE] inventory_quantity - /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:19110:22
+[2022-12-30T14:22:11.545] [INFO] inventory_quantity - booking Id and code:  63aea5e89ea35f3614b95d69 KC05
+[2022-12-30T14:22:27.223] [DEBUG] inventory_quantity - Reduce Quantity Start
+[2022-12-30T14:22:27.223] [TRACE] inventory_quantity - /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:19110:22
+[2022-12-30T14:22:27.226] [INFO] inventory_quantity - booking Id and code:  63aea5e89ea35f3614b95d69 KC05
+[2022-12-30T14:24:21.571] [DEBUG] inventory_quantity - Reduce Quantity Start
+[2022-12-30T14:24:21.571] [TRACE] inventory_quantity - /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:19110:22
+[2022-12-30T14:24:21.573] [INFO] inventory_quantity - booking Id and code:  63aea7189ea35f3614b96084 KC06
+[2022-12-30T14:24:21.574] [INFO] inventory_quantity - starting for id 1672390461574 :::::: {"product_id":"63a3f6fca8d140a816065b8a","regionID":"63a3eeea317b2b2f634e63dd","total_quantity":1,"bookingID":"63aea7189ea35f3614b96084","MainProductId":"63a3f6fca8d140a816065b8a"}
+[2022-12-30T14:24:21.586] [INFO] inventory_quantity - end successfull for id 1672390461574
+[2022-12-30T17:45:17.766] [DEBUG] inventory_quantity - Reduce Quantity Start
+[2022-12-30T17:45:17.769] [TRACE] inventory_quantity - /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:19110:22
+[2022-12-30T17:45:17.772] [INFO] inventory_quantity - booking Id and code:  63aeb09d9ea35f3614b96aa6 KC07
+[2022-12-30T17:45:17.772] [INFO] inventory_quantity - starting for id 1672402517772 :::::: {"product_id":"63a3f6fca8d140a816065b8a","regionID":"63a3eeea317b2b2f634e63dd","total_quantity":1,"bookingID":"63aeb09d9ea35f3614b96aa6","MainProductId":"63a3f6fca8d140a816065b8a"}
+[2022-12-30T17:45:17.797] [INFO] inventory_quantity - end successfull for id 1672402517772
+[2023-01-06T16:48:33.559] [DEBUG] inventory_quantity - Reduce Quantity Start
+[2023-01-06T16:48:33.560] [TRACE] inventory_quantity - /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:15529:36
+[2023-01-06T16:48:33.563] [INFO] inventory_quantity - booking Id and code:  new ObjectId("63b80389b25282e4c40228b0") KC23
+[2023-01-06T16:48:33.564] [INFO] inventory_quantity - starting for id 1673003913564 :::::: {"product_id":"63a41c4362716af2502cfdcb","regionID":"63a3eeea317b2b2f634e63dd","total_quantity":2,"bookingID":"63b80389b25282e4c40228b0","MainProductId":"63a41c4362716af2502cfdcb"}
+[2023-01-06T16:48:33.581] [INFO] inventory_quantity - end successfull for id 1673003913564
+[2023-01-06T16:48:33.583] [DEBUG] inventory_quantity - Reduce Quantity End 
+
+[2023-01-06T16:52:46.170] [DEBUG] inventory_quantity - Reduce Quantity Start
+[2023-01-06T16:52:46.171] [TRACE] inventory_quantity - /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:15529:36
+[2023-01-06T16:52:46.177] [INFO] inventory_quantity - booking Id and code:  new ObjectId("63b804863607a19cb5f0d52b") KC24
+[2023-01-06T16:52:46.178] [INFO] inventory_quantity - starting for id 1673004166178 :::::: {"product_id":"63a3f6fca8d140a816065b8a","regionID":"63a3eeea317b2b2f634e63dd","total_quantity":2,"bookingID":"63b804863607a19cb5f0d52b","MainProductId":"63a3f6fca8d140a816065b8a"}
+[2023-01-06T16:52:46.189] [INFO] inventory_quantity - end successfull for id 1673004166178
+[2023-01-06T16:52:46.190] [INFO] inventory_quantity - starting for id 1673004166190 :::::: {"product_id":"63a41c4362716af2502cfdcb","regionID":"63a3eeea317b2b2f634e63dd","total_quantity":3,"bookingID":"63b804863607a19cb5f0d52b","MainProductId":"63a41c4362716af2502cfdcb"}
+[2023-01-06T16:52:46.198] [INFO] inventory_quantity - end successfull for id 1673004166190
+[2023-01-06T16:52:46.200] [DEBUG] inventory_quantity - Reduce Quantity End 
+
+[2023-01-06T17:34:11.669] [DEBUG] inventory_quantity - Reduce Quantity Start
+[2023-01-06T17:34:11.670] [TRACE] inventory_quantity - /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:15529:36
+[2023-01-06T17:34:11.673] [INFO] inventory_quantity - booking Id and code:  new ObjectId("63b80e3b3607a19cb5f0d6b4") KC25
+[2023-01-06T17:34:11.675] [INFO] inventory_quantity - starting for id 1673006651675 :::::: {"product_id":"63a41c4362716af2502cfdcb","regionID":"63a3eeea317b2b2f634e63dd","total_quantity":4,"bookingID":"63b80e3b3607a19cb5f0d6b4","MainProductId":"63a41c4362716af2502cfdcb","variant_name":"color__white__size__8"}
+[2023-01-06T17:34:11.696] [INFO] inventory_quantity - end successfull for id 1673006651675
+[2023-01-06T17:34:11.699] [DEBUG] inventory_quantity - Reduce Quantity End 
+
+[2023-01-06T17:35:45.324] [DEBUG] inventory_quantity - Reduce Quantity Start
+[2023-01-06T17:35:45.324] [TRACE] inventory_quantity - /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:15529:36
+[2023-01-06T17:35:45.328] [INFO] inventory_quantity - booking Id and code:  new ObjectId("63b80e99ca6c4129b4a04bb9") KC26
+[2023-01-06T17:35:45.329] [INFO] inventory_quantity - starting for id 1673006745329 :::::: {"product_id":"63a3f6fca8d140a816065b8a","regionID":"63a3eeea317b2b2f634e63dd","total_quantity":2,"bookingID":"63b80e99ca6c4129b4a04bb9","MainProductId":"63a3f6fca8d140a816065b8a"}
+[2023-01-06T17:35:45.341] [INFO] inventory_quantity - end successfull for id 1673006745329
+[2023-01-06T17:35:45.341] [INFO] inventory_quantity - starting for id 1673006745341 :::::: {"product_id":"63a96227fc47eaa3eb4daee1","regionID":"63a3eeea317b2b2f634e63dd","total_quantity":5,"bookingID":"63b80e99ca6c4129b4a04bb9","MainProductId":"63a96227fc47eaa3eb4daee1","variant_name":"delivery__Dine-In__cuisines__Indian"}
+[2023-01-06T17:35:45.350] [INFO] inventory_quantity - end successfull for id 1673006745341
+[2023-01-06T17:35:45.352] [DEBUG] inventory_quantity - Reduce Quantity End 
+
+[2023-01-07T11:07:08.802] [DEBUG] inventory_quantity - Reduce Quantity Start
+[2023-01-07T11:07:08.805] [TRACE] inventory_quantity - /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:15529:36
+[2023-01-07T11:07:08.807] [INFO] inventory_quantity - booking Id and code:  new ObjectId("63b9050423ed2d132f6f7840") KC27
+[2023-01-07T11:07:08.808] [INFO] inventory_quantity - starting for id 1673069828808 :::::: {"product_id":"63a41c4362716af2502cfdcb","regionID":"63a3eeea317b2b2f634e63dd","total_quantity":8,"bookingID":"63b9050423ed2d132f6f7840","MainProductId":"63a41c4362716af2502cfdcb","variant_name":"color__red__size__7"}
+[2023-01-07T11:07:08.822] [INFO] inventory_quantity - end successfull for id 1673069828808
+[2023-01-07T11:07:08.823] [DEBUG] inventory_quantity - Reduce Quantity End 
+

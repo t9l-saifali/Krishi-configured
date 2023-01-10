@@ -1,0 +1,594 @@
+[2022-06-27T14:00:00.094] [INFO] threshold_cron - ######################################################################
+[2022-06-27T14:00:00.095] [INFO] threshold_cron - Cron run on  2022-06-27T08:30:00.095Z mail start successfully
+[2022-06-27T14:00:00.518] [INFO] threshold_cron - product found successfully
+[2022-06-27T14:00:00.571] [INFO] threshold_cron - admin name, email  Tech9logy tech@tech9logy.com  mail run successfully
+[2022-06-27T14:00:00.573] [INFO] threshold_cron - admin name, email  chitra chitrasingh.cs85@gmail.com  mail run successfully
+[2022-06-27T14:00:00.580] [INFO] threshold_cron - admin name, email  akash@gmail.com akash@tech9logy.in  mail run successfully
+[2022-06-27T14:00:00.589] [INFO] threshold_cron - admin name, email  dishakc disha@krishicress.com  mail run successfully
+[2022-06-27T14:00:00.636] [INFO] threshold_cron - admin name, email  Inventory manishchaubey@krishicress.com  mail run successfully
+[2022-06-27T14:00:00.651] [INFO] threshold_cron - admin name, email  order team tech9 dishavb@gmail.com  mail run successfully
+[2022-06-27T14:00:00.667] [INFO] threshold_cron - admin name, email  sales online vijay@krishicress.com  mail run successfully
+[2022-06-27T14:00:00.671] [INFO] threshold_cron - admin name, email  krishi_sales customercare@krishcress.com  mail run successfully
+[2022-06-27T14:00:00.674] [INFO] threshold_cron - admin name, email  rakshit rakshitbhalla@krishicress.com  mail run successfully
+[2022-06-27T14:00:00.678] [INFO] threshold_cron - admin name, email  achintya achintya@krishicress.com  mail run successfully
+[2022-06-27T14:00:00.715] [INFO] threshold_cron - loop is working successfully
+[2022-06-27T14:00:05.775] [INFO] threshold_cron - {"accepted":["achintya@krishicress.com"],"rejected":[],"envelopeTime":1084,"messageTime":1625,"messageSize":61712,"response":"250 2.0.0 OK  1656318605 y16-20020a17090264d000b0016a12fab6c2sm6478888pli.307 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["achintya@krishicress.com"]},"messageId":"<f5b58db1-c7a0-8900-a411-439d017da864@krishicress.com>"} Mail sent by gmail
+[2022-06-27T14:00:05.775] [INFO] threshold_cron - transporter close
+[2022-06-27T14:00:05.875] [INFO] threshold_cron - {"accepted":["tech@tech9logy.com"],"rejected":[],"envelopeTime":986,"messageTime":1841,"messageSize":61707,"response":"250 2.0.0 OK  1656318605 ch9-20020a056a00288900b0051b9e224623sm6766971pfb.141 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["tech@tech9logy.com"]},"messageId":"<85dab02f-8a09-b408-c85b-9315eb87f6d6@krishicress.com>"} Mail sent by gmail
+[2022-06-27T14:00:05.875] [INFO] threshold_cron - transporter close
+[2022-06-27T14:00:05.878] [INFO] threshold_cron - {"accepted":["vijay@krishicress.com"],"rejected":[],"envelopeTime":882,"messageTime":1683,"messageSize":61713,"response":"250 2.0.0 OK  1656318605 a23-20020a17090a6d9700b001eccb13dfb0sm8921323pjk.4 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["vijay@krishicress.com"]},"messageId":"<25e8b340-2834-66b4-786f-c6991b89048d@krishicress.com>"} Mail sent by gmail
+[2022-06-27T14:00:05.878] [INFO] threshold_cron - transporter close
+[2022-06-27T14:00:05.924] [INFO] threshold_cron - {"accepted":["dishavb@gmail.com"],"rejected":[],"envelopeTime":890,"messageTime":1731,"messageSize":61713,"response":"250 2.0.0 OK  1656318605 a5-20020a17090a740500b001e0899052f1sm8915582pjg.3 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["dishavb@gmail.com"]},"messageId":"<cfd2a270-2f0d-8c23-e685-e903d6264eb9@krishicress.com>"} Mail sent by gmail
+[2022-06-27T14:00:05.924] [INFO] threshold_cron - transporter close
+[2022-06-27T14:00:05.946] [INFO] threshold_cron - {"accepted":["rakshitbhalla@krishicress.com"],"rejected":[],"envelopeTime":1029,"messageTime":1877,"messageSize":61716,"response":"250 2.0.0 OK  1656318605 i3-20020a170902cf0300b0016a0ac06424sm6583776plg.51 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["rakshitbhalla@krishicress.com"]},"messageId":"<8c8ecd48-90b1-429e-742d-323b0c3fd7d0@krishicress.com>"} Mail sent by gmail
+[2022-06-27T14:00:05.947] [INFO] threshold_cron - transporter close
+[2022-06-27T14:00:06.008] [INFO] threshold_cron - {"accepted":["manishchaubey@krishicress.com"],"rejected":[],"envelopeTime":1024,"messageTime":1910,"messageSize":61718,"response":"250 2.0.0 OK  1656318605 k11-20020aa79d0b000000b0050dc76281d3sm6772399pfp.173 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["manishchaubey@krishicress.com"]},"messageId":"<4ca55f2c-2725-2aca-85c8-9b3fbf2d7049@krishicress.com>"} Mail sent by gmail
+[2022-06-27T14:00:06.008] [INFO] threshold_cron - transporter close
+[2022-06-27T14:00:06.056] [INFO] threshold_cron - {"accepted":["chitrasingh.cs85@gmail.com"],"rejected":[],"envelopeTime":1150,"messageTime":1862,"messageSize":61712,"response":"250 2.0.0 OK  1656318605 a4-20020a170902710400b00162037fbb68sm6526915pll.215 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["chitrasingh.cs85@gmail.com"]},"messageId":"<5bc88594-ba55-108a-ff0e-8b4026d893e5@krishicress.com>"} Mail sent by gmail
+[2022-06-27T14:00:06.056] [INFO] threshold_cron - transporter close
+[2022-06-27T14:00:06.240] [INFO] threshold_cron - {"accepted":["customercare@krishcress.com"],"rejected":[],"envelopeTime":1038,"messageTime":2168,"messageSize":61719,"response":"250 2.0.0 OK  1656318606 f72-20020a62384b000000b00525167c5ab5sm6590171pfa.81 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["customercare@krishcress.com"]},"messageId":"<9cd9f0bb-ebbf-6355-663f-2a7fe63345d9@krishicress.com>"} Mail sent by gmail
+[2022-06-27T14:00:06.240] [INFO] threshold_cron - transporter close
+[2022-06-27T14:00:07.710] [INFO] threshold_cron - {"accepted":["akash@tech9logy.in"],"rejected":[],"envelopeTime":1029,"messageTime":3629,"messageSize":61713,"response":"250 2.0.0 OK  1656318607 u2-20020a1709026e0200b0016a106cb221sm6528724plk.243 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["akash@tech9logy.in"]},"messageId":"<696183d7-eaab-bd13-43cb-95084be2cac1@krishicress.com>"} Mail sent by gmail
+[2022-06-27T14:00:07.710] [INFO] threshold_cron - transporter close
+[2022-06-27T14:00:07.857] [INFO] threshold_cron - {"accepted":["disha@krishicress.com"],"rejected":[],"envelopeTime":994,"messageTime":3803,"messageSize":61708,"response":"250 2.0.0 OK  1656318607 z17-20020a170903019100b00163de9e9342sm6669530plg.17 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["disha@krishicress.com"]},"messageId":"<01b1663c-4463-1493-69fc-e0b59a400098@krishicress.com>"} Mail sent by gmail
+[2022-06-27T14:00:07.858] [INFO] threshold_cron - transporter close
+[2022-06-27T15:00:00.391] [INFO] threshold_cron - ######################################################################
+[2022-06-27T15:00:00.391] [INFO] threshold_cron - Cron run on  2022-06-27T09:30:00.391Z mail start successfully
+[2022-06-27T15:00:00.839] [INFO] threshold_cron - product found successfully
+[2022-06-27T15:00:00.883] [INFO] threshold_cron - admin name, email  Tech9logy tech@tech9logy.com  mail run successfully
+[2022-06-27T15:00:00.886] [INFO] threshold_cron - admin name, email  chitra chitrasingh.cs85@gmail.com  mail run successfully
+[2022-06-27T15:00:00.896] [INFO] threshold_cron - admin name, email  akash@gmail.com akash@tech9logy.in  mail run successfully
+[2022-06-27T15:00:00.988] [INFO] threshold_cron - admin name, email  dishakc disha@krishicress.com  mail run successfully
+[2022-06-27T15:00:01.001] [INFO] threshold_cron - admin name, email  Inventory manishchaubey@krishicress.com  mail run successfully
+[2022-06-27T15:00:01.014] [INFO] threshold_cron - admin name, email  order team tech9 dishavb@gmail.com  mail run successfully
+[2022-06-27T15:00:01.028] [INFO] threshold_cron - admin name, email  sales online vijay@krishicress.com  mail run successfully
+[2022-06-27T15:00:01.030] [INFO] threshold_cron - admin name, email  krishi_sales customercare@krishcress.com  mail run successfully
+[2022-06-27T15:00:01.033] [INFO] threshold_cron - admin name, email  rakshit rakshitbhalla@krishicress.com  mail run successfully
+[2022-06-27T15:00:01.038] [INFO] threshold_cron - admin name, email  achintya achintya@krishicress.com  mail run successfully
+[2022-06-27T15:00:01.053] [INFO] threshold_cron - loop is working successfully
+[2022-06-27T15:00:05.660] [INFO] threshold_cron - {"accepted":["manishchaubey@krishicress.com"],"rejected":[],"envelopeTime":847,"messageTime":1251,"messageSize":61718,"response":"250 2.0.0 OK  1656322205 x1-20020a17090300c100b0016a33177d3csm6673388plc.160 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["manishchaubey@krishicress.com"]},"messageId":"<952eac13-56fd-d012-ae72-570e992f2d5d@krishicress.com>"} Mail sent by gmail
+[2022-06-27T15:00:05.660] [INFO] threshold_cron - transporter close
+[2022-06-27T15:00:05.832] [INFO] threshold_cron - {"accepted":["rakshitbhalla@krishicress.com"],"rejected":[],"envelopeTime":1050,"messageTime":1210,"messageSize":61716,"response":"250 2.0.0 OK  1656322205 a8-20020a1709027e4800b001620db30cd6sm6662381pln.201 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["rakshitbhalla@krishicress.com"]},"messageId":"<5df59363-a37e-8f5a-3272-a072370381ba@krishicress.com>"} Mail sent by gmail
+[2022-06-27T15:00:05.832] [INFO] threshold_cron - transporter close
+[2022-06-27T15:00:06.048] [INFO] threshold_cron - {"accepted":["dishavb@gmail.com"],"rejected":[],"envelopeTime":968,"messageTime":1493,"messageSize":61713,"response":"250 2.0.0 OK  1656322205 b21-20020a170902b61500b0016b81679c2asm1115742pls.214 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["dishavb@gmail.com"]},"messageId":"<a3ccce41-6773-6450-b2d0-0617f41e6774@krishicress.com>"} Mail sent by gmail
+[2022-06-27T15:00:06.048] [INFO] threshold_cron - transporter close
+[2022-06-27T15:00:06.203] [INFO] threshold_cron - {"accepted":["chitrasingh.cs85@gmail.com"],"rejected":[],"envelopeTime":1064,"messageTime":1548,"messageSize":61712,"response":"250 2.0.0 OK  1656322206 s21-20020a056a00179500b0051c4ecb0e3dsm6824805pfg.193 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["chitrasingh.cs85@gmail.com"]},"messageId":"<06b3f1aa-f332-b6c6-bbef-bb9ee66f1b74@krishicress.com>"} Mail sent by gmail
+[2022-06-27T15:00:06.203] [INFO] threshold_cron - transporter close
+[2022-06-27T15:00:06.408] [INFO] threshold_cron - {"accepted":["disha@krishicress.com"],"rejected":[],"envelopeTime":930,"messageTime":1898,"messageSize":61708,"response":"250 2.0.0 OK  1656322206 p10-20020a170902bd0a00b00161ac982b9esm6698427pls.185 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["disha@krishicress.com"]},"messageId":"<c8f916b1-4460-de1a-c8ca-d42a19981f88@krishicress.com>"} Mail sent by gmail
+[2022-06-27T15:00:06.409] [INFO] threshold_cron - transporter close
+[2022-06-27T15:00:06.704] [INFO] threshold_cron - {"accepted":["tech@tech9logy.com"],"rejected":[],"envelopeTime":1074,"messageTime":2047,"messageSize":61707,"response":"250 2.0.0 OK  1656322206 x6-20020a1709028ec600b001638a171558sm6658693plo.202 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["tech@tech9logy.com"]},"messageId":"<70acad28-7463-267d-976c-e1fd6ef414b6@krishicress.com>"} Mail sent by gmail
+[2022-06-27T15:00:06.704] [INFO] threshold_cron - transporter close
+[2022-06-27T15:00:07.016] [INFO] threshold_cron - {"accepted":["vijay@krishicress.com"],"rejected":[],"envelopeTime":980,"messageTime":2468,"messageSize":61713,"response":"250 2.0.0 OK  1656322206 b1-20020a1709027e0100b001641b2d61d4sm6755866plm.30 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["vijay@krishicress.com"]},"messageId":"<bb68effe-1408-6049-34d5-0a928557e2cd@krishicress.com>"} Mail sent by gmail
+[2022-06-27T15:00:07.016] [INFO] threshold_cron - transporter close
+[2022-06-27T15:00:07.526] [INFO] threshold_cron - {"accepted":["akash@tech9logy.in"],"rejected":[],"envelopeTime":1089,"messageTime":2861,"messageSize":61713,"response":"250 2.0.0 OK  1656322207 t10-20020a170902dcca00b0015e8da1f9e8sm6641099pll.77 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["akash@tech9logy.in"]},"messageId":"<4cb19718-e354-a584-fc54-0c3052b7d516@krishicress.com>"} Mail sent by gmail
+[2022-06-27T15:00:07.527] [INFO] threshold_cron - transporter close
+[2022-06-27T15:00:07.905] [INFO] threshold_cron - {"accepted":["customercare@krishcress.com"],"rejected":[],"envelopeTime":922,"messageTime":2964,"messageSize":61719,"response":"250 2.0.0 OK  1656322207 13-20020a17090a08cd00b001ec932d7592sm6663459pjn.9 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["customercare@krishcress.com"]},"messageId":"<01de5f24-aa85-e302-40a4-db35fb401bab@krishicress.com>"} Mail sent by gmail
+[2022-06-27T15:00:07.905] [INFO] threshold_cron - transporter close
+[2022-06-27T15:00:08.267] [INFO] threshold_cron - {"accepted":["achintya@krishicress.com"],"rejected":[],"envelopeTime":909,"messageTime":3331,"messageSize":61712,"response":"250 2.0.0 OK  1656322208 p24-20020a17090b011800b001d95c09f877sm6592980pjz.35 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["achintya@krishicress.com"]},"messageId":"<b796e7a2-0889-e24b-9367-bba06f012862@krishicress.com>"} Mail sent by gmail
+[2022-06-27T15:00:08.267] [INFO] threshold_cron - transporter close
+[2022-06-27T16:00:00.352] [INFO] threshold_cron - ######################################################################
+[2022-06-27T16:00:00.352] [INFO] threshold_cron - Cron run on  2022-06-27T10:30:00.352Z mail start successfully
+[2022-06-27T16:00:00.553] [INFO] threshold_cron - product found successfully
+[2022-06-27T16:00:00.579] [INFO] threshold_cron - admin name, email  Tech9logy tech@tech9logy.com  mail run successfully
+[2022-06-27T16:00:00.583] [INFO] threshold_cron - admin name, email  chitra chitrasingh.cs85@gmail.com  mail run successfully
+[2022-06-27T16:00:00.589] [INFO] threshold_cron - admin name, email  akash@gmail.com akash@tech9logy.in  mail run successfully
+[2022-06-27T16:00:00.608] [INFO] threshold_cron - admin name, email  dishakc disha@krishicress.com  mail run successfully
+[2022-06-27T16:00:00.615] [INFO] threshold_cron - admin name, email  Inventory manishchaubey@krishicress.com  mail run successfully
+[2022-06-27T16:00:00.622] [INFO] threshold_cron - admin name, email  order team tech9 dishavb@gmail.com  mail run successfully
+[2022-06-27T16:00:00.640] [INFO] threshold_cron - admin name, email  sales online vijay@krishicress.com  mail run successfully
+[2022-06-27T16:00:00.643] [INFO] threshold_cron - admin name, email  krishi_sales customercare@krishcress.com  mail run successfully
+[2022-06-27T16:00:00.649] [INFO] threshold_cron - admin name, email  rakshit rakshitbhalla@krishicress.com  mail run successfully
+[2022-06-27T16:00:00.662] [INFO] threshold_cron - admin name, email  achintya achintya@krishicress.com  mail run successfully
+[2022-06-27T16:00:00.668] [INFO] threshold_cron - loop is working successfully
+[2022-06-27T16:00:04.214] [INFO] threshold_cron - {"code":"EENVELOPE","response":"421 4.3.0 Temporary System Problem.  Try again later (10). b7-20020a62cf07000000b0051835ccc008sm6947872pfg.115 - gsmtp","responseCode":421,"command":"DATA"} Mail not sent by gmail
+[2022-06-27T16:00:04.215] [INFO] threshold_cron - transporter close
+[2022-06-27T16:00:04.217] [INFO] threshold_cron - {"code":"EENVELOPE","response":"421 4.3.0 Temporary System Problem.  Try again later (10). r3-20020a170903020300b0016a11b7472csm6818797plh.166 - gsmtp","responseCode":421,"command":"DATA"} Mail not sent by gmail
+[2022-06-27T16:00:04.217] [INFO] threshold_cron - transporter close
+[2022-06-27T16:00:05.793] [INFO] threshold_cron - {"accepted":["dishavb@gmail.com"],"rejected":[],"envelopeTime":1265,"messageTime":1399,"messageSize":61713,"response":"250 2.0.0 OK  1656325805 f5-20020aa79d85000000b005187431876fsm6933134pfq.180 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["dishavb@gmail.com"]},"messageId":"<114e660a-1d56-f38c-4f5b-0e65fda73269@krishicress.com>"} Mail sent by gmail
+[2022-06-27T16:00:05.793] [INFO] threshold_cron - transporter close
+[2022-06-27T16:00:06.007] [INFO] threshold_cron - {"accepted":["tech@tech9logy.com"],"rejected":[],"envelopeTime":1264,"messageTime":1610,"messageSize":61707,"response":"250 2.0.0 OK  1656325805 v10-20020a17090a00ca00b001ea5d9ae7d9sm9071160pjd.40 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["tech@tech9logy.com"]},"messageId":"<9a70fb3f-6279-45af-8be5-42dedcc4039f@krishicress.com>"} Mail sent by gmail
+[2022-06-27T16:00:06.007] [INFO] threshold_cron - transporter close
+[2022-06-27T16:00:06.511] [INFO] threshold_cron - {"accepted":["akash@tech9logy.in"],"rejected":[],"envelopeTime":1338,"messageTime":2003,"messageSize":61713,"response":"250 2.0.0 OK  1656325806 11-20020a63164b000000b0040d4c8e335csm6729098pgw.75 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["akash@tech9logy.in"]},"messageId":"<c874a50a-9ec6-89d8-2b7f-41cbc24e8c02@krishicress.com>"} Mail sent by gmail
+[2022-06-27T16:00:06.511] [INFO] threshold_cron - transporter close
+[2022-06-27T16:00:06.774] [INFO] threshold_cron - {"accepted":["disha@krishicress.com"],"rejected":[],"envelopeTime":1362,"messageTime":2255,"messageSize":61708,"response":"250 2.0.0 OK  1656325806 s9-20020a62e709000000b00527ab697c6asm868287pfh.18 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["disha@krishicress.com"]},"messageId":"<b9943a76-1d7a-cc17-98d0-30371fce29b6@krishicress.com>"} Mail sent by gmail
+[2022-06-27T16:00:06.774] [INFO] threshold_cron - transporter close
+[2022-06-27T16:00:07.966] [INFO] threshold_cron - {"accepted":["chitrasingh.cs85@gmail.com"],"rejected":[],"envelopeTime":1449,"messageTime":3374,"messageSize":61712,"response":"250 2.0.0 OK  1656325807 t7-20020a17090ad14700b001df4c5cab51sm6955214pjw.15 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["chitrasingh.cs85@gmail.com"]},"messageId":"<354be945-4a96-5405-2396-d91cc2620973@krishicress.com>"} Mail sent by gmail
+[2022-06-27T16:00:07.966] [INFO] threshold_cron - transporter close
+[2022-06-27T16:00:08.158] [INFO] threshold_cron - {"accepted":["vijay@krishicress.com"],"rejected":[],"envelopeTime":1388,"messageTime":3652,"messageSize":61713,"response":"250 2.0.0 OK  1656325808 20-20020a170902ee5400b001690a7df347sm6835603plo.96 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["vijay@krishicress.com"]},"messageId":"<529a836e-45ce-a730-9a56-c1ae1a767efe@krishicress.com>"} Mail sent by gmail
+[2022-06-27T16:00:08.158] [INFO] threshold_cron - transporter close
+[2022-06-27T16:00:08.673] [INFO] threshold_cron - {"accepted":["manishchaubey@krishicress.com"],"rejected":[],"envelopeTime":1341,"messageTime":4179,"messageSize":61718,"response":"250 2.0.0 OK  1656325808 205-20020a6219d6000000b0052525ab06d5sm6931910pfz.78 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["manishchaubey@krishicress.com"]},"messageId":"<c160255b-e15f-4127-7fca-29f0047fba06@krishicress.com>"} Mail sent by gmail
+[2022-06-27T16:00:08.673] [INFO] threshold_cron - transporter close
+[2022-06-27T16:00:09.223] [INFO] threshold_cron - {"accepted":["achintya@krishicress.com"],"rejected":[],"envelopeTime":1368,"messageTime":4752,"messageSize":61712,"response":"250 2.0.0 OK  1656325809 p20-20020a170902ead400b00163e06e1a99sm6892017pld.120 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["achintya@krishicress.com"]},"messageId":"<bd66f882-57c7-5c06-af08-39d2e600f68d@krishicress.com>"} Mail sent by gmail
+[2022-06-27T16:00:09.223] [INFO] threshold_cron - transporter close
+[2022-06-27T17:00:00.063] [INFO] threshold_cron - ######################################################################
+[2022-06-27T17:00:00.063] [INFO] threshold_cron - Cron run on  2022-06-27T11:30:00.063Z mail start successfully
+[2022-06-27T17:00:00.922] [INFO] threshold_cron - product found successfully
+[2022-06-27T17:00:00.946] [INFO] threshold_cron - admin name, email  Tech9logy tech@tech9logy.com  mail run successfully
+[2022-06-27T17:00:00.952] [INFO] threshold_cron - admin name, email  chitra chitrasingh.cs85@gmail.com  mail run successfully
+[2022-06-27T17:00:00.955] [INFO] threshold_cron - admin name, email  akash@gmail.com akash@tech9logy.in  mail run successfully
+[2022-06-27T17:00:01.092] [INFO] threshold_cron - admin name, email  dishakc disha@krishicress.com  mail run successfully
+[2022-06-27T17:00:01.108] [INFO] threshold_cron - admin name, email  Inventory manishchaubey@krishicress.com  mail run successfully
+[2022-06-27T17:00:01.115] [INFO] threshold_cron - admin name, email  order team tech9 dishavb@gmail.com  mail run successfully
+[2022-06-27T17:00:01.121] [INFO] threshold_cron - admin name, email  sales online vijay@krishicress.com  mail run successfully
+[2022-06-27T17:00:01.123] [INFO] threshold_cron - admin name, email  krishi_sales customercare@krishcress.com  mail run successfully
+[2022-06-27T17:00:01.138] [INFO] threshold_cron - admin name, email  rakshit rakshitbhalla@krishicress.com  mail run successfully
+[2022-06-27T17:00:01.144] [INFO] threshold_cron - admin name, email  achintya achintya@krishicress.com  mail run successfully
+[2022-06-27T17:00:01.147] [INFO] threshold_cron - loop is working successfully
+[2022-06-27T17:00:05.815] [INFO] threshold_cron - {"accepted":["customercare@krishcress.com"],"rejected":[],"envelopeTime":944,"messageTime":1206,"messageSize":61719,"response":"250 2.0.0 OK  1656329405 k64-20020a17090a14c600b001eb162ffaa3sm7056533pja.25 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["customercare@krishcress.com"]},"messageId":"<bc6b9092-1960-284b-f516-b02d31b40123@krishicress.com>"} Mail sent by gmail
+[2022-06-27T17:00:05.815] [INFO] threshold_cron - transporter close
+[2022-06-27T17:00:05.935] [INFO] threshold_cron - {"accepted":["tech@tech9logy.com"],"rejected":[],"envelopeTime":1003,"messageTime":1233,"messageSize":61707,"response":"250 2.0.0 OK  1656329405 v11-20020a1709028d8b00b001641a68f1c7sm6964890plo.273 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["tech@tech9logy.com"]},"messageId":"<42e76403-92ac-5d2b-0100-e6763947b52e@krishicress.com>"} Mail sent by gmail
+[2022-06-27T17:00:05.935] [INFO] threshold_cron - transporter close
+[2022-06-27T17:00:06.178] [INFO] threshold_cron - {"accepted":["rakshitbhalla@krishicress.com"],"rejected":[],"envelopeTime":1038,"messageTime":1446,"messageSize":61716,"response":"250 2.0.0 OK  1656329406 nk15-20020a17090b194f00b001ec9d45776bsm9283075pjb.42 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["rakshitbhalla@krishicress.com"]},"messageId":"<499f07c6-4c0a-e41f-8503-61ba0e288380@krishicress.com>"} Mail sent by gmail
+[2022-06-27T17:00:06.178] [INFO] threshold_cron - transporter close
+[2022-06-27T17:00:06.408] [INFO] threshold_cron - {"accepted":["dishavb@gmail.com"],"rejected":[],"envelopeTime":1036,"messageTime":1683,"messageSize":61713,"response":"250 2.0.0 OK  1656329406 n4-20020a6546c4000000b0040c9df2b060sm6973718pgr.30 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["dishavb@gmail.com"]},"messageId":"<38bde857-0bbb-881b-435f-6232b9abf760@krishicress.com>"} Mail sent by gmail
+[2022-06-27T17:00:06.409] [INFO] threshold_cron - transporter close
+[2022-06-27T17:00:07.453] [INFO] threshold_cron - {"accepted":["chitrasingh.cs85@gmail.com"],"rejected":[],"envelopeTime":875,"messageTime":2634,"messageSize":61712,"response":"250 2.0.0 OK  1656329407 j9-20020a17090a318900b001e88c4bb3dcsm9178233pjb.25 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["chitrasingh.cs85@gmail.com"]},"messageId":"<ca0b2fa0-3ef9-f757-293b-826727f1e585@krishicress.com>"} Mail sent by gmail
+[2022-06-27T17:00:07.453] [INFO] threshold_cron - transporter close
+[2022-06-27T17:00:07.704] [INFO] threshold_cron - {"accepted":["manishchaubey@krishicress.com"],"rejected":[],"envelopeTime":1353,"messageTime":2679,"messageSize":61718,"response":"250 2.0.0 OK  1656329407 d7-20020a17090a564700b001ec2b1b7d8asm9157446pji.10 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["manishchaubey@krishicress.com"]},"messageId":"<4102158f-34f5-ff4e-5add-7d9e7411f575@krishicress.com>"} Mail sent by gmail
+[2022-06-27T17:00:07.704] [INFO] threshold_cron - transporter close
+[2022-06-27T17:00:08.042] [INFO] threshold_cron - {"accepted":["vijay@krishicress.com"],"rejected":[],"envelopeTime":1446,"messageTime":2928,"messageSize":61713,"response":"250 2.0.0 OK  1656329407 bx23-20020a056a00429700b005251f4596f0sm7038176pfb.107 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["vijay@krishicress.com"]},"messageId":"<562d6217-e858-d00b-b28c-444b78b48c47@krishicress.com>"} Mail sent by gmail
+[2022-06-27T17:00:08.042] [INFO] threshold_cron - transporter close
+[2022-06-27T17:00:08.832] [INFO] threshold_cron - {"accepted":["akash@tech9logy.in"],"rejected":[],"envelopeTime":1701,"messageTime":3455,"messageSize":61713,"response":"250 2.0.0 OK  1656329408 cz1-20020aa79301000000b00524c5c236a6sm6921411pfb.33 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["akash@tech9logy.in"]},"messageId":"<dbac1a2f-50de-6111-ea60-fbfc81d1e1f6@krishicress.com>"} Mail sent by gmail
+[2022-06-27T17:00:08.832] [INFO] threshold_cron - transporter close
+[2022-06-27T17:00:09.185] [INFO] threshold_cron - {"accepted":["disha@krishicress.com"],"rejected":[],"envelopeTime":1667,"messageTime":3861,"messageSize":61708,"response":"250 2.0.0 OK  1656329409 j18-20020a63e752000000b0040aeb7e9358sm6798768pgk.90 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["disha@krishicress.com"]},"messageId":"<42a5b60b-3d61-d71a-4182-e12ceb52919b@krishicress.com>"} Mail sent by gmail
+[2022-06-27T17:00:09.186] [INFO] threshold_cron - transporter close
+[2022-06-27T17:00:09.489] [INFO] threshold_cron - {"accepted":["achintya@krishicress.com"],"rejected":[],"envelopeTime":1348,"messageTime":4100,"messageSize":61712,"response":"250 2.0.0 OK  1656329409 e14-20020a17090a4a0e00b001e0c1044ceasm6923495pjh.43 - gsmtp","envelope":{"from":"fresh@krishicress.com","to":["achintya@krishicress.com"]},"messageId":"<58b61c76-341d-8d74-0de6-d3e75ff66100@krishicress.com>"} Mail sent by gmail
+[2022-06-27T17:00:09.489] [INFO] threshold_cron - transporter close
+[2022-06-27T18:00:00.060] [INFO] threshold_cron - ######################################################################
+[2022-06-27T18:00:00.060] [INFO] threshold_cron - Cron run on  2022-06-27T12:30:00.060Z mail start successfully
+[2022-06-27T18:00:00.205] [INFO] threshold_cron - product found successfully
+[2022-12-22T10:59:00.676] [INFO] threshold_cron - ######################################################################
+[2022-12-22T10:59:00.678] [INFO] threshold_cron - Cron run on  2022-12-22T05:29:00.678Z mail start successfully
+[2022-12-22T11:00:00.758] [INFO] threshold_cron - ######################################################################
+[2022-12-22T11:00:00.758] [INFO] threshold_cron - Cron run on  2022-12-22T05:30:00.758Z mail start successfully
+[2022-12-22T11:59:00.963] [INFO] threshold_cron - ######################################################################
+[2022-12-22T11:59:00.964] [INFO] threshold_cron - Cron run on  2022-12-22T06:29:00.964Z mail start successfully
+[2022-12-22T12:00:00.041] [INFO] threshold_cron - ######################################################################
+[2022-12-22T12:00:00.041] [INFO] threshold_cron - Cron run on  2022-12-22T06:30:00.041Z mail start successfully
+[2022-12-22T12:59:00.527] [INFO] threshold_cron - ######################################################################
+[2022-12-22T12:59:00.529] [INFO] threshold_cron - Cron run on  2022-12-22T07:29:00.529Z mail start successfully
+[2022-12-22T12:59:00.534] [INFO] threshold_cron - product found successfully
+[2022-12-22T13:00:00.604] [INFO] threshold_cron - ######################################################################
+[2022-12-22T13:00:00.605] [INFO] threshold_cron - Cron run on  2022-12-22T07:30:00.605Z mail start successfully
+[2022-12-22T13:00:00.611] [INFO] threshold_cron - product found successfully
+[2022-12-22T13:59:00.094] [INFO] threshold_cron - ######################################################################
+[2022-12-22T13:59:00.094] [INFO] threshold_cron - Cron run on  2022-12-22T08:29:00.094Z mail start successfully
+[2022-12-22T13:59:00.104] [INFO] threshold_cron - product found successfully
+[2022-12-22T14:00:00.157] [INFO] threshold_cron - ######################################################################
+[2022-12-22T14:00:00.158] [INFO] threshold_cron - Cron run on  2022-12-22T08:30:00.158Z mail start successfully
+[2022-12-22T14:00:00.170] [INFO] threshold_cron - product found successfully
+[2022-12-22T14:59:00.982] [INFO] threshold_cron - ######################################################################
+[2022-12-22T14:59:00.982] [INFO] threshold_cron - Cron run on  2022-12-22T09:29:00.982Z mail start successfully
+[2022-12-22T14:59:00.989] [INFO] threshold_cron - product found successfully
+[2022-12-22T15:00:00.054] [INFO] threshold_cron - ######################################################################
+[2022-12-22T15:00:00.054] [INFO] threshold_cron - Cron run on  2022-12-22T09:30:00.054Z mail start successfully
+[2022-12-22T15:00:00.062] [INFO] threshold_cron - product found successfully
+[2022-12-22T15:59:00.279] [INFO] threshold_cron - ######################################################################
+[2022-12-22T15:59:00.281] [INFO] threshold_cron - Cron run on  2022-12-22T10:29:00.281Z mail start successfully
+[2022-12-22T15:59:00.292] [INFO] threshold_cron - product found successfully
+[2022-12-22T16:00:00.339] [INFO] threshold_cron - ######################################################################
+[2022-12-22T16:00:00.339] [INFO] threshold_cron - Cron run on  2022-12-22T10:30:00.339Z mail start successfully
+[2022-12-22T16:00:00.355] [INFO] threshold_cron - product found successfully
+[2022-12-22T16:59:00.236] [INFO] threshold_cron - ######################################################################
+[2022-12-22T16:59:00.236] [INFO] threshold_cron - Cron run on  2022-12-22T11:29:00.236Z mail start successfully
+[2022-12-22T16:59:00.244] [INFO] threshold_cron - product found successfully
+[2022-12-22T17:00:00.300] [INFO] threshold_cron - ######################################################################
+[2022-12-22T17:00:00.300] [INFO] threshold_cron - Cron run on  2022-12-22T11:30:00.300Z mail start successfully
+[2022-12-22T17:00:00.305] [INFO] threshold_cron - product found successfully
+[2022-12-22T17:59:00.665] [INFO] threshold_cron - ######################################################################
+[2022-12-22T17:59:00.665] [INFO] threshold_cron - Cron run on  2022-12-22T12:29:00.665Z mail start successfully
+[2022-12-22T17:59:00.669] [INFO] threshold_cron - product found successfully
+[2022-12-22T18:00:00.744] [INFO] threshold_cron - ######################################################################
+[2022-12-22T18:00:00.744] [INFO] threshold_cron - Cron run on  2022-12-22T12:30:00.744Z mail start successfully
+[2022-12-22T18:00:00.757] [INFO] threshold_cron - product found successfully
+[2022-12-23T09:59:00.744] [INFO] threshold_cron - ######################################################################
+[2022-12-23T09:59:00.745] [INFO] threshold_cron - Cron run on  2022-12-23T04:29:00.745Z mail start successfully
+[2022-12-23T09:59:00.754] [INFO] threshold_cron - product found successfully
+[2022-12-23T10:00:00.798] [INFO] threshold_cron - ######################################################################
+[2022-12-23T10:00:00.798] [INFO] threshold_cron - Cron run on  2022-12-23T04:30:00.798Z mail start successfully
+[2022-12-23T10:00:00.805] [INFO] threshold_cron - product found successfully
+[2022-12-23T10:59:00.446] [INFO] threshold_cron - ######################################################################
+[2022-12-23T10:59:00.454] [INFO] threshold_cron - Cron run on  2022-12-23T05:29:00.454Z mail start successfully
+[2022-12-23T10:59:00.477] [INFO] threshold_cron - product found successfully
+[2022-12-23T11:00:00.579] [INFO] threshold_cron - ######################################################################
+[2022-12-23T11:00:00.580] [INFO] threshold_cron - Cron run on  2022-12-23T05:30:00.580Z mail start successfully
+[2022-12-23T11:00:00.602] [INFO] threshold_cron - product found successfully
+[2022-12-23T11:59:00.348] [INFO] threshold_cron - ######################################################################
+[2022-12-23T11:59:00.353] [INFO] threshold_cron - Cron run on  2022-12-23T06:29:00.353Z mail start successfully
+[2022-12-23T12:00:00.479] [INFO] threshold_cron - ######################################################################
+[2022-12-23T12:00:00.479] [INFO] threshold_cron - Cron run on  2022-12-23T06:30:00.479Z mail start successfully
+[2022-12-23T12:59:00.516] [INFO] threshold_cron - ######################################################################
+[2022-12-23T12:59:00.517] [INFO] threshold_cron - Cron run on  2022-12-23T07:29:00.517Z mail start successfully
+[2022-12-23T13:00:00.661] [INFO] threshold_cron - ######################################################################
+[2022-12-23T13:00:00.661] [INFO] threshold_cron - Cron run on  2022-12-23T07:30:00.661Z mail start successfully
+[2022-12-23T13:59:00.478] [INFO] threshold_cron - ######################################################################
+[2022-12-23T13:59:00.489] [INFO] threshold_cron - Cron run on  2022-12-23T08:29:00.489Z mail start successfully
+[2022-12-23T14:00:00.633] [INFO] threshold_cron - ######################################################################
+[2022-12-23T14:00:00.633] [INFO] threshold_cron - Cron run on  2022-12-23T08:30:00.633Z mail start successfully
+[2022-12-23T14:59:00.073] [INFO] threshold_cron - ######################################################################
+[2022-12-23T14:59:00.075] [INFO] threshold_cron - Cron run on  2022-12-23T09:29:00.075Z mail start successfully
+[2022-12-23T15:00:00.229] [INFO] threshold_cron - ######################################################################
+[2022-12-23T15:00:00.229] [INFO] threshold_cron - Cron run on  2022-12-23T09:30:00.229Z mail start successfully
+[2022-12-23T15:59:00.141] [INFO] threshold_cron - ######################################################################
+[2022-12-23T15:59:00.143] [INFO] threshold_cron - Cron run on  2022-12-23T10:29:00.143Z mail start successfully
+[2022-12-23T16:00:00.297] [INFO] threshold_cron - ######################################################################
+[2022-12-23T16:00:00.297] [INFO] threshold_cron - Cron run on  2022-12-23T10:30:00.297Z mail start successfully
+[2022-12-23T16:59:00.590] [INFO] threshold_cron - ######################################################################
+[2022-12-23T16:59:00.591] [INFO] threshold_cron - Cron run on  2022-12-23T11:29:00.591Z mail start successfully
+[2022-12-23T17:00:00.720] [INFO] threshold_cron - ######################################################################
+[2022-12-23T17:00:00.720] [INFO] threshold_cron - Cron run on  2022-12-23T11:30:00.720Z mail start successfully
+[2022-12-26T09:59:00.803] [INFO] threshold_cron - ######################################################################
+[2022-12-26T09:59:00.804] [INFO] threshold_cron - Cron run on  2022-12-26T04:29:00.804Z mail start successfully
+[2022-12-26T10:00:00.972] [INFO] threshold_cron - ######################################################################
+[2022-12-26T10:00:00.972] [INFO] threshold_cron - Cron run on  2022-12-26T04:30:00.972Z mail start successfully
+[2022-12-26T10:59:00.577] [INFO] threshold_cron - ######################################################################
+[2022-12-26T10:59:00.579] [INFO] threshold_cron - Cron run on  2022-12-26T05:29:00.579Z mail start successfully
+[2022-12-26T11:00:00.709] [INFO] threshold_cron - ######################################################################
+[2022-12-26T11:00:00.709] [INFO] threshold_cron - Cron run on  2022-12-26T05:30:00.709Z mail start successfully
+[2022-12-26T11:59:00.882] [INFO] threshold_cron - ######################################################################
+[2022-12-26T11:59:00.882] [INFO] threshold_cron - Cron run on  2022-12-26T06:29:00.882Z mail start successfully
+[2022-12-26T12:00:00.004] [INFO] threshold_cron - ######################################################################
+[2022-12-26T12:00:00.004] [INFO] threshold_cron - Cron run on  2022-12-26T06:30:00.004Z mail start successfully
+[2022-12-26T12:59:00.448] [INFO] threshold_cron - ######################################################################
+[2022-12-26T12:59:00.448] [INFO] threshold_cron - Cron run on  2022-12-26T07:29:00.448Z mail start successfully
+[2022-12-26T13:00:00.609] [INFO] threshold_cron - ######################################################################
+[2022-12-26T13:00:00.609] [INFO] threshold_cron - Cron run on  2022-12-26T07:30:00.609Z mail start successfully
+[2022-12-26T13:59:00.868] [INFO] threshold_cron - ######################################################################
+[2022-12-26T13:59:00.869] [INFO] threshold_cron - Cron run on  2022-12-26T08:29:00.869Z mail start successfully
+[2022-12-26T14:00:00.007] [INFO] threshold_cron - ######################################################################
+[2022-12-26T14:00:00.007] [INFO] threshold_cron - Cron run on  2022-12-26T08:30:00.007Z mail start successfully
+[2022-12-26T14:59:00.967] [INFO] threshold_cron - ######################################################################
+[2022-12-26T14:59:00.968] [INFO] threshold_cron - Cron run on  2022-12-26T09:29:00.968Z mail start successfully
+[2022-12-26T15:00:00.124] [INFO] threshold_cron - ######################################################################
+[2022-12-26T15:00:00.124] [INFO] threshold_cron - Cron run on  2022-12-26T09:30:00.124Z mail start successfully
+[2022-12-27T10:59:00.751] [INFO] threshold_cron - ######################################################################
+[2022-12-27T10:59:00.752] [INFO] threshold_cron - Cron run on  2022-12-27T05:29:00.752Z mail start successfully
+[2022-12-27T11:00:00.876] [INFO] threshold_cron - ######################################################################
+[2022-12-27T11:00:00.876] [INFO] threshold_cron - Cron run on  2022-12-27T05:30:00.876Z mail start successfully
+[2022-12-27T11:59:00.652] [INFO] threshold_cron - ######################################################################
+[2022-12-27T11:59:00.654] [INFO] threshold_cron - Cron run on  2022-12-27T06:29:00.654Z mail start successfully
+[2022-12-27T12:00:00.799] [INFO] threshold_cron - ######################################################################
+[2022-12-27T12:00:00.800] [INFO] threshold_cron - Cron run on  2022-12-27T06:30:00.800Z mail start successfully
+[2022-12-27T12:59:00.418] [INFO] threshold_cron - ######################################################################
+[2022-12-27T12:59:00.419] [INFO] threshold_cron - Cron run on  2022-12-27T07:29:00.419Z mail start successfully
+[2022-12-27T13:00:00.544] [INFO] threshold_cron - ######################################################################
+[2022-12-27T13:00:00.544] [INFO] threshold_cron - Cron run on  2022-12-27T07:30:00.544Z mail start successfully
+[2022-12-27T13:59:00.245] [INFO] threshold_cron - ######################################################################
+[2022-12-27T13:59:00.246] [INFO] threshold_cron - Cron run on  2022-12-27T08:29:00.246Z mail start successfully
+[2022-12-27T14:00:00.382] [INFO] threshold_cron - ######################################################################
+[2022-12-27T14:00:00.382] [INFO] threshold_cron - Cron run on  2022-12-27T08:30:00.382Z mail start successfully
+[2022-12-27T14:59:00.211] [INFO] threshold_cron - ######################################################################
+[2022-12-27T14:59:00.212] [INFO] threshold_cron - Cron run on  2022-12-27T09:29:00.212Z mail start successfully
+[2022-12-27T15:00:00.333] [INFO] threshold_cron - ######################################################################
+[2022-12-27T15:00:00.333] [INFO] threshold_cron - Cron run on  2022-12-27T09:30:00.333Z mail start successfully
+[2022-12-27T15:59:00.247] [INFO] threshold_cron - ######################################################################
+[2022-12-27T15:59:00.248] [INFO] threshold_cron - Cron run on  2022-12-27T10:29:00.248Z mail start successfully
+[2022-12-27T16:00:00.386] [INFO] threshold_cron - ######################################################################
+[2022-12-27T16:00:00.386] [INFO] threshold_cron - Cron run on  2022-12-27T10:30:00.386Z mail start successfully
+[2022-12-27T16:59:00.200] [INFO] threshold_cron - ######################################################################
+[2022-12-27T16:59:00.200] [INFO] threshold_cron - Cron run on  2022-12-27T11:29:00.200Z mail start successfully
+[2022-12-27T17:00:00.357] [INFO] threshold_cron - ######################################################################
+[2022-12-27T17:00:00.358] [INFO] threshold_cron - Cron run on  2022-12-27T11:30:00.358Z mail start successfully
+[2022-12-28T09:59:00.785] [INFO] threshold_cron - ######################################################################
+[2022-12-28T09:59:00.787] [INFO] threshold_cron - Cron run on  2022-12-28T04:29:00.787Z mail start successfully
+[2022-12-28T10:00:00.936] [INFO] threshold_cron - ######################################################################
+[2022-12-28T10:00:00.937] [INFO] threshold_cron - Cron run on  2022-12-28T04:30:00.937Z mail start successfully
+[2022-12-28T10:59:00.729] [INFO] threshold_cron - ######################################################################
+[2022-12-28T10:59:00.730] [INFO] threshold_cron - Cron run on  2022-12-28T05:29:00.730Z mail start successfully
+[2022-12-28T11:00:00.848] [INFO] threshold_cron - ######################################################################
+[2022-12-28T11:00:00.848] [INFO] threshold_cron - Cron run on  2022-12-28T05:30:00.848Z mail start successfully
+[2022-12-28T11:59:00.454] [INFO] threshold_cron - ######################################################################
+[2022-12-28T11:59:00.455] [INFO] threshold_cron - Cron run on  2022-12-28T06:29:00.455Z mail start successfully
+[2022-12-28T12:00:00.572] [INFO] threshold_cron - ######################################################################
+[2022-12-28T12:00:00.572] [INFO] threshold_cron - Cron run on  2022-12-28T06:30:00.572Z mail start successfully
+[2022-12-28T12:59:00.375] [INFO] threshold_cron - ######################################################################
+[2022-12-28T12:59:00.376] [INFO] threshold_cron - Cron run on  2022-12-28T07:29:00.376Z mail start successfully
+[2022-12-28T13:00:00.509] [INFO] threshold_cron - ######################################################################
+[2022-12-28T13:00:00.509] [INFO] threshold_cron - Cron run on  2022-12-28T07:30:00.509Z mail start successfully
+[2022-12-28T13:59:00.454] [INFO] threshold_cron - ######################################################################
+[2022-12-28T13:59:00.454] [INFO] threshold_cron - Cron run on  2022-12-28T08:29:00.454Z mail start successfully
+[2022-12-28T14:00:00.561] [INFO] threshold_cron - ######################################################################
+[2022-12-28T14:00:00.562] [INFO] threshold_cron - Cron run on  2022-12-28T08:30:00.562Z mail start successfully
+[2022-12-28T14:59:00.526] [INFO] threshold_cron - ######################################################################
+[2022-12-28T14:59:00.527] [INFO] threshold_cron - Cron run on  2022-12-28T09:29:00.527Z mail start successfully
+[2022-12-28T15:00:00.652] [INFO] threshold_cron - ######################################################################
+[2022-12-28T15:00:00.652] [INFO] threshold_cron - Cron run on  2022-12-28T09:30:00.652Z mail start successfully
+[2022-12-28T15:59:00.013] [INFO] threshold_cron - ######################################################################
+[2022-12-28T15:59:00.014] [INFO] threshold_cron - Cron run on  2022-12-28T10:29:00.014Z mail start successfully
+[2022-12-28T16:00:00.164] [INFO] threshold_cron - ######################################################################
+[2022-12-28T16:00:00.164] [INFO] threshold_cron - Cron run on  2022-12-28T10:30:00.164Z mail start successfully
+[2022-12-28T16:59:00.282] [INFO] threshold_cron - ######################################################################
+[2022-12-28T16:59:00.282] [INFO] threshold_cron - Cron run on  2022-12-28T11:29:00.282Z mail start successfully
+[2022-12-28T17:00:00.414] [INFO] threshold_cron - ######################################################################
+[2022-12-28T17:00:00.414] [INFO] threshold_cron - Cron run on  2022-12-28T11:30:00.414Z mail start successfully
+[2022-12-28T17:59:00.844] [INFO] threshold_cron - ######################################################################
+[2022-12-28T17:59:00.845] [INFO] threshold_cron - Cron run on  2022-12-28T12:29:00.845Z mail start successfully
+[2022-12-28T18:00:00.975] [INFO] threshold_cron - ######################################################################
+[2022-12-28T18:00:00.975] [INFO] threshold_cron - Cron run on  2022-12-28T12:30:00.975Z mail start successfully
+[2022-12-29T09:59:00.633] [INFO] threshold_cron - ######################################################################
+[2022-12-29T09:59:00.638] [INFO] threshold_cron - Cron run on  2022-12-29T04:29:00.638Z mail start successfully
+[2022-12-29T10:00:00.761] [INFO] threshold_cron - ######################################################################
+[2022-12-29T10:00:00.761] [INFO] threshold_cron - Cron run on  2022-12-29T04:30:00.761Z mail start successfully
+[2022-12-29T10:59:00.614] [INFO] threshold_cron - ######################################################################
+[2022-12-29T10:59:00.615] [INFO] threshold_cron - Cron run on  2022-12-29T05:29:00.615Z mail start successfully
+[2022-12-29T11:00:00.748] [INFO] threshold_cron - ######################################################################
+[2022-12-29T11:00:00.749] [INFO] threshold_cron - Cron run on  2022-12-29T05:30:00.749Z mail start successfully
+[2022-12-29T11:59:00.752] [INFO] threshold_cron - ######################################################################
+[2022-12-29T11:59:00.753] [INFO] threshold_cron - Cron run on  2022-12-29T06:29:00.753Z mail start successfully
+[2022-12-29T12:00:00.868] [INFO] threshold_cron - ######################################################################
+[2022-12-29T12:00:00.868] [INFO] threshold_cron - Cron run on  2022-12-29T06:30:00.868Z mail start successfully
+[2022-12-29T12:59:00.887] [INFO] threshold_cron - ######################################################################
+[2022-12-29T12:59:00.889] [INFO] threshold_cron - Cron run on  2022-12-29T07:29:00.889Z mail start successfully
+[2022-12-29T13:00:00.043] [INFO] threshold_cron - ######################################################################
+[2022-12-29T13:00:00.043] [INFO] threshold_cron - Cron run on  2022-12-29T07:30:00.043Z mail start successfully
+[2022-12-29T13:59:00.277] [INFO] threshold_cron - ######################################################################
+[2022-12-29T13:59:00.278] [INFO] threshold_cron - Cron run on  2022-12-29T08:29:00.278Z mail start successfully
+[2022-12-29T14:00:00.420] [INFO] threshold_cron - ######################################################################
+[2022-12-29T14:00:00.420] [INFO] threshold_cron - Cron run on  2022-12-29T08:30:00.420Z mail start successfully
+[2022-12-29T14:59:00.880] [INFO] threshold_cron - ######################################################################
+[2022-12-29T14:59:00.881] [INFO] threshold_cron - Cron run on  2022-12-29T09:29:00.881Z mail start successfully
+[2022-12-29T15:00:00.017] [INFO] threshold_cron - ######################################################################
+[2022-12-29T15:00:00.017] [INFO] threshold_cron - Cron run on  2022-12-29T09:30:00.017Z mail start successfully
+[2022-12-29T15:59:00.874] [INFO] threshold_cron - ######################################################################
+[2022-12-29T15:59:00.875] [INFO] threshold_cron - Cron run on  2022-12-29T10:29:00.875Z mail start successfully
+[2022-12-29T16:00:00.032] [INFO] threshold_cron - ######################################################################
+[2022-12-29T16:00:00.032] [INFO] threshold_cron - Cron run on  2022-12-29T10:30:00.032Z mail start successfully
+[2022-12-29T16:59:00.749] [INFO] threshold_cron - ######################################################################
+[2022-12-29T16:59:00.749] [INFO] threshold_cron - Cron run on  2022-12-29T11:29:00.749Z mail start successfully
+[2022-12-29T17:00:00.878] [INFO] threshold_cron - ######################################################################
+[2022-12-29T17:00:00.879] [INFO] threshold_cron - Cron run on  2022-12-29T11:30:00.879Z mail start successfully
+[2022-12-29T17:59:00.958] [INFO] threshold_cron - ######################################################################
+[2022-12-29T17:59:00.959] [INFO] threshold_cron - Cron run on  2022-12-29T12:29:00.959Z mail start successfully
+[2022-12-29T18:00:00.110] [INFO] threshold_cron - ######################################################################
+[2022-12-29T18:00:00.110] [INFO] threshold_cron - Cron run on  2022-12-29T12:30:00.110Z mail start successfully
+[2022-12-30T09:59:00.093] [INFO] threshold_cron - ######################################################################
+[2022-12-30T09:59:00.100] [INFO] threshold_cron - Cron run on  2022-12-30T04:29:00.100Z mail start successfully
+[2022-12-30T10:00:00.218] [INFO] threshold_cron - ######################################################################
+[2022-12-30T10:00:00.218] [INFO] threshold_cron - Cron run on  2022-12-30T04:30:00.218Z mail start successfully
+[2022-12-30T10:59:00.027] [INFO] threshold_cron - ######################################################################
+[2022-12-30T10:59:00.030] [INFO] threshold_cron - Cron run on  2022-12-30T05:29:00.029Z mail start successfully
+[2022-12-30T11:00:00.172] [INFO] threshold_cron - ######################################################################
+[2022-12-30T11:00:00.172] [INFO] threshold_cron - Cron run on  2022-12-30T05:30:00.172Z mail start successfully
+[2022-12-30T11:59:00.800] [INFO] threshold_cron - ######################################################################
+[2022-12-30T11:59:00.801] [INFO] threshold_cron - Cron run on  2022-12-30T06:29:00.801Z mail start successfully
+[2022-12-30T12:00:00.925] [INFO] threshold_cron - ######################################################################
+[2022-12-30T12:00:00.926] [INFO] threshold_cron - Cron run on  2022-12-30T06:30:00.926Z mail start successfully
+[2022-12-30T12:59:00.458] [INFO] threshold_cron - ######################################################################
+[2022-12-30T12:59:00.459] [INFO] threshold_cron - Cron run on  2022-12-30T07:29:00.459Z mail start successfully
+[2022-12-30T13:00:00.583] [INFO] threshold_cron - ######################################################################
+[2022-12-30T13:00:00.583] [INFO] threshold_cron - Cron run on  2022-12-30T07:30:00.583Z mail start successfully
+[2022-12-30T13:59:00.141] [INFO] threshold_cron - ######################################################################
+[2022-12-30T13:59:00.142] [INFO] threshold_cron - Cron run on  2022-12-30T08:29:00.142Z mail start successfully
+[2022-12-30T14:00:00.271] [INFO] threshold_cron - ######################################################################
+[2022-12-30T14:00:00.271] [INFO] threshold_cron - Cron run on  2022-12-30T08:30:00.271Z mail start successfully
+[2022-12-30T14:59:00.967] [INFO] threshold_cron - ######################################################################
+[2022-12-30T14:59:00.968] [INFO] threshold_cron - Cron run on  2022-12-30T09:29:00.968Z mail start successfully
+[2022-12-30T15:00:00.088] [INFO] threshold_cron - ######################################################################
+[2022-12-30T15:00:00.089] [INFO] threshold_cron - Cron run on  2022-12-30T09:30:00.089Z mail start successfully
+[2022-12-30T15:59:00.362] [INFO] threshold_cron - ######################################################################
+[2022-12-30T15:59:00.366] [INFO] threshold_cron - Cron run on  2022-12-30T10:29:00.366Z mail start successfully
+[2022-12-30T16:00:00.501] [INFO] threshold_cron - ######################################################################
+[2022-12-30T16:00:00.501] [INFO] threshold_cron - Cron run on  2022-12-30T10:30:00.501Z mail start successfully
+[2022-12-30T17:00:00.926] [INFO] threshold_cron - ######################################################################
+[2022-12-30T17:00:00.927] [INFO] threshold_cron - Cron run on  2022-12-30T11:30:00.927Z mail start successfully
+[2023-01-02T09:59:00.747] [INFO] threshold_cron - ######################################################################
+[2023-01-02T09:59:00.750] [INFO] threshold_cron - Cron run on  2023-01-02T04:29:00.750Z mail start successfully
+[2023-01-02T10:00:00.892] [INFO] threshold_cron - ######################################################################
+[2023-01-02T10:00:00.893] [INFO] threshold_cron - Cron run on  2023-01-02T04:30:00.893Z mail start successfully
+[2023-01-02T10:59:00.361] [INFO] threshold_cron - ######################################################################
+[2023-01-02T10:59:00.368] [INFO] threshold_cron - Cron run on  2023-01-02T05:29:00.368Z mail start successfully
+[2023-01-02T11:00:00.584] [INFO] threshold_cron - ######################################################################
+[2023-01-02T11:00:00.584] [INFO] threshold_cron - Cron run on  2023-01-02T05:30:00.584Z mail start successfully
+[2023-01-02T11:59:00.511] [INFO] threshold_cron - ######################################################################
+[2023-01-02T11:59:00.515] [INFO] threshold_cron - Cron run on  2023-01-02T06:29:00.515Z mail start successfully
+[2023-01-02T12:00:00.646] [INFO] threshold_cron - ######################################################################
+[2023-01-02T12:00:00.646] [INFO] threshold_cron - Cron run on  2023-01-02T06:30:00.646Z mail start successfully
+[2023-01-02T12:59:00.680] [INFO] threshold_cron - ######################################################################
+[2023-01-02T12:59:00.682] [INFO] threshold_cron - Cron run on  2023-01-02T07:29:00.681Z mail start successfully
+[2023-01-02T13:00:00.837] [INFO] threshold_cron - ######################################################################
+[2023-01-02T13:00:00.837] [INFO] threshold_cron - Cron run on  2023-01-02T07:30:00.837Z mail start successfully
+[2023-01-02T13:59:00.374] [INFO] threshold_cron - ######################################################################
+[2023-01-02T13:59:00.381] [INFO] threshold_cron - Cron run on  2023-01-02T08:29:00.381Z mail start successfully
+[2023-01-02T14:00:00.404] [INFO] threshold_cron - ######################################################################
+[2023-01-02T14:00:00.406] [INFO] threshold_cron - Cron run on  2023-01-02T08:30:00.406Z mail start successfully
+[2023-01-02T14:59:00.068] [INFO] threshold_cron - ######################################################################
+[2023-01-02T14:59:00.072] [INFO] threshold_cron - Cron run on  2023-01-02T09:29:00.072Z mail start successfully
+[2023-01-02T15:00:00.201] [INFO] threshold_cron - ######################################################################
+[2023-01-02T15:00:00.201] [INFO] threshold_cron - Cron run on  2023-01-02T09:30:00.201Z mail start successfully
+[2023-01-02T15:59:00.392] [INFO] threshold_cron - ######################################################################
+[2023-01-02T15:59:00.394] [INFO] threshold_cron - Cron run on  2023-01-02T10:29:00.394Z mail start successfully
+[2023-01-02T16:00:00.537] [INFO] threshold_cron - ######################################################################
+[2023-01-02T16:00:00.537] [INFO] threshold_cron - Cron run on  2023-01-02T10:30:00.537Z mail start successfully
+[2023-01-02T16:59:00.744] [INFO] threshold_cron - ######################################################################
+[2023-01-02T16:59:00.745] [INFO] threshold_cron - Cron run on  2023-01-02T11:29:00.745Z mail start successfully
+[2023-01-02T17:00:00.868] [INFO] threshold_cron - ######################################################################
+[2023-01-02T17:00:00.868] [INFO] threshold_cron - Cron run on  2023-01-02T11:30:00.868Z mail start successfully
+[2023-01-02T17:59:00.415] [INFO] threshold_cron - ######################################################################
+[2023-01-02T17:59:00.416] [INFO] threshold_cron - Cron run on  2023-01-02T12:29:00.416Z mail start successfully
+[2023-01-02T18:00:00.559] [INFO] threshold_cron - ######################################################################
+[2023-01-02T18:00:00.559] [INFO] threshold_cron - Cron run on  2023-01-02T12:30:00.559Z mail start successfully
+[2023-01-03T13:59:00.580] [INFO] threshold_cron - ######################################################################
+[2023-01-03T13:59:00.586] [INFO] threshold_cron - Cron run on  2023-01-03T08:29:00.586Z mail start successfully
+[2023-01-03T14:00:00.936] [INFO] threshold_cron - ######################################################################
+[2023-01-03T14:00:00.937] [INFO] threshold_cron - Cron run on  2023-01-03T08:30:00.937Z mail start successfully
+[2023-01-03T14:59:00.722] [INFO] threshold_cron - ######################################################################
+[2023-01-03T14:59:00.726] [INFO] threshold_cron - Cron run on  2023-01-03T09:29:00.726Z mail start successfully
+[2023-01-03T15:00:00.887] [INFO] threshold_cron - ######################################################################
+[2023-01-03T15:00:00.887] [INFO] threshold_cron - Cron run on  2023-01-03T09:30:00.887Z mail start successfully
+[2023-01-03T15:59:00.761] [INFO] threshold_cron - ######################################################################
+[2023-01-03T15:59:00.762] [INFO] threshold_cron - Cron run on  2023-01-03T10:29:00.762Z mail start successfully
+[2023-01-03T16:00:00.881] [INFO] threshold_cron - ######################################################################
+[2023-01-03T16:00:00.882] [INFO] threshold_cron - Cron run on  2023-01-03T10:30:00.882Z mail start successfully
+[2023-01-03T16:59:00.380] [INFO] threshold_cron - ######################################################################
+[2023-01-03T16:59:00.382] [INFO] threshold_cron - Cron run on  2023-01-03T11:29:00.382Z mail start successfully
+[2023-01-03T17:00:00.524] [INFO] threshold_cron - ######################################################################
+[2023-01-03T17:00:00.525] [INFO] threshold_cron - Cron run on  2023-01-03T11:30:00.525Z mail start successfully
+[2023-01-03T17:59:00.168] [INFO] threshold_cron - ######################################################################
+[2023-01-03T17:59:00.170] [INFO] threshold_cron - Cron run on  2023-01-03T12:29:00.170Z mail start successfully
+[2023-01-03T18:00:00.286] [INFO] threshold_cron - ######################################################################
+[2023-01-03T18:00:00.287] [INFO] threshold_cron - Cron run on  2023-01-03T12:30:00.287Z mail start successfully
+[2023-01-04T09:59:00.208] [INFO] threshold_cron - ######################################################################
+[2023-01-04T09:59:00.213] [INFO] threshold_cron - Cron run on  2023-01-04T04:29:00.213Z mail start successfully
+[2023-01-04T10:00:00.342] [INFO] threshold_cron - ######################################################################
+[2023-01-04T10:00:00.343] [INFO] threshold_cron - Cron run on  2023-01-04T04:30:00.343Z mail start successfully
+[2023-01-04T10:59:00.724] [INFO] threshold_cron - ######################################################################
+[2023-01-04T10:59:00.725] [INFO] threshold_cron - Cron run on  2023-01-04T05:29:00.725Z mail start successfully
+[2023-01-04T11:00:00.865] [INFO] threshold_cron - ######################################################################
+[2023-01-04T11:00:00.865] [INFO] threshold_cron - Cron run on  2023-01-04T05:30:00.865Z mail start successfully
+[2023-01-04T11:59:00.081] [INFO] threshold_cron - ######################################################################
+[2023-01-04T11:59:00.082] [INFO] threshold_cron - Cron run on  2023-01-04T06:29:00.081Z mail start successfully
+[2023-01-04T12:00:00.219] [INFO] threshold_cron - ######################################################################
+[2023-01-04T12:00:00.219] [INFO] threshold_cron - Cron run on  2023-01-04T06:30:00.219Z mail start successfully
+[2023-01-04T12:59:00.447] [INFO] threshold_cron - ######################################################################
+[2023-01-04T12:59:00.448] [INFO] threshold_cron - Cron run on  2023-01-04T07:29:00.448Z mail start successfully
+[2023-01-04T13:00:00.591] [INFO] threshold_cron - ######################################################################
+[2023-01-04T13:00:00.591] [INFO] threshold_cron - Cron run on  2023-01-04T07:30:00.591Z mail start successfully
+[2023-01-04T13:59:00.836] [INFO] threshold_cron - ######################################################################
+[2023-01-04T13:59:00.837] [INFO] threshold_cron - Cron run on  2023-01-04T08:29:00.837Z mail start successfully
+[2023-01-04T14:00:00.992] [INFO] threshold_cron - ######################################################################
+[2023-01-04T14:00:00.993] [INFO] threshold_cron - Cron run on  2023-01-04T08:30:00.993Z mail start successfully
+[2023-01-04T14:59:00.903] [INFO] threshold_cron - ######################################################################
+[2023-01-04T14:59:00.904] [INFO] threshold_cron - Cron run on  2023-01-04T09:29:00.903Z mail start successfully
+[2023-01-04T15:00:00.054] [INFO] threshold_cron - ######################################################################
+[2023-01-04T15:00:00.054] [INFO] threshold_cron - Cron run on  2023-01-04T09:30:00.054Z mail start successfully
+[2023-01-04T15:59:00.334] [INFO] threshold_cron - ######################################################################
+[2023-01-04T15:59:00.335] [INFO] threshold_cron - Cron run on  2023-01-04T10:29:00.335Z mail start successfully
+[2023-01-04T16:00:00.459] [INFO] threshold_cron - ######################################################################
+[2023-01-04T16:00:00.459] [INFO] threshold_cron - Cron run on  2023-01-04T10:30:00.459Z mail start successfully
+[2023-01-04T16:59:00.784] [INFO] threshold_cron - ######################################################################
+[2023-01-04T16:59:00.785] [INFO] threshold_cron - Cron run on  2023-01-04T11:29:00.785Z mail start successfully
+[2023-01-04T17:00:00.951] [INFO] threshold_cron - ######################################################################
+[2023-01-04T17:00:00.951] [INFO] threshold_cron - Cron run on  2023-01-04T11:30:00.951Z mail start successfully
+[2023-01-04T17:59:00.998] [INFO] threshold_cron - ######################################################################
+[2023-01-04T17:59:01.004] [INFO] threshold_cron - Cron run on  2023-01-04T12:29:01.004Z mail start successfully
+[2023-01-04T18:00:00.123] [INFO] threshold_cron - ######################################################################
+[2023-01-04T18:00:00.123] [INFO] threshold_cron - Cron run on  2023-01-04T12:30:00.123Z mail start successfully
+[2023-01-05T09:59:00.883] [INFO] threshold_cron - ######################################################################
+[2023-01-05T09:59:00.885] [INFO] threshold_cron - Cron run on  2023-01-05T04:29:00.884Z mail start successfully
+[2023-01-05T10:00:00.053] [INFO] threshold_cron - ######################################################################
+[2023-01-05T10:00:00.053] [INFO] threshold_cron - Cron run on  2023-01-05T04:30:00.053Z mail start successfully
+[2023-01-05T10:59:00.315] [INFO] threshold_cron - ######################################################################
+[2023-01-05T10:59:00.316] [INFO] threshold_cron - Cron run on  2023-01-05T05:29:00.316Z mail start successfully
+[2023-01-05T11:00:00.471] [INFO] threshold_cron - ######################################################################
+[2023-01-05T11:00:00.471] [INFO] threshold_cron - Cron run on  2023-01-05T05:30:00.471Z mail start successfully
+[2023-01-05T11:59:00.941] [INFO] threshold_cron - ######################################################################
+[2023-01-05T11:59:00.942] [INFO] threshold_cron - Cron run on  2023-01-05T06:29:00.942Z mail start successfully
+[2023-01-05T12:00:00.077] [INFO] threshold_cron - ######################################################################
+[2023-01-05T12:00:00.078] [INFO] threshold_cron - Cron run on  2023-01-05T06:30:00.077Z mail start successfully
+[2023-01-05T12:59:00.260] [INFO] threshold_cron - ######################################################################
+[2023-01-05T12:59:00.260] [INFO] threshold_cron - Cron run on  2023-01-05T07:29:00.260Z mail start successfully
+[2023-01-05T12:59:00.264] [INFO] threshold_cron - product found successfully
+[2023-01-05T13:00:00.413] [INFO] threshold_cron - ######################################################################
+[2023-01-05T13:00:00.413] [INFO] threshold_cron - Cron run on  2023-01-05T07:30:00.413Z mail start successfully
+[2023-01-05T13:00:00.417] [INFO] threshold_cron - product found successfully
+[2023-01-05T13:59:00.776] [INFO] threshold_cron - ######################################################################
+[2023-01-05T13:59:00.779] [INFO] threshold_cron - Cron run on  2023-01-05T08:29:00.779Z mail start successfully
+[2023-01-05T13:59:00.795] [INFO] threshold_cron - product found successfully
+[2023-01-05T14:00:00.937] [INFO] threshold_cron - ######################################################################
+[2023-01-05T14:00:00.937] [INFO] threshold_cron - Cron run on  2023-01-05T08:30:00.937Z mail start successfully
+[2023-01-05T14:00:00.945] [INFO] threshold_cron - product found successfully
+[2023-01-05T14:59:00.261] [INFO] threshold_cron - ######################################################################
+[2023-01-05T14:59:00.262] [INFO] threshold_cron - Cron run on  2023-01-05T09:29:00.262Z mail start successfully
+[2023-01-05T14:59:00.265] [INFO] threshold_cron - product found successfully
+[2023-01-05T15:00:00.433] [INFO] threshold_cron - ######################################################################
+[2023-01-05T15:00:00.433] [INFO] threshold_cron - Cron run on  2023-01-05T09:30:00.433Z mail start successfully
+[2023-01-05T15:00:00.435] [INFO] threshold_cron - product found successfully
+[2023-01-05T15:59:00.477] [INFO] threshold_cron - ######################################################################
+[2023-01-05T15:59:00.478] [INFO] threshold_cron - Cron run on  2023-01-05T10:29:00.478Z mail start successfully
+[2023-01-05T15:59:00.497] [INFO] threshold_cron - product found successfully
+[2023-01-05T16:00:00.600] [INFO] threshold_cron - ######################################################################
+[2023-01-05T16:00:00.600] [INFO] threshold_cron - Cron run on  2023-01-05T10:30:00.600Z mail start successfully
+[2023-01-05T16:00:00.604] [INFO] threshold_cron - product found successfully
+[2023-01-06T13:59:00.958] [INFO] threshold_cron - ######################################################################
+[2023-01-06T13:59:00.962] [INFO] threshold_cron - Cron run on  2023-01-06T08:29:00.962Z mail start successfully
+[2023-01-06T13:59:00.970] [INFO] threshold_cron - product found successfully
+[2023-01-06T14:00:00.101] [INFO] threshold_cron - ######################################################################
+[2023-01-06T14:00:00.101] [INFO] threshold_cron - Cron run on  2023-01-06T08:30:00.101Z mail start successfully
+[2023-01-06T14:00:00.103] [INFO] threshold_cron - product found successfully
+[2023-01-06T14:59:00.269] [INFO] threshold_cron - ######################################################################
+[2023-01-06T14:59:00.269] [INFO] threshold_cron - Cron run on  2023-01-06T09:29:00.269Z mail start successfully
+[2023-01-06T14:59:00.274] [INFO] threshold_cron - product found successfully
+[2023-01-06T15:00:00.417] [INFO] threshold_cron - ######################################################################
+[2023-01-06T15:00:00.417] [INFO] threshold_cron - Cron run on  2023-01-06T09:30:00.417Z mail start successfully
+[2023-01-06T15:00:00.424] [INFO] threshold_cron - product found successfully
+[2023-01-06T15:59:00.519] [INFO] threshold_cron - ######################################################################
+[2023-01-06T15:59:00.519] [INFO] threshold_cron - Cron run on  2023-01-06T10:29:00.519Z mail start successfully
+[2023-01-06T15:59:00.528] [INFO] threshold_cron - product found successfully
+[2023-01-06T16:00:00.673] [INFO] threshold_cron - ######################################################################
+[2023-01-06T16:00:00.673] [INFO] threshold_cron - Cron run on  2023-01-06T10:30:00.673Z mail start successfully
+[2023-01-06T16:00:00.676] [INFO] threshold_cron - product found successfully
+[2023-01-06T16:59:00.859] [INFO] threshold_cron - ######################################################################
+[2023-01-06T16:59:00.860] [INFO] threshold_cron - Cron run on  2023-01-06T11:29:00.860Z mail start successfully
+[2023-01-06T16:59:00.870] [INFO] threshold_cron - product found successfully
+[2023-01-06T17:59:00.213] [INFO] threshold_cron - ######################################################################
+[2023-01-06T17:59:00.215] [INFO] threshold_cron - Cron run on  2023-01-06T12:29:00.215Z mail start successfully
+[2023-01-06T17:59:00.237] [INFO] threshold_cron - product found successfully
+[2023-01-06T18:00:00.342] [INFO] threshold_cron - ######################################################################
+[2023-01-06T18:00:00.342] [INFO] threshold_cron - Cron run on  2023-01-06T12:30:00.342Z mail start successfully
+[2023-01-06T18:00:00.370] [INFO] threshold_cron - product found successfully
+[2023-01-07T10:59:00.147] [INFO] threshold_cron - ######################################################################
+[2023-01-07T10:59:00.149] [INFO] threshold_cron - Cron run on  2023-01-07T05:29:00.149Z mail start successfully
+[2023-01-07T10:59:00.153] [INFO] threshold_cron - product found successfully
+[2023-01-07T11:00:00.300] [INFO] threshold_cron - ######################################################################
+[2023-01-07T11:00:00.300] [INFO] threshold_cron - Cron run on  2023-01-07T05:30:00.300Z mail start successfully
+[2023-01-07T11:00:00.304] [INFO] threshold_cron - product found successfully
+[2023-01-07T11:59:00.909] [INFO] threshold_cron - ######################################################################
+[2023-01-07T11:59:00.913] [INFO] threshold_cron - Cron run on  2023-01-07T06:29:00.913Z mail start successfully
+[2023-01-07T11:59:00.921] [INFO] threshold_cron - product found successfully
+[2023-01-07T12:00:00.079] [INFO] threshold_cron - ######################################################################
+[2023-01-07T12:00:00.079] [INFO] threshold_cron - Cron run on  2023-01-07T06:30:00.079Z mail start successfully
+[2023-01-07T12:00:00.082] [INFO] threshold_cron - product found successfully
+[2023-01-09T09:59:00.102] [INFO] threshold_cron - ######################################################################
+[2023-01-09T09:59:00.106] [INFO] threshold_cron - Cron run on  2023-01-09T04:29:00.106Z mail start successfully
+[2023-01-09T09:59:00.109] [INFO] threshold_cron - product found successfully
+[2023-01-09T10:00:00.229] [INFO] threshold_cron - ######################################################################
+[2023-01-09T10:00:00.230] [INFO] threshold_cron - Cron run on  2023-01-09T04:30:00.230Z mail start successfully
+[2023-01-09T10:00:00.238] [INFO] threshold_cron - product found successfully
+[2023-01-09T10:59:01.001] [INFO] threshold_cron - ######################################################################
+[2023-01-09T10:59:01.002] [INFO] threshold_cron - Cron run on  2023-01-09T05:29:01.002Z mail start successfully
+[2023-01-09T10:59:01.005] [INFO] threshold_cron - product found successfully
+[2023-01-09T11:00:00.166] [INFO] threshold_cron - ######################################################################
+[2023-01-09T11:00:00.166] [INFO] threshold_cron - Cron run on  2023-01-09T05:30:00.166Z mail start successfully
+[2023-01-09T11:00:00.168] [INFO] threshold_cron - product found successfully
+[2023-01-09T11:59:00.433] [INFO] threshold_cron - ######################################################################
+[2023-01-09T11:59:00.434] [INFO] threshold_cron - Cron run on  2023-01-09T06:29:00.434Z mail start successfully
+[2023-01-09T11:59:00.451] [INFO] threshold_cron - product found successfully
+[2023-01-09T12:00:00.576] [INFO] threshold_cron - ######################################################################
+[2023-01-09T12:00:00.576] [INFO] threshold_cron - Cron run on  2023-01-09T06:30:00.576Z mail start successfully
+[2023-01-09T12:00:00.585] [INFO] threshold_cron - product found successfully
+[2023-01-09T12:59:00.925] [INFO] threshold_cron - ######################################################################
+[2023-01-09T12:59:00.925] [INFO] threshold_cron - Cron run on  2023-01-09T07:29:00.925Z mail start successfully
+[2023-01-09T12:59:00.930] [INFO] threshold_cron - product found successfully
+[2023-01-09T13:00:00.079] [INFO] threshold_cron - ######################################################################
+[2023-01-09T13:00:00.079] [INFO] threshold_cron - Cron run on  2023-01-09T07:30:00.079Z mail start successfully
+[2023-01-09T13:00:00.081] [INFO] threshold_cron - product found successfully
+[2023-01-09T13:59:00.029] [INFO] threshold_cron - ######################################################################
+[2023-01-09T13:59:00.030] [INFO] threshold_cron - Cron run on  2023-01-09T08:29:00.030Z mail start successfully
+[2023-01-09T13:59:00.035] [INFO] threshold_cron - product found successfully
+[2023-01-09T14:00:00.145] [INFO] threshold_cron - ######################################################################
+[2023-01-09T14:00:00.145] [INFO] threshold_cron - Cron run on  2023-01-09T08:30:00.145Z mail start successfully
+[2023-01-09T14:00:00.148] [INFO] threshold_cron - product found successfully
+[2023-01-09T14:59:00.700] [INFO] threshold_cron - ######################################################################
+[2023-01-09T14:59:00.702] [INFO] threshold_cron - Cron run on  2023-01-09T09:29:00.702Z mail start successfully
+[2023-01-09T14:59:00.715] [INFO] threshold_cron - product found successfully
+[2023-01-09T15:00:00.827] [INFO] threshold_cron - ######################################################################
+[2023-01-09T15:00:00.828] [INFO] threshold_cron - Cron run on  2023-01-09T09:30:00.828Z mail start successfully
+[2023-01-09T15:00:00.843] [INFO] threshold_cron - product found successfully
+[2023-01-09T15:59:00.628] [INFO] threshold_cron - ######################################################################
+[2023-01-09T15:59:00.628] [INFO] threshold_cron - Cron run on  2023-01-09T10:29:00.628Z mail start successfully
+[2023-01-09T15:59:00.635] [INFO] threshold_cron - product found successfully
+[2023-01-09T16:00:00.783] [INFO] threshold_cron - ######################################################################
+[2023-01-09T16:00:00.783] [INFO] threshold_cron - Cron run on  2023-01-09T10:30:00.783Z mail start successfully
+[2023-01-09T16:00:00.787] [INFO] threshold_cron - product found successfully
+[2023-01-09T16:59:00.224] [INFO] threshold_cron - ######################################################################
+[2023-01-09T16:59:00.224] [INFO] threshold_cron - Cron run on  2023-01-09T11:29:00.224Z mail start successfully
+[2023-01-09T16:59:00.241] [INFO] threshold_cron - product found successfully
+[2023-01-09T17:00:00.372] [INFO] threshold_cron - ######################################################################
+[2023-01-09T17:00:00.372] [INFO] threshold_cron - Cron run on  2023-01-09T11:30:00.372Z mail start successfully
+[2023-01-09T17:00:00.377] [INFO] threshold_cron - product found successfully
+[2023-01-09T17:59:00.331] [INFO] threshold_cron - ######################################################################
+[2023-01-09T17:59:00.332] [INFO] threshold_cron - Cron run on  2023-01-09T12:29:00.332Z mail start successfully
+[2023-01-09T17:59:00.337] [INFO] threshold_cron - product found successfully
+[2023-01-09T18:00:00.504] [INFO] threshold_cron - ######################################################################
+[2023-01-09T18:00:00.504] [INFO] threshold_cron - Cron run on  2023-01-09T12:30:00.504Z mail start successfully
+[2023-01-09T18:00:00.506] [INFO] threshold_cron - product found successfully

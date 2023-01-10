@@ -1,0 +1,596 @@
+[2022-06-27T13:33:55.786] [ERROR] node_process_error - unhandled error / uncaughtException :::::: Error: ENOENT: no such file or directory, open '../key.pem'
+[2022-06-27T13:33:56.061] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-06-27T13:33:56.102] [ERROR] node_process_error - unhandled error / uncaughtException :::::: TypeError: whatsapp.getQR is not a function
+[2022-06-27T13:36:27.713] [ERROR] node_process_error - unhandled error / uncaughtException :::::: ReferenceError: server is not defined
+[2022-06-27T13:36:27.732] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-06-27T13:36:27.752] [ERROR] node_process_error - unhandled error / uncaughtException :::::: TypeError: whatsapp.getQR is not a function
+[2022-06-27T13:37:01.571] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-06-27T13:37:02.411] [ERROR] node_process_error - unhandled error / uncaughtException :::::: TypeError: whatsapp.getQR is not a function
+[2022-06-27T13:37:48.689] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-06-27T18:00:00.273] [ERROR] node_process_error - unhandled error / uncaughtException :::::: TypeError: Cannot read properties of undefined (reading 'forEach')
+[2022-12-22T10:03:27.900] [ERROR] node_process_error - unhandled error / uncaughtException :::::: Error: Cannot find module 'whatsapp-web.js'
+Require stack:
+- /home/t9l_saif/Desktop/Saif/Configured/api/whatsapp.js
+- /home/t9l_saif/Desktop/Saif/Configured/api/common.js
+- /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/users.controllers.js
+- /home/t9l_saif/Desktop/Saif/Configured/api/api/routes/index.js
+- /home/t9l_saif/Desktop/Saif/Configured/api/app.js
+[2022-12-22T10:03:27.918] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T10:07:47.938] [ERROR] node_process_error - unhandled error / uncaughtException :::::: Error: Cannot find module 'whatsapp-web.js'
+Require stack:
+- /home/t9l_saif/Desktop/Saif/Configured/api/whatsapp.js
+- /home/t9l_saif/Desktop/Saif/Configured/api/common.js
+- /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/users.controllers.js
+- /home/t9l_saif/Desktop/Saif/Configured/api/api/routes/index.js
+- /home/t9l_saif/Desktop/Saif/Configured/api/app.js
+[2022-12-22T10:07:47.956] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T10:09:44.222] [ERROR] node_process_error - unhandled error / uncaughtException :::::: Error: Cannot find module 'whatsapp-web.js'
+Require stack:
+- /home/t9l_saif/Desktop/Saif/Configured/api/whatsapp.js
+- /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/whatsapp.controller.js
+- /home/t9l_saif/Desktop/Saif/Configured/api/api/routes/index.js
+- /home/t9l_saif/Desktop/Saif/Configured/api/app.js
+[2022-12-22T10:09:44.240] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T10:10:00.254] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot read properties of undefined (reading 'keys')
+      at get_orders (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:13142:49)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+} reason: TypeError: Cannot read properties of undefined (reading 'keys')
+[2022-12-22T10:10:00.259] [ERROR] node_process_error - unhandled error / uncaughtException :::::: ReferenceError: gracefulShutdown is not defined
+[2022-12-22T10:10:31.481] [ERROR] node_process_error - unhandled error / uncaughtException :::::: Error: Cannot find module 'whatsapp-web.js'
+Require stack:
+- /home/t9l_saif/Desktop/Saif/Configured/api/whatsapp.js
+- /home/t9l_saif/Desktop/Saif/Configured/api/socket.js
+- /home/t9l_saif/Desktop/Saif/Configured/api/app.js
+[2022-12-22T10:10:31.497] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T10:11:28.737] [ERROR] node_process_error - unhandled error / uncaughtException :::::: Error: ENOENT: no such file or directory, open '/home/krishicress/www/privkey.pem'
+[2022-12-22T10:11:28.756] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T10:12:19.739] [ERROR] node_process_error - unhandled error / uncaughtException :::::: ReferenceError: options is not defined
+[2022-12-22T10:12:19.759] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T10:13:59.173] [ERROR] node_process_error - unhandled error / uncaughtException :::::: ReferenceError: port is not defined
+[2022-12-22T10:13:59.197] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T10:14:11.636] [ERROR] node_process_error - unhandled error / uncaughtException :::::: ReferenceError: server is not defined
+[2022-12-22T10:14:11.654] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T10:14:32.154] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T10:17:05.027] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T10:17:32.018] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T10:20:00.124] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot read properties of undefined (reading 'keys')
+      at get_orders (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:13142:49)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+} reason: TypeError: Cannot read properties of undefined (reading 'keys')
+[2022-12-22T10:20:00.127] [ERROR] node_process_error - unhandled error / uncaughtException :::::: ReferenceError: gracefulShutdown is not defined
+[2022-12-22T10:30:00.871] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot read properties of undefined (reading 'keys')
+      at get_orders (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:13142:49)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+} reason: TypeError: Cannot read properties of undefined (reading 'keys')
+[2022-12-22T10:30:00.872] [ERROR] node_process_error - unhandled error / uncaughtException :::::: ReferenceError: gracefulShutdown is not defined
+[2022-12-22T10:36:58.373] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T10:40:00.531] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot read properties of undefined (reading 'keys')
+      at get_orders (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:13142:49)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+} reason: TypeError: Cannot read properties of undefined (reading 'keys')
+[2022-12-22T10:42:10.395] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T10:49:14.242] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T10:49:51.610] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T10:50:00.593] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot read properties of undefined (reading 'keys')
+      at get_orders (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:13142:49)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+} reason: TypeError: Cannot read properties of undefined (reading 'keys')
+[2022-12-22T10:51:45.768] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T10:55:55.305] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T10:56:42.417] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T10:58:10.708] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T11:00:00.768] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot read properties of undefined (reading 'keys')
+      at get_orders (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:13142:49)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+} reason: TypeError: Cannot read properties of undefined (reading 'keys')
+[2022-12-22T11:00:35.043] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T11:09:13.440] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T11:10:00.442] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot read properties of undefined (reading 'keys')
+      at get_orders (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:13142:49)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+} reason: TypeError: Cannot read properties of undefined (reading 'keys')
+[2022-12-22T11:19:06.540] [ERROR] node_process_error - unhandled error / uncaughtException :::::: Error: ENOENT: no such file or directory, open './public/upload/'
+[2022-12-22T11:20:00.121] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot read properties of undefined (reading 'keys')
+      at get_orders (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:13142:49)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+} reason: TypeError: Cannot read properties of undefined (reading 'keys')
+[2022-12-22T11:23:26.608] [ERROR] node_process_error - unhandled error / uncaughtException :::::: Error: ENOENT: no such file or directory, open './public/upload/'
+[2022-12-22T11:25:41.536] [ERROR] node_process_error - unhandled error / uncaughtException :::::: Error: ENOENT: no such file or directory, open './public/upload/'
+[2022-12-22T11:26:46.200] [ERROR] node_process_error - unhandled error / uncaughtException :::::: TypeError: Cannot read properties of null (reading 'same_day_delivery_time')
+[2022-12-22T11:26:52.921] [ERROR] node_process_error - unhandled error / uncaughtException :::::: TypeError: Cannot read properties of null (reading 'same_day_delivery_time')
+[2022-12-22T11:27:03.234] [ERROR] node_process_error - unhandled error / uncaughtException :::::: TypeError: Cannot read properties of null (reading 'same_day_delivery_time')
+[2022-12-22T11:30:00.878] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot read properties of undefined (reading 'keys')
+      at get_orders (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:13142:49)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+} reason: TypeError: Cannot read properties of undefined (reading 'keys')
+[2022-12-22T11:31:49.336] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T11:40:00.817] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot read properties of undefined (reading 'keys')
+      at get_orders (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:13142:49)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+} reason: TypeError: Cannot read properties of undefined (reading 'keys')
+[2022-12-22T11:50:00.452] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot read properties of undefined (reading 'keys')
+      at get_orders (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:13142:49)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+} reason: TypeError: Cannot read properties of undefined (reading 'keys')
+[2022-12-22T11:51:58.255] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot read properties of null (reading 'inventory_add')
+      at module.exports.AddOne (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/inventory.controller.js:390:33)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+} reason: TypeError: Cannot read properties of null (reading 'inventory_add')
+[2022-12-22T11:52:52.358] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T11:54:15.052] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot read properties of null (reading 'admin_id')
+      at module.exports.AddOne (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/inventory.controller.js:445:64)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+} reason: TypeError: Cannot read properties of null (reading 'admin_id')
+[2022-12-22T11:54:52.709] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T11:54:57.495] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot read properties of null (reading 'created_at')
+      at module.exports.AddOne (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/inventory.controller.js:448:45)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+} reason: TypeError: Cannot read properties of null (reading 'created_at')
+[2022-12-22T11:56:01.074] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T11:56:05.755] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot read properties of null (reading 'admin_id')
+      at module.exports.AddOne (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/inventory.controller.js:453:71)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+} reason: TypeError: Cannot read properties of null (reading 'admin_id')
+[2022-12-22T11:56:55.951] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T11:58:34.024] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T11:59:16.604] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot destructure property 'emailOnSignup' of '(intermediate value)' as it is null.
+      at module.exports.createUserWhileSignup (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/users.controllers.js:443:9)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+} reason: TypeError: Cannot destructure property 'emailOnSignup' of '(intermediate value)' as it is null.
+[2022-12-22T12:00:00.062] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot read properties of undefined (reading 'keys')
+      at get_orders (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:13142:49)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+} reason: TypeError: Cannot read properties of undefined (reading 'keys')
+[2022-12-22T12:00:00.068] [ERROR] node_process_error - unhandled error / uncaughtException :::::: TypeError: Cannot read properties of undefined (reading 'forEach')
+[2022-12-22T12:00:32.797] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot destructure property 'emailOnSignup' of '(intermediate value)' as it is null.
+      at module.exports.createUserWhileSignup (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/users.controllers.js:443:9)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+} reason: TypeError: Cannot destructure property 'emailOnSignup' of '(intermediate value)' as it is null.
+[2022-12-22T12:00:45.004] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T12:00:53.649] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot destructure property 'emailOnSignup' of '(intermediate value)' as it is null.
+      at module.exports.createUserWhileSignup (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/users.controllers.js:443:9)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+} reason: TypeError: Cannot destructure property 'emailOnSignup' of '(intermediate value)' as it is null.
+[2022-12-22T12:01:31.242] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot destructure property 'emailOnSignup' of '(intermediate value)' as it is null.
+      at module.exports.mobileSignUp (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/users.controllers.js:110:11)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+} reason: TypeError: Cannot destructure property 'emailOnSignup' of '(intermediate value)' as it is null.
+[2022-12-22T12:02:08.411] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T12:02:30.687] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot destructure property 'tokenExpiration' of '(intermediate value)' as it is null.
+      at module.exports.userMobileVerification (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/users.controllers.js:208:9)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+} reason: TypeError: Cannot destructure property 'tokenExpiration' of '(intermediate value)' as it is null.
+[2022-12-22T12:02:37.577] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot destructure property 'emailOnSignup' of '(intermediate value)' as it is null.
+      at module.exports.resendOtp (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/users.controllers.js:284:9)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+} reason: TypeError: Cannot destructure property 'emailOnSignup' of '(intermediate value)' as it is null.
+[2022-12-22T12:03:01.333] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot destructure property 'emailOnSignup' of '(intermediate value)' as it is null.
+      at module.exports.resendOtp (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/users.controllers.js:284:9)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+} reason: TypeError: Cannot destructure property 'emailOnSignup' of '(intermediate value)' as it is null.
+[2022-12-22T12:03:31.291] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T12:03:49.917] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot destructure property 'tokenExpiration' of '(intermediate value)' as it is null.
+      at module.exports.userMobileVerification (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/users.controllers.js:208:9)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+} reason: TypeError: Cannot destructure property 'tokenExpiration' of '(intermediate value)' as it is null.
+[2022-12-22T12:04:33.224] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T12:04:49.250] [ERROR] node_process_error - unhandled error / uncaughtException :::::: Error: "expiresIn" should be a number of seconds or string representing a timespan
+[2022-12-22T12:05:21.712] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T12:09:10.562] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T12:09:14.046] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot read properties of null (reading '_id')
+      at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:12491:54
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+} reason: TypeError: Cannot read properties of null (reading '_id')
+[2022-12-22T12:09:45.350] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T12:10:52.258] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T12:11:00.806] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> {
+    statusCode: 401,
+    error: {
+      code: 'BAD_REQUEST_ERROR',
+      description: 'The api key provided is invalid',
+      source: 'NA',
+      step: 'NA',
+      reason: 'NA',
+      metadata: {}
+    }
+  }
+} reason: [object Object]
+[2022-12-22T12:14:55.125] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot read properties of null (reading 'weblink')
+      at Object.OrderDetails (/home/t9l_saif/Desktop/Saif/Configured/api/common.js:177:28)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async module.exports.updateRazorpayPaymentStatus (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:13523:27)
+} reason: TypeError: Cannot read properties of null (reading 'weblink')
+[2022-12-22T12:17:33.949] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T12:17:58.892] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot read properties of null (reading 'order_placed')
+      at module.exports.updateRazorpayPaymentStatus (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:13538:18)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+} reason: TypeError: Cannot read properties of null (reading 'order_placed')
+[2022-12-22T12:18:45.838] [ERROR] node_process_error - unhandled error / uncaughtException :::::: SyntaxError: Unexpected token '?'
+[2022-12-22T12:18:45.854] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T12:19:55.472] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T15:10:09.088] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-22T18:00:00.769] [ERROR] node_process_error - unhandled error / uncaughtException :::::: TypeError: Cannot read properties of undefined (reading 'forEach')
+[2022-12-23T09:28:31.241] [DEBUG] node_process_error - Mongoose disconnected
+[2022-12-23T09:28:31.246] [DEBUG] node_process_error - Mongoose connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+[2022-12-23T09:28:31.246] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+      at NativeConnection.Connection.openUri (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/connection.js:807:32)
+      at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/index.js:342:10
+      at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+      at new Promise (<anonymous>)
+      at promiseOrCallback (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+      at Mongoose._promiseOrCallback (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/index.js:1176:10)
+      at Mongoose.connect (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/index.js:341:20)
+      at Object.<anonymous> (/home/t9l_saif/Desktop/Saif/Configured/api/api/data/db.js:101:10)
+      at Module._compile (node:internal/modules/cjs/loader:1155:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10) {
+    reason: TopologyDescription {
+      type: 'Unknown',
+      servers: [Map],
+      stale: false,
+      compatible: true,
+      heartbeatFrequencyMS: 10000,
+      localThresholdMS: 15,
+      logicalSessionTimeoutMinutes: undefined
+    }
+  }
+} reason: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+[2022-12-23T09:30:59.607] [DEBUG] node_process_error - Mongoose disconnected
+[2022-12-23T09:30:59.615] [DEBUG] node_process_error - Mongoose connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+[2022-12-23T09:30:59.615] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+      at NativeConnection.Connection.openUri (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/connection.js:807:32)
+      at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/index.js:342:10
+      at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+      at new Promise (<anonymous>)
+      at promiseOrCallback (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+      at Mongoose._promiseOrCallback (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/index.js:1176:10)
+      at Mongoose.connect (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/index.js:341:20)
+      at Object.<anonymous> (/home/t9l_saif/Desktop/Saif/Configured/api/api/data/db.js:101:10)
+      at Module._compile (node:internal/modules/cjs/loader:1155:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10) {
+    reason: TopologyDescription {
+      type: 'Unknown',
+      servers: [Map],
+      stale: false,
+      compatible: true,
+      heartbeatFrequencyMS: 10000,
+      localThresholdMS: 15,
+      logicalSessionTimeoutMinutes: undefined
+    }
+  }
+} reason: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+[2022-12-23T09:31:45.932] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-23T09:32:01.031] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-23T10:21:48.724] [ERROR] node_process_error - unhandled error / uncaughtException :::::: Error: listen EADDRINUSE: address already in use :::1234
+[2022-12-23T10:21:48.741] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-23T10:21:59.132] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-23T10:29:35.962] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-23T10:31:27.823] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-23T11:19:01.212] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-23T11:31:26.693] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-23T12:00:00.495] [ERROR] node_process_error - unhandled error / uncaughtException :::::: TypeError: Cannot read properties of undefined (reading 'forEach')
+[2022-12-23T13:58:35.502] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-23T14:07:03.221] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-23T14:49:16.770] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-23T14:52:39.521] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-23T14:54:53.660] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-23T14:57:37.986] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-23T15:05:44.330] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-23T15:06:20.549] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-23T15:22:56.521] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-23T15:34:50.929] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-26T09:16:44.825] [DEBUG] node_process_error - Mongoose disconnected
+[2022-12-26T09:16:44.829] [DEBUG] node_process_error - Mongoose connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+[2022-12-26T09:16:44.829] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+      at NativeConnection.Connection.openUri (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/connection.js:825:32)
+      at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/index.js:419:10
+      at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+      at new Promise (<anonymous>)
+      at promiseOrCallback (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+      at Mongoose._promiseOrCallback (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/index.js:1272:10)
+      at Mongoose.connect (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/index.js:418:20)
+      at Object.<anonymous> (/home/t9l_saif/Desktop/Saif/Configured/api/api/data/db.js:101:10)
+      at Module._compile (node:internal/modules/cjs/loader:1155:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10) {
+    reason: TopologyDescription {
+      type: 'Unknown',
+      servers: [Map],
+      stale: false,
+      compatible: true,
+      heartbeatFrequencyMS: 10000,
+      localThresholdMS: 15,
+      setName: null,
+      maxElectionId: null,
+      maxSetVersion: null,
+      commonWireVersion: 0,
+      logicalSessionTimeoutMinutes: null
+    },
+    code: undefined
+  }
+} reason: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+[2022-12-26T09:17:27.689] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> MongooseError: Operation `settings.findOne()` buffering timed out after 10000ms
+      at Timeout.<anonymous> (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:158:23)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7)
+} reason: MongooseError: Operation `settings.findOne()` buffering timed out after 10000ms
+[2022-12-26T09:17:27.691] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> MongooseError: Operation `settings.findOne()` buffering timed out after 10000ms
+      at Timeout.<anonymous> (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:158:23)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7)
+} reason: MongooseError: Operation `settings.findOne()` buffering timed out after 10000ms
+[2022-12-26T09:31:57.389] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> MongooseError: Operation `settings.findOne()` buffering timed out after 10000ms
+      at Timeout.<anonymous> (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:158:23)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7)
+} reason: MongooseError: Operation `settings.findOne()` buffering timed out after 10000ms
+[2022-12-26T09:32:05.389] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> MongooseError: Operation `settings.findOne()` buffering timed out after 10000ms
+      at Timeout.<anonymous> (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:158:23)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7)
+} reason: MongooseError: Operation `settings.findOne()` buffering timed out after 10000ms
+[2022-12-26T09:32:54.923] [DEBUG] node_process_error - Mongoose disconnected
+[2022-12-26T09:32:54.934] [DEBUG] node_process_error - Mongoose connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+[2022-12-26T09:32:54.935] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+      at NativeConnection.Connection.openUri (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/connection.js:825:32)
+      at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/index.js:419:10
+      at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+      at new Promise (<anonymous>)
+      at promiseOrCallback (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+      at Mongoose._promiseOrCallback (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/index.js:1272:10)
+      at Mongoose.connect (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/index.js:418:20)
+      at Object.<anonymous> (/home/t9l_saif/Desktop/Saif/Configured/api/api/data/db.js:101:10)
+      at Module._compile (node:internal/modules/cjs/loader:1155:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10) {
+    reason: TopologyDescription {
+      type: 'Unknown',
+      servers: [Map],
+      stale: false,
+      compatible: true,
+      heartbeatFrequencyMS: 10000,
+      localThresholdMS: 15,
+      setName: null,
+      maxElectionId: null,
+      maxSetVersion: null,
+      commonWireVersion: 0,
+      logicalSessionTimeoutMinutes: null
+    },
+    code: undefined
+  }
+} reason: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+[2022-12-26T09:52:27.834] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-26T12:00:00.025] [ERROR] node_process_error - unhandled error / uncaughtException :::::: TypeError: Cannot read properties of undefined (reading 'forEach')
+[2022-12-27T10:50:40.205] [DEBUG] node_process_error - Mongoose disconnected
+[2022-12-27T10:50:40.213] [DEBUG] node_process_error - Mongoose connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+[2022-12-27T10:50:40.213] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+      at NativeConnection.Connection.openUri (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/connection.js:825:32)
+      at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/index.js:419:10
+      at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+      at new Promise (<anonymous>)
+      at promiseOrCallback (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+      at Mongoose._promiseOrCallback (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/index.js:1272:10)
+      at Mongoose.connect (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/index.js:418:20)
+      at Object.<anonymous> (/home/t9l_saif/Desktop/Saif/Configured/api/api/data/db.js:101:10)
+      at Module._compile (node:internal/modules/cjs/loader:1155:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10) {
+    reason: TopologyDescription {
+      type: 'Unknown',
+      servers: [Map],
+      stale: false,
+      compatible: true,
+      heartbeatFrequencyMS: 10000,
+      localThresholdMS: 15,
+      setName: null,
+      maxElectionId: null,
+      maxSetVersion: null,
+      commonWireVersion: 0,
+      logicalSessionTimeoutMinutes: null
+    },
+    code: undefined
+  }
+} reason: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+[2022-12-27T10:50:49.761] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-27T11:50:18.558] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-27T12:00:00.836] [ERROR] node_process_error - unhandled error / uncaughtException :::::: TypeError: Cannot read properties of undefined (reading 'forEach')
+[2022-12-28T09:53:45.237] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-28T12:00:00.586] [ERROR] node_process_error - unhandled error / uncaughtException :::::: TypeError: Cannot read properties of undefined (reading 'forEach')
+[2022-12-28T18:00:00.987] [ERROR] node_process_error - unhandled error / uncaughtException :::::: TypeError: Cannot read properties of undefined (reading 'forEach')
+[2022-12-29T09:35:08.189] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-29T12:00:00.894] [ERROR] node_process_error - unhandled error / uncaughtException :::::: TypeError: Cannot read properties of undefined (reading 'forEach')
+[2022-12-29T18:00:00.123] [ERROR] node_process_error - unhandled error / uncaughtException :::::: TypeError: Cannot read properties of undefined (reading 'forEach')
+[2022-12-30T09:12:35.429] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-30T09:13:32.402] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot destructure property 'emailOnSignup' of '(intermediate value)' as it is null.
+      at module.exports.createUserWhileSignup (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/users.controllers.js:459:9)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+} reason: TypeError: Cannot destructure property 'emailOnSignup' of '(intermediate value)' as it is null.
+[2022-12-30T09:13:49.704] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot destructure property 'emailOnSignup' of '(intermediate value)' as it is null.
+      at module.exports.createUserWhileSignup (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/users.controllers.js:459:9)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+} reason: TypeError: Cannot destructure property 'emailOnSignup' of '(intermediate value)' as it is null.
+[2022-12-30T09:26:06.910] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-30T12:00:00.951] [ERROR] node_process_error - unhandled error / uncaughtException :::::: TypeError: Cannot read properties of undefined (reading 'forEach')
+[2022-12-30T15:29:38.296] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-30T15:32:24.839] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-30T15:33:44.946] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-30T15:40:01.022] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-30T16:13:36.840] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-30T16:15:56.798] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-30T16:22:25.159] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-30T16:22:37.951] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-30T16:26:07.649] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-30T16:30:38.442] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-30T16:53:08.530] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-30T16:54:53.535] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-30T16:56:11.824] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-30T16:57:50.177] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-30T16:59:01.790] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-30T16:59:56.006] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-30T17:08:17.950] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-30T17:14:05.667] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-30T17:25:01.087] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-30T17:46:45.326] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2022-12-30T17:47:16.388] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T09:49:15.612] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T09:51:16.210] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T09:55:22.946] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T09:57:53.693] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T10:04:46.257] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T10:05:29.741] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T10:08:13.802] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T10:11:02.879] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T10:12:12.116] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T10:14:09.064] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T10:14:49.221] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T10:20:01.105] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T10:24:36.580] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T10:25:25.753] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T10:27:03.219] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T10:28:02.417] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T10:29:02.293] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T10:30:09.819] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T10:30:58.607] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T10:33:44.889] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T10:35:29.562] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T10:38:13.996] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T10:41:17.405] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T10:44:10.070] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T10:59:23.152] [ERROR] node_process_error - unhandled error / uncaughtException :::::: SyntaxError: Unexpected token ')'
+[2023-01-02T10:59:23.177] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T10:59:55.619] [ERROR] node_process_error - unhandled error / uncaughtException :::::: SyntaxError: Unexpected token ')'
+[2023-01-02T10:59:55.641] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T11:02:29.943] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T12:00:00.658] [ERROR] node_process_error - unhandled error / uncaughtException :::::: TypeError: Cannot read properties of undefined (reading 'forEach')
+[2023-01-02T13:28:08.292] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T13:34:14.567] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T13:42:02.445] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T13:45:16.049] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T13:48:10.596] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T13:50:09.567] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T13:52:55.472] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T13:53:46.782] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T13:59:10.395] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T14:41:29.889] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-02T18:00:00.569] [ERROR] node_process_error - unhandled error / uncaughtException :::::: TypeError: Cannot read properties of undefined (reading 'forEach')
+[2023-01-03T13:25:22.394] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-03T13:46:08.403] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-03T13:53:43.971] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-03T13:56:54.500] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-03T13:57:32.492] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-03T13:59:28.974] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-03T14:03:06.020] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-03T18:00:00.296] [ERROR] node_process_error - unhandled error / uncaughtException :::::: TypeError: Cannot read properties of undefined (reading 'forEach')
+[2023-01-04T09:16:12.445] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-04T12:00:00.241] [ERROR] node_process_error - unhandled error / uncaughtException :::::: TypeError: Cannot read properties of undefined (reading 'forEach')
+[2023-01-04T17:29:45.168] [ERROR] node_process_error - unhandled error / uncaughtException :::::: Error: Route.get() requires a callback function but got a [object Undefined]
+[2023-01-04T17:29:45.188] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-04T17:32:28.514] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-04T18:00:00.142] [ERROR] node_process_error - unhandled error / uncaughtException :::::: TypeError: Cannot read properties of undefined (reading 'forEach')
+[2023-01-04T18:07:53.920] [DEBUG] node_process_error - Mongoose disconnected
+[2023-01-05T09:53:17.102] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-05T12:00:00.107] [ERROR] node_process_error - unhandled error / uncaughtException :::::: TypeError: Cannot read properties of undefined (reading 'forEach')
+[2023-01-05T13:49:17.454] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-06T13:17:11.104] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-06T16:48:29.630] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-06T16:48:33.587] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot read properties of null (reading 'weblink')
+      at Object.OrderDetails (/home/t9l_saif/Desktop/Saif/Configured/api/common.js:177:28)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:15561:43
+} reason: TypeError: Cannot read properties of null (reading 'weblink')
+[2023-01-06T16:51:39.947] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-06T16:52:46.206] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot read properties of undefined (reading 'split')
+      at /home/t9l_saif/Desktop/Saif/Configured/api/common.js:293:80
+      at /home/t9l_saif/Desktop/Saif/Configured/api/common.js:322:77
+      at Array.map (<anonymous>)
+      at Proxy.methods.<computed> (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/types/array/methods/index.js:1011:24)
+      at Object.OrderDetails (/home/t9l_saif/Desktop/Saif/Configured/api/common.js:239:68)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:15561:43
+} reason: TypeError: Cannot read properties of undefined (reading 'split')
+[2023-01-06T17:34:40.861] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-06T17:35:38.059] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-06T17:51:27.128] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-06T17:52:36.456] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-06T18:00:00.385] [ERROR] node_process_error - unhandled error / uncaughtException :::::: TypeError: Cannot read properties of undefined (reading 'forEach')
+[2023-01-06T18:07:49.073] [DEBUG] node_process_error - Mongoose disconnected
+[2023-01-07T10:36:43.335] [DEBUG] node_process_error - Mongoose disconnected
+[2023-01-07T10:36:43.339] [DEBUG] node_process_error - Mongoose connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+[2023-01-07T10:36:43.341] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+      at NativeConnection.Connection.openUri (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/connection.js:825:32)
+      at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/index.js:419:10
+      at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+      at new Promise (<anonymous>)
+      at promiseOrCallback (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+      at Mongoose._promiseOrCallback (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/index.js:1272:10)
+      at Mongoose.connect (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/index.js:418:20)
+      at Object.<anonymous> (/home/t9l_saif/Desktop/Saif/Configured/api/api/data/db.js:101:10)
+      at Module._compile (node:internal/modules/cjs/loader:1155:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10) {
+    reason: TopologyDescription {
+      type: 'Unknown',
+      servers: [Map],
+      stale: false,
+      compatible: true,
+      heartbeatFrequencyMS: 10000,
+      localThresholdMS: 15,
+      setName: null,
+      maxElectionId: null,
+      maxSetVersion: null,
+      commonWireVersion: 0,
+      logicalSessionTimeoutMinutes: null
+    },
+    code: undefined
+  }
+} reason: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+[2023-01-07T10:37:10.388] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-07T10:38:24.955] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-07T10:41:42.781] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-07T11:05:44.675] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-07T12:00:00.093] [ERROR] node_process_error - unhandled error / uncaughtException :::::: TypeError: Cannot read properties of undefined (reading 'forEach')
+[2023-01-09T09:35:23.168] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-09T12:00:00.596] [ERROR] node_process_error - unhandled error / uncaughtException :::::: TypeError: Cannot read properties of undefined (reading 'forEach')
+[2023-01-09T14:18:42.565] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-09T18:00:00.519] [ERROR] node_process_error - unhandled error / uncaughtException :::::: TypeError: Cannot read properties of undefined (reading 'forEach')
