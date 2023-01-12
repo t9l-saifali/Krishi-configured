@@ -436,7 +436,7 @@ export default class Editorder extends Component {
           });
         });
       }
-    } else {
+    } else if(valu.TypeOfProduct === "group") {
       this.setState((prev) => {
         let product = [];
         // if (callFrom === "booking") {
@@ -505,6 +505,55 @@ export default class Editorder extends Component {
           ],
         };
       });
+    } else {
+      
+      this.setState((prev) => {
+        let product = [];
+        // if (callFrom === "booking") {
+        //   product = [{ ...valu.product_id }];
+        // } else {
+        product = prev.unfilteredProducts.filter(
+          (prod) => valu.value === prod._id
+        );
+        // }
+        let price = 0;
+        const user_type = this.state.user_type;
+        const simpleData = product[0] ? product[0].simpleData[0] : "";
+        return {
+          ...prev,
+          addedProducts: [
+            ...prev.addedProducts,
+            {
+              ...product[0],
+              ...valu,
+              availableQuantity:100,
+              product_id: product[0] && product[0]._id,
+              product_unique_id: product[0]._id + p_length,
+              booking_item_desc: valu.booking_item_desc || "",
+              unitMeasurement: product[0] && product[0].unitMeasurement,
+              unitQuantity: product[0] && product[0].unitQuantity,
+              unitId: "",
+              without_package:
+                valu.without_package !== undefined
+                  ? valu.without_package !== "undefined"
+                    ? valu.without_package
+                    : true
+                  : true,
+              barcode: valu.barcode || "",
+              barcodeList:
+                product[0].barcode?.length > 0 ? product[0].barcode : [],
+              packetLabel: valu.packetLabel ? valu.packetLabel : null,
+              packet_size: valu.packet_size ? valu.packet_size : null,
+              packet_id: valu.packet_id ? valu.packet_id : "",
+              qty: valu.qty ? valu.qty : 0,
+              initialQty: valu.initialQty || 0,
+              price: valu.price ? valu.price : 0,
+              totalprice: valu.totalprice ? valu.totalprice : 0,
+            },
+          ],
+        };
+      });
+    
     }
     console.log("my_products", this.state.addedProducts);
   }

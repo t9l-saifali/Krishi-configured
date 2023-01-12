@@ -607,7 +607,113 @@ export default class lostinventory extends Component {
                       <h4 className="card-title"> Add Lost / Damage</h4>
                       <form className="add_product_new">
                         <div className="inventory_fields"></div>
-                        {MultipleArray.map((item, index) => {
+                        <div className="table-responsive table-scroll-box-data">
+                          <table
+                            id="datatables"
+                            className="table table-striped table-no-bordered table-hover"
+                            cellSpacing="0"
+                            width="100%"
+                          >
+                            <thead>
+                              <tr>
+                                <th scope="col">Product</th>
+                                <th scope="col">Region</th>
+                                <th scope="col">Variant</th>
+                                <th scope="col">Available Quantity</th>
+                                <th scope="col">Quantity to Reduce</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                            {MultipleArray.map((item, index) => {
+                          return (
+                            <tr>
+                                    <td>
+                                    <div className="modal-right-bx">
+                                  <SelectSearch
+                                    placeholder="Search Product"
+                                    options={this.state.all_product}
+                                    onChange={(e) => this.onChange112(e, index)}
+                                    className="select-search"
+                                    value={item.product}
+                                    name={"selected_product" + index}
+                                  />
+                                  <span className={"err err_productsearch" + index}></span>
+                                </div>
+                                    </td>
+                                    <td>
+                                    <div className="modal-right-bx">
+                                      <select onChange={(e) => this.changeRegionOfProduct(e.target.value, index)} value={item.package[0]?.regionID}>
+                                        <option value="">Select Region</option>
+                                        {item.AllPackages?.reduce((acc, obj) => {
+                                               if (!(acc.find(o => String(o?.regionID) == String(obj?.regionID)) )) {
+                                          acc.push(obj);
+                                                  }
+                                        return acc;
+                                       }, []).map((pck) => {
+                                          return <option value={pck.regionID}>{pck.region}</option>;
+                                        })}
+                                      </select>
+                                    </div>
+                                    </td>
+                                    <td>
+                                    {item.TypeOfProduct == "configurable" ? (
+                                    <div className="form-group">
+                                      <div className="modal-right-bx">
+                                        {item?.variants?.length > 0 && <select onChange={(e) => this.changeVariantOfProduct(e.target.value, index)}>
+                                        <option value="">Select Variant</option>
+                                        {item.variants.map((pck) => {
+                                          return <option value={pck.variant_name}>{pck.variant_name}</option>;
+                                        })}
+                                      </select>}
+                                      </div>
+                                    </div>
+                                  ) : null}
+                                    </td>
+                                    <td>
+                                    <div className="modal-right-bx">
+                                      <input
+                                        type="text"
+                                        autoComplete="off"
+                                        className="form-control"
+                                        value={item.package[0]?.availableQuantity + item.product_details.unitMeasurement ? item.product_details.unitMeasurement.name : ""}
+                                        readOnly
+                                        placeholder="Available Quantity"
+                                      />
+                                    </div>
+                                    </td>
+                                    <td>
+                                    <div className="modal-right-bx">
+                                      <input
+                                        type="number"
+                                        autoComplete="off"
+                                        name={"quantity" + index}
+                                        className="form-control"
+                                        value={item.package[0]?.quantity || ""}
+                                        onChange={(e) => {
+                                          if (+e.target.value >= 0) {
+                                            this.formHandler1(e, index, 0, "quantity");
+                                          }
+                                        }}
+                                        placeholder="Enter Quantity"
+                                      />
+                                      <span className={"err err_available" + index}></span>
+                                    </div>
+                                    </td>
+                                    <td>
+                                    <i
+                                className="fas fa-times"
+                                style={{ cursor: "pointer" }}
+                                onClick={() => this.removeproduct(index)}
+                                aria-hidden="true"
+                              ></i>
+                                    </td>
+                                    </tr>
+                          );
+                        })}
+                            </tbody>
+                            </table>
+                            </div>
+                        {/* {MultipleArray.map((item, index) => {
                           return (
                             <div className="productvariant d-flex" key={index}>
                               <div className="form-group mr-2" style={{ flex: 1 }}>
@@ -623,20 +729,13 @@ export default class lostinventory extends Component {
                                     options={this.state.all_product}
                                     onChange={(e) => this.onChange112(e, index)}
                                     className="select-search"
-                                    // value={
-                                    //   this.state["selected_product" + index]
-                                    // }
                                     value={item.product}
                                     name={"selected_product" + index}
                                   />
                                   <span className={"err err_productsearch" + index}></span>
                                 </div>
-                                {/* <i className="fa fa-times" onClick={() =>this.removeproduct("Remove",  index)} aria-hidden="true"></i> */}
                               </div>
                               <div style={{ flex: 3 }}>
-                                {console.log("item::::::::::::", item)}
-                                {/* {item.package.map((it, ind) => {
-                                  return ( */}
                                 <div
                                   className="simple_single"
                                   style={{
@@ -659,14 +758,6 @@ export default class lostinventory extends Component {
                                           return <option value={pck.regionID}>{pck.region}</option>;
                                         })}
                                       </select>
-                                      
-                                      {/* <input
-                                        type="text"
-                                        className="form-control"
-                                        value={it.region}
-                                        readOnly
-                                        placeholder="Region"
-                                      /> */}
                                     </div>
                                     <span className={"err err_regionSelect" + index}></span>
                                   </div>
@@ -677,7 +768,6 @@ export default class lostinventory extends Component {
                                         <label>Variant</label>
                                       </div>
                                       <div className="modal-right-bx">
-                                        {/* <input type="text" className="form-control" value={item.package[0]?.variant} readOnly placeholder="Region" /> */}
                                         {item?.variants?.length > 0 && <select onChange={(e) => this.changeVariantOfProduct(e.target.value, index)}>
                                         <option value="">Select Variant</option>
                                         {item.variants.map((pck) => {
@@ -687,21 +777,6 @@ export default class lostinventory extends Component {
                                       </div>
                                     </div>
                                   ) : null}
-                                  {/* <div className="form-group">
-                                        <div className="modal-left-bx">
-                                          <label>Quantity</label>
-                                        </div>
-                                        <div className="modal-right-bx">
-                                          <input
-                                            type="text"
-                                            autoComplete="off"
-                                            className="form-control"
-                                            value={it.quantity}
-                                            readOnly
-                                            placeholder="Quantity"
-                                          />
-                                        </div>
-                                      </div> */}
                                   <div className="form-group">
                                     <div className="modal-left-bx">
                                       <label>
@@ -741,8 +816,6 @@ export default class lostinventory extends Component {
                                     </div>
                                   </div>
                                 </div>
-                                {/* );
-                                })} */}
                               </div>
                               <i
                                 className="fas fa-times"
@@ -752,7 +825,7 @@ export default class lostinventory extends Component {
                               ></i>
                             </div>
                           );
-                        })}
+                        })} */}
                         <div className="form-group single-col">
                           <div className="modal-bottom">
                             <button type="button" className="btn btn-primary feel-btn" onClick={() => this.addnewproduct("AddMore")}>

@@ -68,3 +68,29 @@
 [2023-01-07T11:07:08.822] [INFO] inventory_quantity - end successfull for id 1673069828808
 [2023-01-07T11:07:08.823] [DEBUG] inventory_quantity - Reduce Quantity End 
 
+[2023-01-12T10:00:14.862] [DEBUG] inventory_quantity - Reduce Quantity Start
+[2023-01-12T10:00:14.864] [TRACE] inventory_quantity - module.exports.updateRazorpayPaymentStatus (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:4263:20)
+[2023-01-12T10:00:14.868] [INFO] inventory_quantity - booking Id and code:  new ObjectId("63bf8cc26a7fe6583ba5c336") KC28
+[2023-01-12T10:09:03.276] [DEBUG] inventory_quantity - Reduce Quantity Start
+[2023-01-12T10:09:03.276] [TRACE] inventory_quantity - /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:9788:22
+[2023-01-12T10:09:03.277] [INFO] inventory_quantity - booking Id and code:  63bf8cc26a7fe6583ba5c336 KC28
+[2023-01-12T10:12:06.585] [DEBUG] inventory_quantity - Reduce Quantity Start
+[2023-01-12T10:12:06.587] [TRACE] inventory_quantity - /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:9788:22
+[2023-01-12T10:12:06.589] [INFO] inventory_quantity - booking Id and code:  63bf8cc26a7fe6583ba5c336 KC28
+[2023-01-12T10:12:06.590] [INFO] inventory_quantity - starting for id 1673498526590 :::::: {"product_id":"63a41c4362716af2502cfdcb","regionID":"63a3eeea317b2b2f634e63dd","total_quantity":0,"bookingID":"63bf8cc26a7fe6583ba5c336","MainProductId":"63a41c4362716af2502cfdcb","variant_name":"color__white__size__8"}
+[2023-01-12T10:12:06.590] [INFO] inventory_quantity - end successfull for id 1673498526590
+[2023-01-12T10:12:06.590] [INFO] inventory_quantity - starting for id 1673498526590 :::::: {"product_id":"63be9abd28fb6eb9d4ce0ce2","regionID":"63a3eeea317b2b2f634e63dd","total_quantity":0,"bookingID":"63bf8cc26a7fe6583ba5c336","MainProductId":"63be9abd28fb6eb9d4ce0ce2","variant_name":"ram__128GB__color__white"}
+[2023-01-12T10:12:06.590] [INFO] inventory_quantity - end successfull for id 1673498526590
+[2023-01-12T10:12:06.591] [DEBUG] inventory_quantity - Reduce Quantity End 
+
+[2023-01-12T10:20:23.096] [INFO] inventory_quantity - reverseQty start for booking_id KC28
+[2023-01-12T10:20:23.096] [INFO] inventory_quantity - reverseQty end for booking_id KC28
+[2023-01-12T10:20:23.144] [DEBUG] inventory_quantity - Reduce Quantity Start
+[2023-01-12T10:20:23.145] [TRACE] inventory_quantity - /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:5067:40
+[2023-01-12T10:20:23.147] [INFO] inventory_quantity - booking Id and code:  63bf8cc26a7fe6583ba5c336 KC28
+[2023-01-12T10:20:23.148] [INFO] inventory_quantity - starting for id 1673499023148 :::::: {"product_id":"63a41c4362716af2502cfdcb","regionID":"63a3eeea317b2b2f634e63dd","total_quantity":0,"bookingID":"63bf8cc26a7fe6583ba5c336","MainProductId":"63a41c4362716af2502cfdcb","variant_name":"color__white__size__8"}
+[2023-01-12T10:20:23.148] [INFO] inventory_quantity - end successfull for id 1673499023148
+[2023-01-12T10:20:23.148] [INFO] inventory_quantity - starting for id 1673499023148 :::::: {"product_id":"63be9abd28fb6eb9d4ce0ce2","regionID":"63a3eeea317b2b2f634e63dd","total_quantity":0,"bookingID":"63bf8cc26a7fe6583ba5c336","MainProductId":"63be9abd28fb6eb9d4ce0ce2","variant_name":"ram__128GB__color__white"}
+[2023-01-12T10:20:23.148] [INFO] inventory_quantity - end successfull for id 1673499023148
+[2023-01-12T10:20:23.150] [DEBUG] inventory_quantity - Reduce Quantity End 
+

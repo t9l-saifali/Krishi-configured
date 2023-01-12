@@ -280,7 +280,88 @@ export default class Editproduct extends Component {
       preOrderStartDate: date,
     });
   };
-
+  config_Form_Handler = (e, index, type, variant_name, checked) => {
+   var Configured_Product = [];
+    Configured_Product = [...this.state.configurableData];
+    console.log(index);
+    console.log(type);
+    console.log(variant_name);
+    console.log(Configured_Product);
+    if (type === "selling_price") {
+      Configured_Product[index].selling_price = +e.target.value;
+    }
+    if (type === "B2B_price") {
+      Configured_Product[index].B2B_price = +e.target.value;
+    }
+    if (type === "Retail_price") {
+      Configured_Product[index].Retail_price = +e.target.value;
+    }
+    if (type === "mrp") {
+      Configured_Product[index].mrp = +e.target.value;
+    }
+    if (type === "variantSKUcode") {
+      Configured_Product[index].variantSKUcode = e.target.value;
+    }
+    if (type === "image") {
+      Configured_Product[index].image = e.target.value;
+    }
+    if (type === "region") {
+      Configured_Product[index].region = e.value;
+    }
+    if (type === "status") {
+      console.log(e);
+      if (e) {
+        Configured_Product[index].status = true;
+      } else {
+        Configured_Product[index].status = false;
+      }
+    } 
+    this.setState({
+      configurableData:Configured_Product
+    })
+    // setConfiguredata(Configured_Product);
+  };
+  config_Form_Handler2 = (e, index, item, attributeId)=>{
+    var Configured_Product = [];
+    Configured_Product = [...this.state.configurableData];
+    console.log(attributeId,"pppppppppppppppppppppppppp")
+    Configured_Product[index].attributes = [...Configured_Product[index].attributes.filter((cur)=>cur?.attributeName != e.target.name),{
+      attributeId: item.attributeId._id,
+      attributeName: attributeId,
+      attributeValue: e.target.value,
+    }]
+    this.setState({
+      configurableData:Configured_Product
+    })  }
+  addmore2 = () => {
+    var addmoredata = [];
+    addmoredata = [...this.state.configurableData];
+    addmoredata.push({
+      ...this.state.configurableData[0],
+      region: "",
+      selling_price: "",
+      B2B_price: "",
+      Retail_price: "",
+      mrp: "",
+      variantSKUcode: "",
+      image: "",
+      availableQuantity: 0,
+      bookingQuantity: 0,
+      inhouseQuantity: 0,
+      lostQuantity: 0,
+      variant_name: "",
+      ExpirationDate: "",
+      quantity: 0,
+      returnQuantity: 0,
+      newlyAdded:true,
+      attributes:[]
+    });
+    setTimeout(() => {
+      this.setState({
+        configurableData:addmoredata
+      })   
+     }, 0);
+  };
   preOrderEndDate = (date) => {
     this.setState({
       preOrderEndDate: date,
@@ -978,6 +1059,7 @@ export default class Editproduct extends Component {
           : grouparray && grouparray.length > 0
           ? JSON.stringify(grouparray)
           : JSON.stringify(MultipleArray);
+          alert(this.state.configurableData.length)
       newmultipleimages.forEach((it, ind) => {
         var images = [];
         if (document.querySelector('input[name="image' + ind + '"]')) {
@@ -2399,18 +2481,296 @@ export default class Editproduct extends Component {
                           </div>
                           {this.state.edit_TypeOfProduct === "configurable" ? (
                             <>
-                              <Edit_Configurable
-                                finishLoading={(configured_data) =>
-                                  this.setState({
-                                    configurableData: configured_data,
-                                  })
-                                }
-                                data={this.state.configurableData}
-                                Attribute_Group={this.state.configurableData}
-                                Variant_Data={this.state.configurableData}
-                                regionData={this.state.main_region}
-                              />
-                            </>
+                            <h3>Configured Product</h3>
+                            <div className="inner_details_admin">
+                              <div className="main-form" style={{ width: "100%" }}>
+                                <div className="modal-left-bx">
+                                  <label>Select Variant Group</label>
+                                </div>
+                                <div className="modal-right-bx"></div>
+                              </div>
+                      
+                              <div className="main-form" style={{ width: "100%" }}>
+                                <div className="modal-left-bx">
+                                  <label>Select Variant's</label>
+                                </div>
+                                <div className="modal-right-bx"></div>
+                              </div>
+                      
+                              {/* activegroupattribute */}
+                              <>
+                                {this.state.configurableData.map((item, index) => {
+                                  return (
+                                    <>
+                                      <div key={index}>
+                                        <div className="configured_product">
+                                          {item.attributes.length > 0 && this.state.configurableData[index]?.newlyAdded != true
+                                            ? item.attributes.map((item1, index1) => {
+                                                return (
+                                                  <div className="form-group">
+                                                    <div className="modal-left-bx">
+                                                      <label>{item1.attributeName}</label>
+                                                    </div>
+                                                    <div className="modal-right-bx">
+                                                      <label>{item1.attributeValue}</label>
+                                                    </div>
+                                                  </div>
+                                                );
+                                              })
+                                            : ""}
+                                            { this.state.configurableData[index]?.newlyAdded == true
+                                                                    ? this.state.configurableData[0].attributes.map(
+                                                                        (item, index1) => {
+                                                                          return (
+                                                                            <div className="form-group">
+                                                                              <div className="modal-left-bx">
+                                                                                <label>
+                                                                                  {item.attributeId.name}
+                                                                                </label>
+                                                                                <span className="asterisk">
+                                                                                  *
+                                                                                </span>
+                                                                              </div>
+                                                                              <div className="modal-right-bx">
+                                                                                <select
+                                                                                  name="attributes"
+                                                                                  onChange={
+                                                                                    (ev) =>
+                                                                                      this.config_Form_Handler2(
+                                                                                        ev,
+                                                                                        index,
+                                                                                        item,
+                                                                                        item.attributeId.name
+                                                                                      )
+                                                                                    // this.formHandler(
+                                                                                    //   ev
+                                                                                    // )
+                                                                                  }
+                                                                                >
+                                                                                  <option value="">
+                                                                                    Select {item.attributeId.name}
+                                                                                  </option>
+                                                                                  {item.attributeId.item.map(
+                                                                                    (data, index) => {
+                                                                                      return (
+                                                                                        <option
+                                                                                          value={
+                                                                                            data.item_name
+                                                                                          }
+                                                                                        >
+                                                                                          {
+                                                                                            data.item_name
+                                                                                          }
+                                                                                        </option>
+                                                                                      );
+                                                                                    }
+                                                                                  )}
+                                                                                </select>
+                                                                                <span
+                                                                                  className={
+                                                                                    "err err_config_variant_diff" +
+                                                                                    index +
+                                                                                    item._id
+                                                                                  }
+                                                                                  style={{
+                                                                                    display: "block",
+                                                                                  }}
+                                                                                ></span>
+                                                                              </div>
+                                                                            </div>
+                                                                          );
+                                                                        }
+                                                                      )
+                                                                    : ""}
+                                          <div className="form-group">
+                                            <div className="modal-left-bx">
+                                              <label>Select Region </label> 
+                                            </div>
+                                            <div className="modal-right-bx">
+                                             {item.region._id && <label>{item.region.name}</label>}
+                                              { !item.region._id && <SelectSearch
+                                                placeholder="Choose Region"
+                                                options={this.state.main_region.map(a => {
+                                                  return {...a,name:a.label}
+                                                })}
+                                                name="region"
+                                                value={
+                                                  this.state.configurableData[index]?.region?.value
+                                                    ? this.state.configurableData[index]?.region?.value
+
+                                                    : ""
+                                                }
+                                                onChange={(e) => this.config_Form_Handler(e, index, "region")
+                                                }
+                                                className="select-search"
+                                              />}
+                      
+                                              <span
+                                                className={
+                                                  "err err_config_region" +
+                                                  index
+                                                }
+                                              ></span>
+                                            </div>
+                                          </div>
+                      
+                                          <div className="form-group">
+                                            <div className="modal-left-bx">
+                                              <label>Selling Price (incl. gst)</label>
+                                            </div>
+                                            <div className="modal-right-bx">
+                                              <input    
+                                                type="number"
+                                                value={item.selling_price ? item.selling_price : ""}
+                                                name="selling_price"
+                                                className="form-control"
+                                                placeholder="Enter Selling Price"
+                                                onChange={(ev) =>
+                                                  this.config_Form_Handler(ev, index, "selling_price")
+                                                }
+                                              />
+                                              <span className={"err err_config_sp" + index}></span>
+                                            </div>
+                                          </div>
+                      
+                                          <div className="form-group">
+                                            <div className="modal-left-bx">
+                                              <label>B2B price (incl. gst)</label>
+                                            </div>
+                                            <div className="modal-right-bx">
+                                              <input
+                                                type="number"
+                                                value={item.B2B_price ? item.B2B_price : ""}
+                                                name="B2B_price"
+                                                className="form-control"
+                                                placeholder="Enter B2B price"
+                                                onChange={(ev) =>
+                                                  this.config_Form_Handler(ev, index, "B2B_price")
+                                                }
+                                              />
+                                              <span className="err err_B2B_price"></span>
+                                            </div>
+                                          </div>
+                      
+                                          <div className="form-group">
+                                            <div className="modal-left-bx">
+                                              <label>Retail Price (incl. gst)</label>
+                                            </div>
+                                            <div className="modal-right-bx">
+                                              <input
+                                                type="number"
+                                                value={item.Retail_price ? item.Retail_price : ""}
+                                                name="Retail_price"
+                                                className="form-control"
+                                                placeholder="Enter Retail Price"
+                                                onChange={(ev) =>
+                                                  this.config_Form_Handler(ev, index, "Retail_price")
+                                                }
+                                              />
+                                              <span className="err err_Retail_price"></span>
+                                            </div>
+                                          </div>
+                      
+                                          <div className="form-group">
+                                            <div className="modal-left-bx">
+                                              <label>MRP (incl. gst)</label>
+                                            </div>
+                                            <div className="modal-right-bx">
+                                              <input
+                                                type="number"
+                                                value={item.mrp ? item.mrp : ""}
+                                                name="mrp"
+                                                className="form-control"
+                                                placeholder="Enter MRP"
+                                                onChange={(ev) =>
+                                                  this.config_Form_Handler(ev, index, "mrp")
+                                                }
+                                              />
+                                              <span className="err err_mrp"></span>
+                                            </div>
+                                          </div>
+                      
+                                          <div className="form-group">
+                                            <div className="modal-left-bx">
+                                              <label>SKU Code</label>
+                                            </div>
+                                            <div className="modal-right-bx">
+                                              <input
+                                                type="number"
+                                                value={item.variantSKUcode ? item.variantSKUcode : ""}
+                                                name="variantSKUcode"
+                                                className="form-control"
+                                                placeholder="Enter SKU Code"
+                                                onChange={(ev) =>
+                                                  this.config_Form_Handler(ev, index, "variantSKUcode")
+                                                }
+                                              />
+                                              <span className="err err_mrp"></span>
+                                            </div>
+                                          </div>
+                      
+                                          <div className="form-group">
+                                            <div className="modal-left-bx">
+                                              <label>Image</label>
+                                            </div>
+                                            <div className="modal-right-bx">
+                                              <input
+                                                type="file"
+                                                // value={
+                                                //     item.image ? item.image : ""
+                                                // }
+                                                name="image"
+                                                className="form-control"
+                                                onChange={(ev) =>
+                                                  this.config_Form_Handler(ev, index, "image")
+                                                }
+                                              />
+                                              <span className="err err_image"></span>
+                                            </div>
+                                          </div>
+                      
+                                          <div className="form-group">
+                                            <div className="modal-left-bx">
+                                              <label>Variant Status</label>
+                                            </div>
+                                            <div className="modal-right-bx">
+                                              <Switch
+                                                onChange={(ev) =>
+                                                  this.config_Form_Handler(ev, index, "status")
+                                                }
+                                                checked={item.status}
+                                                id="normal-switch"
+                                              />
+                                            </div>
+                                          </div>
+                      
+                                          {/*<i
+                                              onClick={() =>
+                                                  this.deletevariant(index)
+                                              }
+                                              className="fa fa-trash"
+                                              aria-hidden="true"
+                                              ></i>*/}
+                                        </div>
+                                      </div>
+                                    </>
+                                  );
+                                })}
+                                <div className="form-group">
+                                  <button
+                                    type="button"
+                                    className="btn btn-primary feel-btnv2"
+                                    onClick={() => this.addmore2()}
+                                  >
+                                    {" "}
+                                    <i className="fa fa-plus" aria-hidden="true"></i>
+                                    Add Variant
+                                  </button>
+                                  <span className="err err_config_region"></span>
+                                </div>
+                              </>
+                            </div>
+                          </>
                           ) : (
                             <></>
                           )}

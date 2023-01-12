@@ -429,14 +429,15 @@ async componentWillMount(){
                 }
               })
             :res.data.data.configurableData.forEach((item) => {
-              let region = this.state.regionsData.filter((aj)=>aj._id == item.region)[0]
+              
+              // let region = this.state.regionsData.filter((aj)=>aj._id == item.region)[0]
                 if (
-                  new_data.filter((a) => a.value ===region._id).length > 0
+                  new_data.filter((a) => a && a?.value === item.region?._id).length > 0
                 ) {
                 } else {
                   new_data.push({
-                    value: region._id,
-                    name: region.name,
+                    value: item.region?._id,
+                    name: item.region?.name,
                   });
                 }
 

@@ -592,3 +592,69 @@
 [2023-01-09T18:00:00.504] [INFO] threshold_cron - ######################################################################
 [2023-01-09T18:00:00.504] [INFO] threshold_cron - Cron run on  2023-01-09T12:30:00.504Z mail start successfully
 [2023-01-09T18:00:00.506] [INFO] threshold_cron - product found successfully
+[2023-01-11T09:59:00.531] [INFO] threshold_cron - ######################################################################
+[2023-01-11T09:59:00.533] [INFO] threshold_cron - Cron run on  2023-01-11T04:29:00.533Z mail start successfully
+[2023-01-11T09:59:00.540] [INFO] threshold_cron - product found successfully
+[2023-01-11T10:00:00.663] [INFO] threshold_cron - ######################################################################
+[2023-01-11T10:00:00.664] [INFO] threshold_cron - Cron run on  2023-01-11T04:30:00.664Z mail start successfully
+[2023-01-11T10:00:00.673] [INFO] threshold_cron - product found successfully
+[2023-01-11T10:59:00.704] [INFO] threshold_cron - ######################################################################
+[2023-01-11T10:59:00.705] [INFO] threshold_cron - Cron run on  2023-01-11T05:29:00.705Z mail start successfully
+[2023-01-11T10:59:00.721] [INFO] threshold_cron - product found successfully
+[2023-01-11T11:00:00.831] [INFO] threshold_cron - ######################################################################
+[2023-01-11T11:00:00.831] [INFO] threshold_cron - Cron run on  2023-01-11T05:30:00.831Z mail start successfully
+[2023-01-11T11:00:00.847] [INFO] threshold_cron - product found successfully
+[2023-01-11T11:59:00.543] [INFO] threshold_cron - ######################################################################
+[2023-01-11T11:59:00.547] [INFO] threshold_cron - Cron run on  2023-01-11T06:29:00.547Z mail start successfully
+[2023-01-11T11:59:00.555] [INFO] threshold_cron - product found successfully
+[2023-01-11T12:00:00.680] [INFO] threshold_cron - ######################################################################
+[2023-01-11T12:00:00.681] [INFO] threshold_cron - Cron run on  2023-01-11T06:30:00.681Z mail start successfully
+[2023-01-11T12:00:00.683] [INFO] threshold_cron - product found successfully
+[2023-01-11T12:59:00.511] [INFO] threshold_cron - ######################################################################
+[2023-01-11T12:59:00.512] [INFO] threshold_cron - Cron run on  2023-01-11T07:29:00.512Z mail start successfully
+[2023-01-11T12:59:00.520] [INFO] threshold_cron - product found successfully
+[2023-01-11T13:00:00.643] [INFO] threshold_cron - ######################################################################
+[2023-01-11T13:00:00.643] [INFO] threshold_cron - Cron run on  2023-01-11T07:30:00.643Z mail start successfully
+[2023-01-11T13:00:00.646] [INFO] threshold_cron - product found successfully
+[2023-01-11T13:59:00.898] [INFO] threshold_cron - ######################################################################
+[2023-01-11T13:59:00.898] [INFO] threshold_cron - Cron run on  2023-01-11T08:29:00.898Z mail start successfully
+[2023-01-11T13:59:00.901] [INFO] threshold_cron - product found successfully
+[2023-01-11T14:00:00.030] [INFO] threshold_cron - ######################################################################
+[2023-01-11T14:00:00.030] [INFO] threshold_cron - Cron run on  2023-01-11T08:30:00.030Z mail start successfully
+[2023-01-11T14:00:00.036] [INFO] threshold_cron - product found successfully
+[2023-01-11T14:59:00.378] [INFO] threshold_cron - ######################################################################
+[2023-01-11T14:59:00.378] [INFO] threshold_cron - Cron run on  2023-01-11T09:29:00.378Z mail start successfully
+[2023-01-11T14:59:00.382] [INFO] threshold_cron - product found successfully
+[2023-01-11T15:00:00.537] [INFO] threshold_cron - ######################################################################
+[2023-01-11T15:00:00.537] [INFO] threshold_cron - Cron run on  2023-01-11T09:30:00.537Z mail start successfully
+[2023-01-11T15:00:00.568] [INFO] threshold_cron - product found successfully
+[2023-01-11T15:59:00.831] [INFO] threshold_cron - ######################################################################
+[2023-01-11T15:59:00.833] [INFO] threshold_cron - Cron run on  2023-01-11T10:29:00.833Z mail start successfully
+[2023-01-11T15:59:00.843] [INFO] threshold_cron - product found successfully
+[2023-01-11T16:00:00.965] [INFO] threshold_cron - ######################################################################
+[2023-01-11T16:00:00.966] [INFO] threshold_cron - Cron run on  2023-01-11T10:30:00.966Z mail start successfully
+[2023-01-11T16:00:00.969] [INFO] threshold_cron - product found successfully
+[2023-01-11T16:59:00.363] [INFO] threshold_cron - ######################################################################
+[2023-01-11T16:59:00.365] [INFO] threshold_cron - Cron run on  2023-01-11T11:29:00.365Z mail start successfully
+[2023-01-11T16:59:00.369] [INFO] threshold_cron - product found successfully
+[2023-01-11T17:00:00.490] [INFO] threshold_cron - ######################################################################
+[2023-01-11T17:00:00.490] [INFO] threshold_cron - Cron run on  2023-01-11T11:30:00.490Z mail start successfully
+[2023-01-11T17:00:00.493] [INFO] threshold_cron - product found successfully
+[2023-01-11T17:59:00.208] [INFO] threshold_cron - ######################################################################
+[2023-01-11T17:59:00.208] [INFO] threshold_cron - Cron run on  2023-01-11T12:29:00.208Z mail start successfully
+[2023-01-11T17:59:00.233] [INFO] threshold_cron - product found successfully
+[2023-01-11T18:00:00.348] [INFO] threshold_cron - ######################################################################
+[2023-01-11T18:00:00.348] [INFO] threshold_cron - Cron run on  2023-01-11T12:30:00.348Z mail start successfully
+[2023-01-11T18:00:00.350] [INFO] threshold_cron - product found successfully
+[2023-01-12T09:59:00.543] [INFO] threshold_cron - ######################################################################
+[2023-01-12T09:59:00.544] [INFO] threshold_cron - Cron run on  2023-01-12T04:29:00.544Z mail start successfully
+[2023-01-12T09:59:00.567] [INFO] threshold_cron - product found successfully
+[2023-01-12T10:00:00.674] [INFO] threshold_cron - ######################################################################
+[2023-01-12T10:00:00.674] [INFO] threshold_cron - Cron run on  2023-01-12T04:30:00.674Z mail start successfully
+[2023-01-12T10:00:00.698] [INFO] threshold_cron - product found successfully
+[2023-01-12T10:59:00.569] [INFO] threshold_cron - ######################################################################
+[2023-01-12T10:59:00.571] [INFO] threshold_cron - Cron run on  2023-01-12T05:29:00.571Z mail start successfully
+[2023-01-12T10:59:00.583] [INFO] threshold_cron - product found successfully
+[2023-01-12T11:00:00.703] [INFO] threshold_cron - ######################################################################
+[2023-01-12T11:00:00.704] [INFO] threshold_cron - Cron run on  2023-01-12T05:30:00.704Z mail start successfully
+[2023-01-12T11:00:00.706] [INFO] threshold_cron - product found successfully

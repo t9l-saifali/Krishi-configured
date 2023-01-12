@@ -594,3 +594,86 @@ Require stack:
 [2023-01-09T12:00:00.596] [ERROR] node_process_error - unhandled error / uncaughtException :::::: TypeError: Cannot read properties of undefined (reading 'forEach')
 [2023-01-09T14:18:42.565] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
 [2023-01-09T18:00:00.519] [ERROR] node_process_error - unhandled error / uncaughtException :::::: TypeError: Cannot read properties of undefined (reading 'forEach')
+[2023-01-11T09:31:58.930] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-11T11:43:23.529] [ERROR] node_process_error - unhandled error / uncaughtException :::::: Error: listen EADDRINUSE: address already in use :::1234
+[2023-01-11T11:43:23.549] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-11T11:43:36.850] [ERROR] node_process_error - unhandled error / uncaughtException :::::: Error: listen EADDRINUSE: address already in use :::1234
+[2023-01-11T11:43:36.867] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-11T11:43:48.745] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-11T11:47:06.805] [DEBUG] node_process_error - Mongoose disconnected
+[2023-01-11T11:47:06.809] [DEBUG] node_process_error - Mongoose connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+[2023-01-11T11:47:06.809] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+      at NativeConnection.Connection.openUri (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/connection.js:825:32)
+      at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/index.js:419:10
+      at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+      at new Promise (<anonymous>)
+      at promiseOrCallback (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+      at Mongoose._promiseOrCallback (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/index.js:1272:10)
+      at Mongoose.connect (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/index.js:418:20)
+      at Object.<anonymous> (/home/t9l_saif/Desktop/Saif/Configured/api/api/data/db.js:101:10)
+      at Module._compile (node:internal/modules/cjs/loader:1155:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10) {
+    reason: TopologyDescription {
+      type: 'Unknown',
+      servers: [Map],
+      stale: false,
+      compatible: true,
+      heartbeatFrequencyMS: 10000,
+      localThresholdMS: 15,
+      setName: null,
+      maxElectionId: null,
+      maxSetVersion: null,
+      commonWireVersion: 0,
+      logicalSessionTimeoutMinutes: null
+    },
+    code: undefined
+  }
+} reason: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+[2023-01-11T11:48:12.149] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-11T12:00:00.697] [ERROR] node_process_error - unhandled error / uncaughtException :::::: TypeError: Cannot read properties of undefined (reading 'forEach')
+[2023-01-11T15:50:43.724] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-11T16:27:55.484] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-11T16:36:30.655] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-11T16:47:56.964] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-11T18:00:00.364] [ERROR] node_process_error - unhandled error / uncaughtException :::::: TypeError: Cannot read properties of undefined (reading 'forEach')
+[2023-01-11T18:06:33.317] [DEBUG] node_process_error - Mongoose disconnected
+[2023-01-12T09:46:43.536] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-12T09:48:20.735] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> [Error: ENOENT: no such file or directory, open './public/reports/Available_Quantity_Report (12-01-2023 09:48 am).csv'] {
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'open',
+    path: './public/reports/Available_Quantity_Report (12-01-2023 09:48 am).csv'
+  }
+} reason: Error: ENOENT: no such file or directory, open './public/reports/Available_Quantity_Report (12-01-2023 09:48 am).csv'
+[2023-01-12T09:50:38.259] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> [Error: ENOENT: no such file or directory, open './public/reports/Available_Quantity_Report (12-01-2023 09:50 am).csv'] {
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'open',
+    path: './public/reports/Available_Quantity_Report (12-01-2023 09:50 am).csv'
+  }
+} reason: Error: ENOENT: no such file or directory, open './public/reports/Available_Quantity_Report (12-01-2023 09:50 am).csv'
+[2023-01-12T09:50:46.302] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-12T09:50:53.325] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> [Error: ENOENT: no such file or directory, open './public/reports/Available_Quantity_Report (12-01-2023 09:50 am).csv'] {
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'open',
+    path: './public/reports/Available_Quantity_Report (12-01-2023 09:50 am).csv'
+  }
+} reason: Error: ENOENT: no such file or directory, open './public/reports/Available_Quantity_Report (12-01-2023 09:50 am).csv'
+[2023-01-12T09:52:15.060] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-12T09:52:35.256] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> [Error: ENOENT: no such file or directory, open './public/reports/Available_Quantity_Report (12-01-2023 09:52 am).csv'] {
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'open',
+    path: './public/reports/Available_Quantity_Report (12-01-2023 09:52 am).csv'
+  }
+} reason: Error: ENOENT: no such file or directory, open './public/reports/Available_Quantity_Report (12-01-2023 09:52 am).csv'
+[2023-01-12T09:53:37.751] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-12T10:11:52.116] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-12T10:50:48.221] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-12T13:37:09.591] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db

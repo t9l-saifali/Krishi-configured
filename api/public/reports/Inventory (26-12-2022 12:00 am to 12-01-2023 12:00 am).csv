@@ -1,0 +1,5 @@
+category,Product Name,Product Measurement,Purchased Quantity,Available Quantity,Booked Quantity,Inhouse Quantity,Lost Quantity,Return Quantity,Average Cost Price,Total Cost Price
+fruits,apple,kg,11,0,0,0,11,0,11.18,123.00
+Shoes,Bacca Bucci Demon High-top Casual Shoe,,1799,1765,0,10,12,12,651.14,1171400.00
+Phones,iphone14,piece,56,56,0,0,0,0,30000.00,1680000.00
+veges,pasta,,347,314,5,10,0,18,0.00,0

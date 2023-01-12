@@ -228,7 +228,8 @@ export default class returninventory extends Component {
               availableQuantity: pck.availableQuantity,
             },
           ];
-        } else {let strr = "arrOfInventory" + index 
+        } else { 
+        let strr = "arrOfInventory" + index 
         let regionNmae =  MultipleArray[index].AllPackages.filter((cur)=>cur.regionID == valu)[0].region
          let variant = this.state[strr].filter((curf)=>curf.region == regionNmae)
          MultipleArray[index].variants = variant

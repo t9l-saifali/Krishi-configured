@@ -3683,6 +3683,7 @@ module.exports.UpdateProduct = function (req, res) {
                       for (let i = 0; i < conData.length; i++) {
                         const conf = conData[i];
                         let identifier = conf.region;
+                        conf.attributes.filter((attribute) => attribute.attributeName);
                         conf.attributes.forEach((attribute) => {
                           identifier += `__${attribute.attributeName}__${attribute.attributeValue}`;
                         });

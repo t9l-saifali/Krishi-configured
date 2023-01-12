@@ -1,0 +1,6 @@
+Category,Product Name,Region,Total Quantity,Product Measurment,Available Quantity,Sold Quantity,Inhouse Quantity,Return Quantity,Lost Quantity
+fruits,apple,delhi ncr,38,kg,0,4,0,0,34
+Shoes,Bacca Bucci Demon High-top Casual Shoe,delhi ncr,1909,piece,1765,17,10,12,105
+"fruits,veges",Cucumber,delhi ncr,51,piece,28,10,12,0,1
+Phones,iphone14,delhi ncr,56,piece,56,0,0,0,0
+veges,pasta,delhi ncr,347,,314,5,10,18,0

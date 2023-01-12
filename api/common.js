@@ -2388,9 +2388,9 @@ module.exports = {
         } else {
           var product_id = BookingDetailZ.product_id._id;
           var regionID = CreateBookingData.regionID;
-          var qty = Decimal(BookingDetailZ.unitQuantity).times(
-            BookingDetailZ.qty
-          );
+          // var qty = Decimal(BookingDetailZ.unitQuantity).times(
+          //   BookingDetailZ.qty
+          // );
           qty = qty ? qty : 0;
           await module.exports.reduceQty(
             product_id,

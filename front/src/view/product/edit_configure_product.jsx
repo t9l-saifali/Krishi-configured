@@ -15,7 +15,7 @@ function Edit_Configured(props) {
     var addmoredata = [];
     addmoredata = [...configure_data];
     addmoredata.push({
-      attributes: [],
+      ...configure_data[0],
       region: "",
       selling_price: "",
       B2B_price: "",
@@ -31,6 +31,8 @@ function Edit_Configured(props) {
       ExpirationDate: "",
       quantity: 0,
       returnQuantity: 0,
+      newlyAdded:true,
+      attributes:[]
     });
     setTimeout(() => {
       setConfiguredata(addmoredata);
@@ -72,12 +74,22 @@ function Edit_Configured(props) {
       } else {
         Configured_Product[index].status = false;
       }
-    }
+    } 
+    
     setConfiguredata([]);
     setConfiguredata(Configured_Product);
     console.log(Configured_Product);
   };
-
+const config_Form_Handler2 = (e, index, item)=>{
+  var Configured_Product = [];
+  Configured_Product = [...configure_data];
+  Configured_Product[index].attributes.push({
+    attributeId: item._id,
+    attributeName: item.name,
+    attributeValue: e.target.value,
+  })
+  setConfiguredata(Configured_Product);
+}
   useEffect(() => {
     console.log("configure_dataconfigure_data", configure_data);
   }, [configure_data]);
@@ -130,13 +142,12 @@ function Edit_Configured(props) {
   }, []);
 
   return (
-    <>{
-      console.log(props.regionData)}
+    <>
       <h3>Configured Product</h3>
       <div className="inner_details_admin">
         <div className="main-form" style={{ width: "100%" }}>
           <div className="modal-left-bx">
-            <label>Select Attribute Group</label>
+            <label>Select Variant Group</label>
           </div>
           <div className="modal-right-bx"></div>
         </div>
@@ -155,7 +166,7 @@ function Edit_Configured(props) {
               <>
                 <div key={index}>
                   <div className="configured_product">
-                    {item.attributes
+                    {item.attributes.length > 0 && configure_data[index]?.newlyAdded != true
                       ? item.attributes.map((item1, index1) => {
                           return (
                             <div className="form-group">
@@ -169,6 +180,69 @@ function Edit_Configured(props) {
                           );
                         })
                       : ""}
+                      { configure_data[index]?.newlyAdded == true
+                                              ? configure_data[0].attributes.map(
+                                                  (item, index1) => {
+                                                    return (
+                                                      <div className="form-group">
+                                                        <div className="modal-left-bx">
+                                                          <label>
+                                                            {item.attributeId.name}
+                                                          </label>
+                                                          <span className="asterisk">
+                                                            *
+                                                          </span>
+                                                        </div>
+                                                        <div className="modal-right-bx">
+                                                          <select
+                                                            name="attributes"
+                                                            onChange={
+                                                              (ev) =>
+                                                                config_Form_Handler2(
+                                                                  ev,
+                                                                  index,
+                                                                  item
+                                                                )
+                                                              // this.formHandler(
+                                                              //   ev
+                                                              // )
+                                                            }
+                                                          >
+                                                            <option value="">
+                                                              Select {item.attributeId.name}
+                                                            </option>
+                                                            {item.attributeId.item.map(
+                                                              (data, index) => {
+                                                                return (
+                                                                  <option
+                                                                    value={
+                                                                      data.item_name
+                                                                    }
+                                                                  >
+                                                                    {
+                                                                      data.item_name
+                                                                    }
+                                                                  </option>
+                                                                );
+                                                              }
+                                                            )}
+                                                          </select>
+                                                          <span
+                                                            className={
+                                                              "err err_config_variant_diff" +
+                                                              index +
+                                                              item._id
+                                                            }
+                                                            style={{
+                                                              display: "block",
+                                                            }}
+                                                          ></span>
+                                                        </div>
+                                                      </div>
+                                                    );
+                                                  }
+                                                )
+                                              : ""}
                     <div className="form-group">
                       <div className="modal-left-bx">
                         <label>Select Region </label> 

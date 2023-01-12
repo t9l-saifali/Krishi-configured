@@ -1365,3 +1365,705 @@
     at processImmediate (node:internal/timers:437:9) 
  
 
+[2023-01-11T09:59:00.545] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processImmediate (node:internal/timers:437:9) 
+ 
+
+[2023-01-11T09:59:00.548] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-11T10:00:00.696] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-11T10:00:00.700] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-11T10:59:00.726] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processImmediate (node:internal/timers:437:9) 
+ 
+
+[2023-01-11T10:59:00.727] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-11T11:00:00.859] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processImmediate (node:internal/timers:437:9) 
+ 
+
+[2023-01-11T11:00:00.860] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-11T11:59:00.560] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processImmediate (node:internal/timers:437:9) 
+ 
+
+[2023-01-11T11:59:00.562] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-11T12:00:00.695] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-11T12:00:00.700] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-11T12:59:00.539] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-11T12:59:00.542] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-11T13:00:00.654] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-11T13:00:00.656] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-11T13:59:00.908] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-11T13:59:00.910] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-11T14:00:00.056] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-11T14:00:00.060] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-11T14:59:00.391] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-11T14:59:00.393] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-11T15:00:00.582] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processImmediate (node:internal/timers:437:9) 
+ 
+
+[2023-01-11T15:00:00.584] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-11T15:29:37.930] [ERROR] errors - CastError: Cast to embedded failed for value "{
+  region: '',
+  variant_name: '',
+  attributes: [],
+  selling_price: '',
+  B2B_price: '',
+  Retail_price: '',
+  mrp: '',
+  variantSKUcode: '',
+  image: '',
+  ExpirationDate: '',
+  status: true,
+  availableQuantity: 0,
+  bookingQuantity: 0,
+  inhouseQuantity: 0,
+  lostQuantity: 0,
+  quantity: 0,
+  returnQuantity: 0,
+  newlyAdded: true
+}" (type Object) at path "configurableData" because of "CastError"
+    at model.Query.exec (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4913:21)
+    at model.Query.Query.exec (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose-sub-references-populate/index.js:51:34)
+    at _update (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4758:11)
+    at model.Query.Query.updateMany (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4577:10)
+    at _update (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:4239:16)
+    at Function.updateMany (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:4128:10)
+    at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/product.controller.js:3924:23
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"{\n' +
+    "  region: '',\n" +
+    "  variant_name: '',\n" +
+    '  attributes: [],\n' +
+    "  selling_price: '',\n" +
+    "  B2B_price: '',\n" +
+    "  Retail_price: '',\n" +
+    "  mrp: '',\n" +
+    "  variantSKUcode: '',\n" +
+    "  image: '',\n" +
+    "  ExpirationDate: '',\n" +
+    '  status: true,\n' +
+    '  availableQuantity: 0,\n' +
+    '  bookingQuantity: 0,\n' +
+    '  inhouseQuantity: 0,\n' +
+    '  lostQuantity: 0,\n' +
+    '  quantity: 0,\n' +
+    '  returnQuantity: 0,\n' +
+    '  newlyAdded: true\n' +
+    '}"',
+  kind: 'embedded',
+  value: {
+    region: '',
+    variant_name: '',
+    attributes: [],
+    selling_price: '',
+    B2B_price: '',
+    Retail_price: '',
+    mrp: '',
+    variantSKUcode: '',
+    image: '',
+    ExpirationDate: '',
+    status: true,
+    availableQuantity: 0,
+    bookingQuantity: 0,
+    inhouseQuantity: 0,
+    lostQuantity: 0,
+    quantity: 0,
+    returnQuantity: 0,
+    newlyAdded: true
+  },
+  path: 'configurableData',
+  reason: CastError: Cast to ObjectId failed for value "" (type string) at path "region" because of "BSONTypeError"
+      at ObjectId.cast (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/objectid.js:248:11)
+      at ObjectId.SchemaType.applySetters (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1201:12)
+      at EmbeddedDocument.$set (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/document.js:1421:22)
+      at EmbeddedDocument.$set (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/document.js:1146:16)
+      at EmbeddedDocument.Document (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/document.js:166:12)
+      at EmbeddedDocument.Subdocument (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/types/subdocument.js:31:12)
+      at EmbeddedDocument.ArraySubdocument [as constructor] (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/types/ArraySubdocument.js:36:15)
+      at new EmbeddedDocument (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/documentarray.js:134:17)
+      at DocumentArrayPath.cast (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/documentarray.js:507:22)
+      at DocumentArrayPath.SchemaType.applySetters (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1201:12)
+      at DocumentArrayPath.SchemaType._castForQuery (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1648:15)
+      at DocumentArrayPath.SchemaType.castForQueryWrapper (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1607:22)
+      at castUpdateVal (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:560:19)
+      at walkUpdatePath (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:371:24)
+      at castUpdate (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:98:7)
+      at model.Query._castUpdate (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:5126:10)
+      at model.Query._updateThunk (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4265:27)
+      at model.Query.<anonymous> (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4365:23)
+      at model.Query._wrappedThunk [as _updateMany] (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/wrapThunk.js:29:8)
+      at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/kareem/index.js:494:25
+      at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+    stringValue: '""',
+    messageFormat: undefined,
+    kind: 'ObjectId',
+    value: '',
+    path: 'region',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/bson/lib/error.js:41:28)
+        at new ObjectId (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/bson/lib/objectid.js:67:23)
+        at castObjectId (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/cast/objectid.js:25:12)
+        at ObjectId.cast (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1201:12)
+        at EmbeddedDocument.$set (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/document.js:1421:22)
+        at EmbeddedDocument.$set (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/document.js:1146:16)
+        at EmbeddedDocument.Document (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/document.js:166:12)
+        at EmbeddedDocument.Subdocument (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/types/subdocument.js:31:12)
+        at EmbeddedDocument.ArraySubdocument [as constructor] (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/types/ArraySubdocument.js:36:15)
+        at new EmbeddedDocument (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/documentarray.js:134:17)
+        at DocumentArrayPath.cast (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/documentarray.js:507:22)
+        at DocumentArrayPath.SchemaType.applySetters (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1201:12)
+        at DocumentArrayPath.SchemaType._castForQuery (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1648:15)
+        at DocumentArrayPath.SchemaType.castForQueryWrapper (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1607:22)
+        at castUpdateVal (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:560:19)
+        at walkUpdatePath (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:371:24)
+        at castUpdate (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:98:7)
+        at model.Query._castUpdate (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:5126:10)
+        at model.Query._updateThunk (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4265:27)
+        at model.Query.<anonymous> (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4365:23)
+        at model.Query._wrappedThunk [as _updateMany] (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/wrapThunk.js:29:8),
+    valueType: 'string'
+  },
+  valueType: 'Object'
+} 
+ 
+
+[2023-01-11T15:29:56.526] [ERROR] errors - CastError: Cast to embedded failed for value "{
+  region: '',
+  variant_name: '',
+  attributes: [],
+  selling_price: '',
+  B2B_price: '',
+  Retail_price: '',
+  mrp: '',
+  variantSKUcode: '',
+  image: '',
+  ExpirationDate: '',
+  status: true,
+  availableQuantity: 0,
+  bookingQuantity: 0,
+  inhouseQuantity: 0,
+  lostQuantity: 0,
+  quantity: 0,
+  returnQuantity: 0,
+  newlyAdded: true
+}" (type Object) at path "configurableData" because of "CastError"
+    at model.Query.exec (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4913:21)
+    at model.Query.Query.exec (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose-sub-references-populate/index.js:51:34)
+    at _update (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4758:11)
+    at model.Query.Query.updateMany (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4577:10)
+    at _update (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:4239:16)
+    at Function.updateMany (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:4128:10)
+    at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/product.controller.js:3924:23
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"{\n' +
+    "  region: '',\n" +
+    "  variant_name: '',\n" +
+    '  attributes: [],\n' +
+    "  selling_price: '',\n" +
+    "  B2B_price: '',\n" +
+    "  Retail_price: '',\n" +
+    "  mrp: '',\n" +
+    "  variantSKUcode: '',\n" +
+    "  image: '',\n" +
+    "  ExpirationDate: '',\n" +
+    '  status: true,\n' +
+    '  availableQuantity: 0,\n' +
+    '  bookingQuantity: 0,\n' +
+    '  inhouseQuantity: 0,\n' +
+    '  lostQuantity: 0,\n' +
+    '  quantity: 0,\n' +
+    '  returnQuantity: 0,\n' +
+    '  newlyAdded: true\n' +
+    '}"',
+  kind: 'embedded',
+  value: {
+    region: '',
+    variant_name: '',
+    attributes: [],
+    selling_price: '',
+    B2B_price: '',
+    Retail_price: '',
+    mrp: '',
+    variantSKUcode: '',
+    image: '',
+    ExpirationDate: '',
+    status: true,
+    availableQuantity: 0,
+    bookingQuantity: 0,
+    inhouseQuantity: 0,
+    lostQuantity: 0,
+    quantity: 0,
+    returnQuantity: 0,
+    newlyAdded: true
+  },
+  path: 'configurableData',
+  reason: CastError: Cast to ObjectId failed for value "" (type string) at path "region" because of "BSONTypeError"
+      at ObjectId.cast (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/objectid.js:248:11)
+      at ObjectId.SchemaType.applySetters (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1201:12)
+      at EmbeddedDocument.$set (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/document.js:1421:22)
+      at EmbeddedDocument.$set (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/document.js:1146:16)
+      at EmbeddedDocument.Document (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/document.js:166:12)
+      at EmbeddedDocument.Subdocument (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/types/subdocument.js:31:12)
+      at EmbeddedDocument.ArraySubdocument [as constructor] (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/types/ArraySubdocument.js:36:15)
+      at new EmbeddedDocument (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/documentarray.js:134:17)
+      at DocumentArrayPath.cast (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/documentarray.js:507:22)
+      at DocumentArrayPath.SchemaType.applySetters (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1201:12)
+      at DocumentArrayPath.SchemaType._castForQuery (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1648:15)
+      at DocumentArrayPath.SchemaType.castForQueryWrapper (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1607:22)
+      at castUpdateVal (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:560:19)
+      at walkUpdatePath (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:371:24)
+      at castUpdate (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:98:7)
+      at model.Query._castUpdate (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:5126:10)
+      at model.Query._updateThunk (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4265:27)
+      at model.Query.<anonymous> (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4365:23)
+      at model.Query._wrappedThunk [as _updateMany] (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/wrapThunk.js:29:8)
+      at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/kareem/index.js:494:25
+      at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+    stringValue: '""',
+    messageFormat: undefined,
+    kind: 'ObjectId',
+    value: '',
+    path: 'region',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/bson/lib/error.js:41:28)
+        at new ObjectId (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/bson/lib/objectid.js:67:23)
+        at castObjectId (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/cast/objectid.js:25:12)
+        at ObjectId.cast (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1201:12)
+        at EmbeddedDocument.$set (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/document.js:1421:22)
+        at EmbeddedDocument.$set (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/document.js:1146:16)
+        at EmbeddedDocument.Document (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/document.js:166:12)
+        at EmbeddedDocument.Subdocument (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/types/subdocument.js:31:12)
+        at EmbeddedDocument.ArraySubdocument [as constructor] (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/types/ArraySubdocument.js:36:15)
+        at new EmbeddedDocument (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/documentarray.js:134:17)
+        at DocumentArrayPath.cast (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/documentarray.js:507:22)
+        at DocumentArrayPath.SchemaType.applySetters (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1201:12)
+        at DocumentArrayPath.SchemaType._castForQuery (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1648:15)
+        at DocumentArrayPath.SchemaType.castForQueryWrapper (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1607:22)
+        at castUpdateVal (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:560:19)
+        at walkUpdatePath (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:371:24)
+        at castUpdate (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:98:7)
+        at model.Query._castUpdate (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:5126:10)
+        at model.Query._updateThunk (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4265:27)
+        at model.Query.<anonymous> (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4365:23)
+        at model.Query._wrappedThunk [as _updateMany] (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/wrapThunk.js:29:8),
+    valueType: 'string'
+  },
+  valueType: 'Object'
+} 
+ 
+
+[2023-01-11T15:30:34.464] [ERROR] errors - CastError: Cast to embedded failed for value "{
+  region: {
+    value: '63a3eeea317b2b2f634e63dd',
+    label: 'delhi ncr',
+    name: 'delhi ncr',
+    index: 0
+  },
+  variant_name: 'undefined__Indian__undefined__Delivery',
+  attributes: [ { attributeValue: 'Indian' }, { attributeValue: 'Delivery' } ],
+  selling_price: 1234,
+  B2B_price: '',
+  Retail_price: '',
+  mrp: '',
+  variantSKUcode: '12345',
+  image: '',
+  ExpirationDate: '',
+  status: true,
+  availableQuantity: 0,
+  bookingQuantity: 0,
+  inhouseQuantity: 0,
+  lostQuantity: 0,
+  quantity: 0,
+  returnQuantity: 0,
+  newlyAdded: true
+}" (type Object) at path "configurableData" because of "CastError"
+    at model.Query.exec (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4913:21)
+    at model.Query.Query.exec (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose-sub-references-populate/index.js:51:34)
+    at _update (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4758:11)
+    at model.Query.Query.updateMany (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4577:10)
+    at _update (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:4239:16)
+    at Function.updateMany (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/model.js:4128:10)
+    at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/product.controller.js:3924:23
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"{\n' +
+    '  region: {\n' +
+    "    value: '63a3eeea317b2b2f634e63dd',\n" +
+    "    label: 'delhi ncr',\n" +
+    "    name: 'delhi ncr',\n" +
+    '    index: 0\n' +
+    '  },\n' +
+    "  variant_name: 'undefined__Indian__undefined__Delivery',\n" +
+    "  attributes: [ { attributeValue: 'Indian' }, { attributeValue: 'Delivery' } ],\n" +
+    '  selling_price: 1234,\n' +
+    "  B2B_price: '',\n" +
+    "  Retail_price: '',\n" +
+    "  mrp: '',\n" +
+    "  variantSKUcode: '12345',\n" +
+    "  image: '',\n" +
+    "  ExpirationDate: '',\n" +
+    '  status: true,\n' +
+    '  availableQuantity: 0,\n' +
+    '  bookingQuantity: 0,\n' +
+    '  inhouseQuantity: 0,\n' +
+    '  lostQuantity: 0,\n' +
+    '  quantity: 0,\n' +
+    '  returnQuantity: 0,\n' +
+    '  newlyAdded: true\n' +
+    '}"',
+  kind: 'embedded',
+  value: {
+    region: {
+      value: '63a3eeea317b2b2f634e63dd',
+      label: 'delhi ncr',
+      name: 'delhi ncr',
+      index: 0
+    },
+    variant_name: 'undefined__Indian__undefined__Delivery',
+    attributes: [ [Object], [Object] ],
+    selling_price: 1234,
+    B2B_price: '',
+    Retail_price: '',
+    mrp: '',
+    variantSKUcode: '12345',
+    image: '',
+    ExpirationDate: '',
+    status: true,
+    availableQuantity: 0,
+    bookingQuantity: 0,
+    inhouseQuantity: 0,
+    lostQuantity: 0,
+    quantity: 0,
+    returnQuantity: 0,
+    newlyAdded: true
+  },
+  path: 'configurableData',
+  reason: CastError: Cast to ObjectId failed for value "{
+    value: '63a3eeea317b2b2f634e63dd',
+    label: 'delhi ncr',
+    name: 'delhi ncr',
+    index: 0
+  }" (type Object) at path "region" because of "BSONTypeError"
+      at ObjectId.cast (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/objectid.js:248:11)
+      at ObjectId.SchemaType.applySetters (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1201:12)
+      at EmbeddedDocument.$set (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/document.js:1421:22)
+      at EmbeddedDocument.$set (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/document.js:1146:16)
+      at EmbeddedDocument.Document (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/document.js:166:12)
+      at EmbeddedDocument.Subdocument (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/types/subdocument.js:31:12)
+      at EmbeddedDocument.ArraySubdocument [as constructor] (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/types/ArraySubdocument.js:36:15)
+      at new EmbeddedDocument (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/documentarray.js:134:17)
+      at DocumentArrayPath.cast (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/documentarray.js:507:22)
+      at DocumentArrayPath.SchemaType.applySetters (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1201:12)
+      at DocumentArrayPath.SchemaType._castForQuery (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1648:15)
+      at DocumentArrayPath.SchemaType.castForQueryWrapper (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1607:22)
+      at castUpdateVal (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:560:19)
+      at walkUpdatePath (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:371:24)
+      at castUpdate (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:98:7)
+      at model.Query._castUpdate (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:5126:10)
+      at model.Query._updateThunk (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4265:27)
+      at model.Query.<anonymous> (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4365:23)
+      at model.Query._wrappedThunk [as _updateMany] (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/wrapThunk.js:29:8)
+      at /home/t9l_saif/Desktop/Saif/Configured/api/node_modules/kareem/index.js:494:25
+      at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+    stringValue: '"{\n' +
+      "  value: '63a3eeea317b2b2f634e63dd',\n" +
+      "  label: 'delhi ncr',\n" +
+      "  name: 'delhi ncr',\n" +
+      '  index: 0\n' +
+      '}"',
+    messageFormat: undefined,
+    kind: 'ObjectId',
+    value: {
+      value: '63a3eeea317b2b2f634e63dd',
+      label: 'delhi ncr',
+      name: 'delhi ncr',
+      index: 0
+    },
+    path: 'region',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/bson/lib/error.js:41:28)
+        at new ObjectId (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/bson/lib/objectid.js:67:23)
+        at castObjectId (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/cast/objectid.js:25:12)
+        at ObjectId.cast (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1201:12)
+        at EmbeddedDocument.$set (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/document.js:1421:22)
+        at EmbeddedDocument.$set (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/document.js:1146:16)
+        at EmbeddedDocument.Document (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/document.js:166:12)
+        at EmbeddedDocument.Subdocument (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/types/subdocument.js:31:12)
+        at EmbeddedDocument.ArraySubdocument [as constructor] (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/types/ArraySubdocument.js:36:15)
+        at new EmbeddedDocument (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/documentarray.js:134:17)
+        at DocumentArrayPath.cast (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schema/documentarray.js:507:22)
+        at DocumentArrayPath.SchemaType.applySetters (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1201:12)
+        at DocumentArrayPath.SchemaType._castForQuery (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1648:15)
+        at DocumentArrayPath.SchemaType.castForQueryWrapper (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/schematype.js:1607:22)
+        at castUpdateVal (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:560:19)
+        at walkUpdatePath (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:371:24)
+        at castUpdate (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/castUpdate.js:98:7)
+        at model.Query._castUpdate (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:5126:10)
+        at model.Query._updateThunk (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4265:27)
+        at model.Query.<anonymous> (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/query.js:4365:23)
+        at model.Query._wrappedThunk [as _updateMany] (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/mongoose/lib/helpers/query/wrapThunk.js:29:8),
+    valueType: 'Object'
+  },
+  valueType: 'Object'
+} 
+ 
+
+[2023-01-11T15:59:00.851] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processImmediate (node:internal/timers:437:9) 
+ 
+
+[2023-01-11T15:59:00.854] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-11T16:00:00.981] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-11T16:00:00.985] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-11T16:59:00.376] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-11T16:59:00.380] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-11T17:00:00.503] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-11T17:00:00.506] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-11T17:59:00.242] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processImmediate (node:internal/timers:437:9) 
+ 
+
+[2023-01-11T17:59:00.245] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-11T18:00:00.355] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-11T18:00:00.362] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processImmediate (node:internal/timers:437:9) 
+ 
+
+[2023-01-12T09:59:00.582] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processImmediate (node:internal/timers:437:9) 
+ 
+
+[2023-01-12T09:59:00.588] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-12T10:00:00.713] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processImmediate (node:internal/timers:437:9) 
+ 
+
+[2023-01-12T10:00:00.714] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-12T10:00:14.869] [ERROR] errors - Error: [DecimalError] Invalid argument: null
+    at new Decimal (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/decimal.js/decimal.js:4373:15)
+    at Decimal (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/decimal.js/decimal.js:4290:43)
+    at Object.reduceQtyFormproductAndInventory (/home/t9l_saif/Desktop/Saif/Configured/api/common.js:2391:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async module.exports.updateRazorpayPaymentStatus (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:4263:7) 
+ 
+
+[2023-01-12T10:09:03.278] [ERROR] errors - Error: [DecimalError] Invalid argument: null
+    at new Decimal (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/decimal.js/decimal.js:4373:15)
+    at Decimal (/home/t9l_saif/Desktop/Saif/Configured/api/node_modules/decimal.js/decimal.js:4290:43)
+    at Object.reduceQtyFormproductAndInventory (/home/t9l_saif/Desktop/Saif/Configured/api/common.js:2391:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:9788:9 
+ 
+
+[2023-01-12T10:20:23.155] [ERROR] errors - TypeError: Cannot read properties of null (reading 'mail_host')
+    at Object.sendMail (/home/t9l_saif/Desktop/Saif/Configured/api/common.js:827:24)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-12T10:29:17.157] [ERROR] errors - TypeError: Cannot read properties of null (reading 'image')
+    at module.exports.generateInvoice (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:9078:91)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-12T10:59:00.589] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processImmediate (node:internal/timers:437:9) 
+ 
+
+[2023-01-12T10:59:00.592] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-12T11:00:00.726] [ERROR] errors - TypeError: Cannot read properties of null (reading 'threshold')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:228:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-12T11:00:00.730] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+

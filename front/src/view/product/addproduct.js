@@ -1386,6 +1386,12 @@ await AdminApiRequest({ id: null }, "/getAllDescendantCategories", "POST")
           res.data.data.forEach((item, index) => {
             activegroupattribute.push({ label: item.name, value: item._id });
           });
+          activegroupattribute = activegroupattribute.reduce((acc, obj) => {
+            if (!(acc.find(o => String(o?.value) == String(obj?.value)) )) {
+                acc.push(obj);
+              }
+            return acc;
+          }, []);
           this.setState({
             loading: false,
           });
@@ -2767,7 +2773,7 @@ await AdminApiRequest({ id: null }, "/getAllDescendantCategories", "POST")
                                 >
                                   <div className="modal-left-bx">
                                     <label>
-                                      Select Attribute Group
+                                      Select Variant Group
                                       <span className="asterisk">*</span>
                                     </label>
                                   </div>
