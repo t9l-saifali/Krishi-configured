@@ -5902,7 +5902,6 @@ module.exports.CSVReportGenrate = async function (req, res) {
         {
           $group: {
             _id: { product_id: "$product_id", region: "$region" },
-            variant_name:{ $first: "$variant_name" },
             product_measurment: { $first: "$product_measurment" },
             product_categories: { $first: "$product_categories" },
             product_name: { $first: "$product_name" },
