@@ -894,7 +894,7 @@ export default class Customer extends Component {
                           </span>
                         </div>
 
-                        <div className="table-responsive table-scroll-box-data">
+                        <div className="table-responsive table-scroll-box-data ful-padding-none">
                           <table id="datatables" className="table table-striped table-no-bordered table-hover" cellSpacing="0" width="100%">
                             <thead>
                               <tr>

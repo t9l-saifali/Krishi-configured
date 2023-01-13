@@ -626,7 +626,7 @@ export default class Suppplier extends Component {
                         </span>
                       </div>
 
-                      <div className="table-responsive table-scroll-box-data">
+                      <div className="table-responsive table-scroll-box-data ful-padding-none">
                         <table
                           id="datatables"
                           className="table table-striped table-no-bordered table-hover"
@@ -948,7 +948,7 @@ export default class Suppplier extends Component {
                               <form>
                                 <div className="form-group">
                                   <div className="modal-left-bx">
-                                    <label>
+                                    <label className="heading-text-data">
                                       Suppplier Name
                                       <span className="asterisk">*</span>
                                     </label>
@@ -968,7 +968,7 @@ export default class Suppplier extends Component {
 
                                 <div className="form-group">
                                   <div className="modal-left-bx">
-                                    <label>
+                                  <label className="heading-text-data">
                                       Company Name
                                       <span className="asterisk">*</span>
                                     </label>
@@ -988,7 +988,7 @@ export default class Suppplier extends Component {
 
                                 <div className="form-group">
                                   <div className="modal-left-bx">
-                                    <label>
+                                  <label className="heading-text-data">
                                       Email <span className="asterisk">*</span>
                                     </label>
                                   </div>
@@ -1007,7 +1007,7 @@ export default class Suppplier extends Component {
 
                                 <div className="form-group">
                                   <div className="modal-left-bx">
-                                    <label>
+                                  <label className="heading-text-data">
                                       Contact Number
                                       <span className="asterisk">*</span>
                                     </label>
@@ -1027,7 +1027,7 @@ export default class Suppplier extends Component {
 
                                 <div className="form-group">
                                   <div className="modal-left-bx">
-                                    <label>GST no</label>
+                                  <label className="heading-text-data">GST no</label>
                                   </div>
                                   <div className="modal-right-bx">
                                     <input
@@ -1044,7 +1044,7 @@ export default class Suppplier extends Component {
 
                                 <div className="form-group">
                                   <div className="modal-left-bx">
-                                    <label>
+                                  <label className="heading-text-data">
                                       Payment Term
                                       <span className="asterisk">*</span>
                                     </label>
@@ -1109,7 +1109,7 @@ export default class Suppplier extends Component {
 
                                 <div className="form-group">
                                   <div className="modal-left-bx">
-                                    <label>Shipping/Return Policy</label>
+                                  <label className="heading-text-data">Shipping/Return Policy</label>
                                   </div>
                                   <div className="modal-right-bx">
                                     <input
@@ -1126,7 +1126,7 @@ export default class Suppplier extends Component {
 
                                 <div className="form-group">
                                   <div className="modal-left-bx">
-                                    <label>Address</label>
+                                  <label className="heading-text-data">Address</label>
                                   </div>
                                   <div className="modal-right-bx">
                                     <input
@@ -1143,7 +1143,7 @@ export default class Suppplier extends Component {
 
                                 <div className="form-group">
                                   <div className="modal-left-bx">
-                                    <label>Attachment</label>
+                                  <label className="heading-text-data">Attachment</label>
                                   </div>
                                   <div className="container productvariant">
                                     <div className="form-group">
@@ -1170,7 +1170,7 @@ export default class Suppplier extends Component {
 
                                 <div className="form-group">
                                   <div className="modal-left-bx">
-                                    <label>Status</label>
+                                  <label className="heading-text-data">Status</label>
                                   </div>
                                   <div className="modal-right-bx">
                                     <Switch
@@ -1217,7 +1217,7 @@ export default class Suppplier extends Component {
                         &times;
                       </button>
                       <h4 className="modal-title">View Details </h4>
-                      <div className="view-box">
+                      <div className="view-box view-simplebox">
                         <ul>
                           <li>
                             <span className="view-title">Supplier Name</span>

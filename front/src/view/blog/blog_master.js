@@ -465,7 +465,7 @@ export default class blogcategory extends Component {
                         </span>
                       </div>
 
-                      <div className="table-responsive table-scroll-box-data">
+                      <div className="table-responsive table-scroll-box-data ful-padding-none">
                         <table
                           id="datatables"
                           className="table table-striped table-no-bordered table-hover"

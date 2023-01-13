@@ -22,7 +22,7 @@ var feat_slider1 = {
   dots: true,
   autoplay: true,
   autoplaySpeed: 3000,
-  arrows: false,
+  arrows: true,
   infinite: true,
   speed: 300,
   slidesToShow: 1,

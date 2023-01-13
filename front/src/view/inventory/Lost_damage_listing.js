@@ -352,7 +352,7 @@ export default class lostanddamagelisting extends Component {
                           </span>
                         </div>
 
-                        <div className="table-responsive table-scroll-box-data">
+                        <div className="table-responsive table-scroll-box-data ful-padding-none">
                           <table
                             id="datatables"
                             className="table table-striped table-no-bordered table-hover"
@@ -363,7 +363,6 @@ export default class lostanddamagelisting extends Component {
                               <tr>
                                 <th scope="col">Date</th>
                                 <th scope="col">Product Name</th>
-                                {/* <th scope="col">Product Variant</th> */}
                                 <th scope="col">Admin Name</th>
                                 <th scope="col">Action</th>
                               </tr>
@@ -383,11 +382,6 @@ export default class lostanddamagelisting extends Component {
                                         ? item.product_id.product_name
                                         : ""}
                                     </td>
-                                    {/* <td>
-                                      {item?.variant_name
-                                        ? item.variant_name
-                                        : ""}
-                                    </td> */}
                                     <td>
                                       {" "}
                                       {item.admin_id &&
@@ -582,7 +576,7 @@ export default class lostanddamagelisting extends Component {
               &times;
             </button>
             <h4 className="modal-title">View Details </h4>
-            <div className="view-box">
+            <div className="view-box view-simplebox">
               <ul>
                 <li>
                   <span className="view-title">Date</span>

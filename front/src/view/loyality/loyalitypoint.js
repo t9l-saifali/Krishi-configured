@@ -264,7 +264,7 @@ export default class Loyality extends Component {
                           </div>
                         </div>
                         <div className="card-body">
-                          <div className="manage_up_add_btn">
+                          <div className="manage_up_add_btn margin-bottom-none">
                             <h4 className="card-title"> Loyalty Programme </h4>
                             {/* <a onClick={() => this.openModal("add")}>
                               <button
@@ -276,7 +276,7 @@ export default class Loyality extends Component {
                               </button>
                             </a> */}
                           </div>
-                          <div className="table-responsive table-scroll-box-data">
+                          <div className="table-responsive table-scroll-box-data full-spacing-none">
                             <table
                               className="table table-striped table-no-bordered table-hover"
                               cellSpacing="0"

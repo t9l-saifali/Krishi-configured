@@ -372,9 +372,14 @@ export default class EditInventory extends Component {
       time: time,
     });
   };
-  onChange112(valu, index, callFrom) {
+  onChange112(valu, index, callFrom, type) {
+    let str = "/admin/product/"
+    if(type == "configurable"){
+      str = "/product-configured/"
+    }
+    let url = type == "configurable" ? "/conf" + "/admin/product/" : "/admin/product/"
     const requestData = {};
-    AdminApiRequest(requestData, "/admin/product/" + valu.value, "GET")
+    AdminApiRequest(requestData, url + valu.value, "GET")
       .then((res) => {
         if (res.status === 201 || res.status === 200) {
           // MultipleArray[index].availableQuantity =
@@ -855,7 +860,7 @@ export default class EditInventory extends Component {
                 [abab]: new_data,
               });
             });
-            this.onChange112({ value: item.product_id }, index, "onload");
+            this.onChange112({ value: item.product_id }, index, "onload", item.TypeOfProduct);
           });
           this.forceUpdate();
         } else {
@@ -1127,7 +1132,7 @@ export default class EditInventory extends Component {
                                         placeholder='Search Product'
                                         options={this.state.all_product}
                                         onChange={(e) =>
-                                          this.onChange112(e, index, "onchange")
+                                          this.onChange112(e, index, "onchange", e.TypeOfProduct)
                                         }
                                         className='select-search'
                                         value={item.product}

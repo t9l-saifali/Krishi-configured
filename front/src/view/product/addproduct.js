@@ -1471,7 +1471,11 @@ await AdminApiRequest({ id: null }, "/getAllDescendantCategories", "POST")
                       </div>
                     </div>
                     <div className="card-body final_add_prod_admin">
+                    <div className="heading-top-row common--gap">
+                        <div ClassName="left-heading-section">
                       <h4 className="card-title">Add product</h4>
+                      </div>
+                      <div className="right-heading-section">
                       <Link to="/admin-view-product">
                         <button className="btn btn-primary m-r-5 float-right">
                           <i
@@ -1483,7 +1487,8 @@ await AdminApiRequest({ id: null }, "/getAllDescendantCategories", "POST")
                           View Product
                         </button>
                       </Link>
-
+                    </div>
+                    </div>
                       <form className="add_product_new">
                         <div className="prod_detail_new_admin">
                           <h3>Product Details</h3>
@@ -1835,43 +1840,14 @@ await AdminApiRequest({ id: null }, "/getAllDescendantCategories", "POST")
 
                         <div className="images_bann_admin">
                           <h3> Product Image & Banner</h3>
-                          <div className="inner_details_admin">
-                            <div className="form-group">
-                              <div className="modal-left-bx">
-                                <label className="text-label">Add Attachnment (if any )</label>
-                              </div>
-                              <div className="modal-right-bx">
-                                <input
-                                  type="file"
-                                  name="attachnment"
-                                  className="form-control"
-                                  onChange={this.formHandler}
-                                />
-                                <span className="err err_name"></span>
-                              </div>
-                            </div>
-
-                            <div className="form-group">
-                              <div className="modal-left-bx">
-                                <label className="text-label">Banner - 1920px * 400px</label>
-                              </div>
-                              <div className="modal-right-bx">
-                                <input
-                                  type="file"
-                                  name="banner"
-                                  className="form-control"
-                                  onChange={this.formHandler}
-                                />
-                                <span className="err err_banner"></span>
-                              </div>
-                            </div>
-
-                            {addarraymultiple.map((item, index) => {
+                          <div className="inner_details_admin banner-dbox">
+                            <div className="attach-row common-flex common--gap">
+                          {addarraymultiple.map((item, index) => {
                               return (
-                                <div key={index}>
-                                  <div className="form-group">
+                                <div className="banner-row-data half-box" key={index}>
+                                  <div className="form-group full-box">
                                     <div className="modal-left-bx">
-                                      <label className="text-label">Image - 800px * 800px</label>
+                                      <label className="text-label">Image (800px X 800px)</label>
                                     </div>
                                     <div className="modal-right-bx">
                                       <input
@@ -1901,7 +1877,7 @@ await AdminApiRequest({ id: null }, "/getAllDescendantCategories", "POST")
                               );
                             })}
 
-                            <div className="form-group add_multli">
+                            <div className="form-group add_multli full-box mt-0 ml-0">
                               <button
                                 className="btn btn-primary feel-btnv2"
                                 type="button"
@@ -1912,6 +1888,39 @@ await AdminApiRequest({ id: null }, "/getAllDescendantCategories", "POST")
 
                               <span className="err err_mainaddimage"></span>
                             </div>
+                          </div> 
+                          <div className="common-flex full-box common--gap">
+                            <div className="form-group mr-0">
+                              <div className="modal-left-bx">
+                                <label className="text-label">Add Attachnment (if any )</label>
+                              </div>
+                              <div className="modal-right-bx">
+                                <input
+                                  type="file"
+                                  name="attachnment"
+                                  className="form-control"
+                                  onChange={this.formHandler}
+                                />
+                                <span className="err err_name"></span>
+                              </div>
+                            </div>
+
+                            <div className="form-group ml-0">
+                              <div className="modal-left-bx">
+                                <label className="text-label">Banner (1920px X 400px)</label>
+                              </div>
+                              <div className="modal-right-bx">
+                                <input
+                                  type="file"
+                                  name="banner"
+                                  className="form-control"
+                                  onChange={this.formHandler}
+                                />
+                                <span className="err err_banner"></span>
+                              </div>
+                            </div>
+                          </div>
+                            
                           </div>
                         </div>
 
@@ -2148,7 +2157,7 @@ await AdminApiRequest({ id: null }, "/getAllDescendantCategories", "POST")
                           <div className="region_singllle">
                             <div className="form-group">
                               <div className="modal-left-bx">
-                                <label className="text-label">Select Region</label>
+                                <label className="text-label">Add Region</label>
                                 <span className="asterisk">*</span>
                               </div>
                               <div className="modal-right-bx">
@@ -2174,11 +2183,11 @@ await AdminApiRequest({ id: null }, "/getAllDescendantCategories", "POST")
                                 <>
                                   {MultipleArray.map((item, index) => {
                                     return (
-                                      <div key={index}>
-                                        <div className="simple_package">
-                                          <div className="form-group">
+                                      <div className="region-row" key={index}>
+                                        <div className="simple_package ">
+                                          <div className="form-group mt-0">
                                             <div className="modal-left-bx">
-                                              <label>
+                                              <label className="heading-text-data mb-0">
                                                 Select Region{" "}
                                                 <span className="asterisk">
                                                   *
@@ -2338,142 +2347,137 @@ await AdminApiRequest({ id: null }, "/getAllDescendantCategories", "POST")
                                             "err no-packageerror" + index
                                           }
                                         ></div>
-                                        <div className="table-responsive table-scroll-box-data">
-                          <table
-                            id="datatables"
-                            className="table table-striped table-no-bordered table-hover"
-                            cellSpacing="0"
-                            width="100%"
-                          >
-                            <thead>
-                              <tr>
-                                <th scope="col"><div className="modal-left-bx">
-                                                    <label>Packet Label</label>
-                                                    <span className="asterisk">
-                                                      *
-                                                    </span>
-                                                  </div>
-                                                  </th>
-                                <th scope="col"><div className="modal-left-bx">
-                                                    <label>Packet Size</label>
-                                                    <span className="asterisk">
-                                                      *
-                                                    </span>
-                                                  </div>
-                                                  </th>
-                                <th scope="col">
-                                <div className="modal-left-bx">
-                                                    <label>
-                                                      Selling Price (incl. gst)
-                                                    </label>
-                                                    <span className="asterisk">
-                                                      *
-                                                    </span>
-                                                  </div>
-                                </th>
-                                <th scope="col">
-                                <div className="modal-left-bx">
-                                                    <label>
-                                                      B2B Price (incl. gst)
-                                                    </label>
-                                                  </div>
-                                </th>
-                                <th scope="col">
-                                <div className="modal-left-bx">
-                                                    <label>
-                                                      Retail Price (incl. gst)
-                                                    </label>
-                                                  </div>
-                                </th>
-                                <th scope="col">
-                                <div className="modal-left-bx">
-                                                    <label>
-                                                      MRP (incl. gst)
-                                                    </label>
-                                                  </div>
-                                </th>
-                                <th scope="col">
-                                <div className="modal-left-bx">
-                                                    <label>Status</label>
-                                                  </div>
-                                </th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                            {item.package.length > 0 && (
-                                        item.package.map((itm, indexx) => {
-                                          return (<tr>
-                                            <td>
-                                            <input
-                                                    type="text"
-                                                    name="label"
-                                                    value={itm.packetLabel}
-                                                    className="form-control"
-                                                    placeholder="Enter Label"
-                                                    onChange={(ev) => this.formHandler12(ev, index, indexx, "label")}
-                                                  />
-                                            </td>
-                                            <td>
-                                            <input
-                                                    type="number"
-                                                    name="packet_size"
-                                                    value={itm.packet_size}
-                                                    className="form-control"
-                                                    placeholder="Enter Packet Size"
-                                                    onChange={(ev) => this.formHandler12(ev, index, indexx, "packet_size")}
-                                                  />
-                                            </td>
-                                            <td>
-                                            <input
-                                                    type="number"
-                                                    name="selling_price"
-                                                    value={itm.selling_price}
-                                                    className="form-control"
-                                                    placeholder="Enter Selling Price"
-                                                    onChange={(ev) => this.formHandler12(ev, index, indexx, "selling_price")}
-                                                  />
-                                            </td>
-                                            <td>
-                                            <input
-                                                    type="number"
-                                                    name="B2B_price"
-                                                    value={itm.B2B_price}
-                                                    className="form-control"
-                                                    placeholder="Enter B2B Price"
-                                                    onChange={(ev) => this.formHandler12(ev, index, indexx, "B2B_price")}
-                                                  />
-                                            </td>
-                                            <td>
-                                            <input
-                                                    type="number"
-                                                    name="Retail_price"
-                                                    value={itm.Retail_price}
-                                                    className="form-control"
-                                                    placeholder="Enter Retail Price"
-                                                    onChange={(ev) => this.formHandler12(ev, index, indexx, "Retail_price")}
-                                                  />
-                                              </td>
-                                              <td>
-                                              <input
-                                                    type="number"
-                                                    name="packetmrp"
-                                                    value={itm.packetmrp}
-                                                    className="form-control"
-                                                    placeholder="Enter MRP"
-                                                    onChange={(ev) => this.formHandler12(ev, index, indexx, "packetmrp")}
-                                                  />
-                                              </td>
-                                              <td>
-                                              <Switch
-                                                    onChange={(ev) => this.formHandler12(ev, index, indexx, "status")}
-                                                    checked={itm.status}
-                                                    id="normal-switch-package"
-                                                  />
-                                              </td>
-                                          </tr>)}))} 
-                            </tbody>
-                            </table>
-                            </div>
+                                        <div className="bg-product-box">
+                                        <div className="table-responsive table-scroll-box-data ful-padding-none mb-0 bg-product-box pb-4 ">
+                                            <table
+                                              id="datatables"
+                                              className="table table-striped table-no-bordered table-hover bg-product-box bright-bg package-remove-border mb-0 "
+                                              cellSpacing="0"
+                                              width="100%"
+                                            >
+                                                <thead>
+                                                  <tr>
+                                                    <th scope="col"><div className="modal-left-bx">
+                                                                        <label className="heading-text-data mb-0">Packet Label</label>
+                                                                        <span className="asterisk">
+                                                                          *
+                                                                        </span>
+                                                                      </div>
+                                                                      </th>
+                                                    <th scope="col"><div className="modal-left-bx ">
+                                                    <label className="heading-text-data mb-0">Packet Size</label>
+                                                                        <span className="asterisk">
+                                                                          *
+                                                                        </span>
+                                                                      </div>
+                                                                      </th>
+                                                    <th scope="col">
+                                                    <div className="modal-left-bx">
+                                                    <label className="heading-text-data mb-0">
+                                                                          Selling Price (incl. gst)
+                                                                        </label>
+                                                                        <span className="asterisk">
+                                                                          *
+                                                                        </span>
+                                                                      </div>
+                                                    </th>
+                                                    <th scope="col">
+                                                    <div className="modal-left-bx">
+                                                    <label className="heading-text-data mb-0">
+                                                                          B2B Price (incl. gst)
+                                                                        </label>
+                                                                      </div>
+                                                    </th>
+                                                    <th scope="col">
+                                                    <div className="modal-left-bx">
+                                                    <label className="heading-text-data mb-0">
+                                                                          Retail Price (incl. gst)
+                                                                        </label>
+                                                                      </div>
+                                                    </th>
+                                                    <th scope="col">
+                                                    <div className="modal-left-bx">
+                                                    <label className="heading-text-data mb-0">
+                                                                          MRP (incl. gst)
+                                                                        </label>
+                                                                      </div>
+                                                    </th>
+                                                    <th scope="col">
+                                                    <div className="modal-left-bx">
+                                                    <label className="heading-text-data mb-0">Status</label>
+                                                                      </div>
+                                                    </th>
+                                                  </tr>
+                                                </thead>
+                                                <tbody>
+                                                {item.package.length > 0 && (
+                                                            item.package.map((itm, indexx) => {
+                                                              return (<tr>
+                                                                <td>
+                                                                <input
+                                                                        type="text"
+                                                                        name="label"
+                                                                        value={itm.packetLabel}
+                                                                        className="form-control"
+                                                                        onChange={(ev) => this.formHandler12(ev, index, indexx, "label")}
+                                                                      />
+                                                                </td>
+                                                                <td>
+                                                                <input
+                                                                        type="number"
+                                                                        name="packet_size"
+                                                                        value={itm.packet_size}
+                                                                        className="form-control"
+                                                                        onChange={(ev) => this.formHandler12(ev, index, indexx, "packet_size")}
+                                                                      />
+                                                                </td>
+                                                                <td>
+                                                                <input
+                                                                        type="number"
+                                                                        name="selling_price"
+                                                                        value={itm.selling_price}
+                                                                        className="form-control"
+                                                                        onChange={(ev) => this.formHandler12(ev, index, indexx, "selling_price")}
+                                                                      />
+                                                                </td>
+                                                                <td>
+                                                                <input
+                                                                        type="number"
+                                                                        name="B2B_price"
+                                                                        value={itm.B2B_price}
+                                                                        className="form-control"
+                                                                        onChange={(ev) => this.formHandler12(ev, index, indexx, "B2B_price")}
+                                                                      />
+                                                                </td>
+                                                                <td>
+                                                                <input
+                                                                        type="number"
+                                                                        name="Retail_price"
+                                                                        value={itm.Retail_price}
+                                                                        className="form-control"
+                                                                        onChange={(ev) => this.formHandler12(ev, index, indexx, "Retail_price")}
+                                                                      />
+                                                                  </td>
+                                                                  <td>
+                                                                  <input
+                                                                        type="number"
+                                                                        name="packetmrp"
+                                                                        value={itm.packetmrp}
+                                                                        className="form-control"
+                                                                        onChange={(ev) => this.formHandler12(ev, index, indexx, "packetmrp")}
+                                                                      />
+                                                                  </td>
+                                                                  <td>
+                                                                  <Switch
+                                                                        onChange={(ev) => this.formHandler12(ev, index, indexx, "status")}
+                                                                        checked={itm.status}
+                                                                        id="normal-switch-package"
+                                                                      />
+                                                                  </td>
+                                                              </tr>)}))} 
+                                                </tbody>
+                                              </table>
+                                            </div>
                                         {/* {item.package.length > 0 ? (
                                           item.package.map((itm, indexx) => {
                                             return (
@@ -2713,23 +2717,21 @@ await AdminApiRequest({ id: null }, "/getAllDescendantCategories", "POST")
                                           <></>
                                         )} */}
 
-                                        <div className="form-group">
-                                          <div className="add_packaging">
+                                        <div className="form-group mt-0 full-box text-center">
+                                          <div className="add_packaging mt-3">
                                             <button
                                               type="button"
-                                              className="btn btn-primary feel-btnv2"
+                                              className="btn btn-primary feel-btnv2 mt-0 mb-1 small-btn-bx"
                                               onClick={() =>
                                                 this.addmorepackaging(index)
                                               }
                                             >
-                                              <i
-                                                className="fa fa-plus"
-                                                aria-hidden="true"
-                                              ></i>
-                                              Add More Packaging
+                                              
+                                              Add Packaging
                                             </button>
                                           </div>
                                         </div>
+                                      </div>  
                                       </div>
                                     );
                                   })}
@@ -3519,7 +3521,8 @@ await AdminApiRequest({ id: null }, "/getAllDescendantCategories", "POST")
                             <></>
                           )}
                         </div>
-                        <div className="d-flex justify-content-between w-100">
+                        <div className="full-box">
+                        <div className="prio-row">
                           <div className="form-group">
                             <div className="modal-left-bx">
                               <label  className="text-label">Priority</label>
@@ -3536,8 +3539,9 @@ await AdminApiRequest({ id: null }, "/getAllDescendantCategories", "POST")
                               <span className={"err err_priority"}></span>
                             </div>
                           </div>
-
-                          <div className="form-group">
+                        </div>
+                          <div className="prio-staus common-flex">
+                          <div className="form-group one-qtr">
                             <div className="modal-left-bx">
                               <label  className="text-label">Status</label>
                             </div>
@@ -3549,7 +3553,7 @@ await AdminApiRequest({ id: null }, "/getAllDescendantCategories", "POST")
                               />
                             </div>
                           </div>
-                          <div className="form-group">
+                          <div className="form-group one-qtr">
                             <div className="modal-left-bx">
                               <label  className="text-label">Catalogue List Status</label>
                             </div>
@@ -3561,7 +3565,7 @@ await AdminApiRequest({ id: null }, "/getAllDescendantCategories", "POST")
                               />
                             </div>
                           </div>
-                          <div className="form-group">
+                          <div className="form-group one-qtr">
                             <div className="modal-left-bx">
                               <label  className="text-label">Same Day Delivery</label>
                             </div>
@@ -3573,7 +3577,7 @@ await AdminApiRequest({ id: null }, "/getAllDescendantCategories", "POST")
                               />
                             </div>
                           </div>
-                          <div className="form-group">
+                          <div className="form-group one-qtr">
                             <div className="modal-left-bx">
                               <label  className="text-label">Farm Pickup</label>
                             </div>
@@ -3585,7 +3589,8 @@ await AdminApiRequest({ id: null }, "/getAllDescendantCategories", "POST")
                               />
                             </div>
                           </div>
-                        </div>
+                        </div>  
+                      </div>
                         <div className="modal-bottom">
                           <button
                             type="button"

@@ -8222,8 +8222,8 @@ module.exports.UpdateDriverDetail = async function (req, res) {
     return false;
   }
 
-  let { driverNumber } = await settingsModel.findOne({}, { driverNumber: 1 }).lean();
-
+  let  driverNumber1 = await settingsModel.findOne({}, { driverNumber: 1 }).lean();
+let driverNumber = driverNumber1?.driverNumber
   let adminData = await Admin.findOne({
     _id: mongoose.Types.ObjectId(adminID),
   }).lean();

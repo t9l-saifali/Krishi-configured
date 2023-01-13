@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { AdminApiRequest } from "../../apiServices/AdminApiRequest";
 import "../../css/margins-min.css";
-// import '../../css/admin/sb-admin.css';
 import "../../css/material-dashboard.css?v=2.1.1";
 import "../../css/style.css";
 import Adminheader from "./elements/admin_header";
@@ -64,30 +63,8 @@ class Dashboard extends Component {
           {this.state.admin_data ? <Adminheader /> : ""}
           <div className="content" style={{ marginTop: "15px" }}>
           {this.state.permits.includes("sales analytics") &&  <Sales_analytics />}
-            {/* <Sales_analytics /> */}
             <div className="container-fluid">
               <div className="row dashboard-home-h">
-                {/* <div className="col-lg-4 col-md-6 col-sm-6">
-                        <div className="card card-stats">
-                            <div className="card-header card-header-warning card-header-icon">
-                                <div className="card-icon">
-                                    <i className="material-icons">store</i>
-                                </div>
-                                <p className="card-category">Total Stock</p>
-                                <h3 className="card-title">{this.state.data}</h3>
-                            </div>
-                            <div className="card-footer">
-                                <div className="stats" style={{marginLeft:'115px'}}>
-                                    <Link to="admin-allstock">
-                                        <i className="material-icons " style={{marginTop:'0px'}}>
-                                            remove_red_eye
-                                        </i> 
-                                        view all
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                    </div> */}
                 {this.checkPermit("Order") ? (
                   <div className="col-lg-4 col-md-6 col-sm-6">
                     <div className="card card-stats">
@@ -198,7 +175,6 @@ class Dashboard extends Component {
                           <i className="material-icons">inventory_2</i>
                         </div>
                         <p className="card-category">5 Bestseller category</p>
-                        {/* <h3 className="card-title">{this.state.product_count}</h3> */}
                       </div>
                       <div className="card-footer">
                         <div className="stats" style={{ marginLeft: "115px" }}>
@@ -223,7 +199,6 @@ class Dashboard extends Component {
                           <i className="material-icons">inventory_2</i>
                         </div>
                         <p className="card-category">Top 10 customers</p>
-                        {/* <h3 className="card-title">{this.state.product_count}</h3> */}
                       </div>
                       <div className="card-footer">
                         <div className="stats" style={{ marginLeft: "115px" }}>

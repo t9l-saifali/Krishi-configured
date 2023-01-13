@@ -765,7 +765,7 @@ export default class Coupon extends Component {
                         </button>
                       </div>
                     </div>
-                    <div className="searching-every searching-4-col search-five-field popup-arrow-select">
+                    <div className="searching-every searching-4-col search-five-field popup-arrow-select spacing-remove-table">
                       <span>
                         <input
                           type="text"

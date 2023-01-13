@@ -1034,7 +1034,7 @@ export default class Category extends Component {
                         </span>
                       </div>
 
-                      <div className="table-responsive table-scroll-box-data">
+                      <div className="table-responsive table-scroll-box-data ful-padding-none">
                         <table
                           id="datatables"
                           className="table table-striped table-no-bordered table-hover"
@@ -1170,13 +1170,11 @@ export default class Category extends Component {
                                         this,
                                         data._id
                                       )}
-                                    >
-                                    </i>
+                                    ></i>
                                     <a href={`https://www.krishicress.com/collection/${data?.slug}`} target="_blank"><i className="fas fa-share" 
                                    onClick={()=>{}}
                                    ></i>
-                                   </a> 
-                                   
+                                   </a>
                                     <Switch
                                       onChange={() =>
                                         this._handleStatus(data, !data.status)
@@ -1352,7 +1350,7 @@ export default class Category extends Component {
                             this.editPriority()
                           }}>Update</button>
                    </div>
-                   {this.state.productsData ? <div className="product-view-priority">
+                   {this.state.productsData ? <div className="product-view-priority prioriity-sideproduct ">
                     <table>
                     <thead>
                     <tr>
@@ -1977,8 +1975,8 @@ export default class Category extends Component {
                       &times;
                     </button>
                     <h4 className="modal-title">View Details : </h4>
-                    <div className="view-box">
-                      <ul className="simple-view-row">
+                    <div className="view-box view-simplebox">
+                      <ul className="simple-view-row ">
                         <li>
                           <span className="view-title"> Category Name</span>
                           <span className="view-status">
@@ -2029,9 +2027,9 @@ export default class Category extends Component {
                         <li>
                           <span className="view-title">Icon</span>
                           {this.state.icon == "" ? (
-                            "No Image"
+                            <span className="view-status">No Image</span>
                           ) : (
-                            <span className="">
+                            <span className="cate-side-icon">
                               <a
                                 href={
                                   this.state.icon && this.state.icon[0]
@@ -2041,7 +2039,7 @@ export default class Category extends Component {
                                 target="_blank"
                               >
                                 <img
-                                  style={{ height: 70, width: 100 }}
+                                 
                                   alt="img"
                                   src={
                                     this.state.icon && this.state.icon[0]
@@ -2057,9 +2055,9 @@ export default class Category extends Component {
                         <li>
                           <span className="view-title">Banner</span>
                           {this.state.banner == "" ? (
-                            "No Image"
+                             <span className="view-status">No Image</span>
                           ) : (
-                            <span className="">
+                            <span className="cate-side-icon">
                               <a
                                 href={
                                   this.state.banner
@@ -2069,7 +2067,7 @@ export default class Category extends Component {
                                 target="_blank"
                               >
                                 <img
-                                  style={{ height: 70, width: 100 }}
+                                 
                                   alt="img"
                                   src={
                                     this.state.banner

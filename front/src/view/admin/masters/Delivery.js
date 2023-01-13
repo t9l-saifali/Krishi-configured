@@ -207,9 +207,12 @@ export default class Delivery extends Component {
                           </div>
                         </div>
                         <div className="card-body">
-                          <div className="manage_up_add_btn">
+                          <div className="heading-top-row">
+                          <div className="manage_up_add_btn left-heading-section">
+                           
                             <h4 className="card-title"> Delivery</h4>
                           </div>
+                          <div className="right-heading-section">
                           <button
                             className="btn btn-primary m-r-5 float-right"
                             title="Import"
@@ -225,6 +228,8 @@ export default class Delivery extends Component {
                               Import
                             </button>
                           </a>
+                         </div>
+                         </div>
                           {/* <div className="searching-every searching-4-col popup-arrow-select">
                             <span>
                               <input
@@ -280,7 +285,7 @@ export default class Delivery extends Component {
                             </span>
                           </div> */}
 
-                          <div className="table-responsive table-scroll-box-data">
+                          <div className="table-responsive table-scroll-box-data full-spacing-none">
                             <table
                               className="table table-striped table-no-bordered table-hover"
                               cellSpacing="0"

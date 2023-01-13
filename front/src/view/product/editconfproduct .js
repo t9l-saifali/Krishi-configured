@@ -179,7 +179,13 @@ export default class Editproduct extends Component {
             });
           });
           let productLocalCat = [];
-          res.data.data.product_categories && res.data.data.product_categories.forEach((cat) => productLocalCat.push(cat?._id));
+          let allselectedCategorywithname = []
+          res.data.data.product_categories && res.data.data.product_categories.forEach((cat) => {
+            allselectedCategorywithname.push({
+              value: cat._id,
+              label: cat.category_name,
+            });
+            productLocalCat.push(cat._id)});
           grouparray = res.data.data.groupData;
           res.data.data.groupData.length > 0 &&
             res.data.data.groupData.map((grp_item, grp_index) => {
@@ -236,6 +242,8 @@ export default class Editproduct extends Component {
             base_price: res.data.data.base_price,
             group_mrp: res.data.data?.group_mrp,
             product_categories: productLocalCat,
+            selectedCatData:productLocalCat,
+            selectedCatDatawithname:allselectedCategorywithname,
             preorderstatus: res.data.data.preOrder,
             // preOrderQty: res.data.data.preOrderQty,
             preOrderStartDate: res.data.data.preOrderStartDate ? new Date(res.data.data.preOrderStartDate) : "",
@@ -764,7 +772,21 @@ export default class Editproduct extends Component {
       selectednewproducts: arra,
     });
   }
+onchangingdata2(ev) {
+    var arra = [];
+    var arra2 = [];
 
+    ev.forEach((item, index) => {
+      arra.push({ value: item.value, label: item.label });
+      arra2.push(item.value);
+    
+    });
+    
+    this.setState({
+      selectedCatDatawithname:arra,
+      selectedCatData:arra2
+    });
+  }
   clickingcheck(ev) {
     var new_data = [];
     var requestData1 = {};
@@ -1059,7 +1081,6 @@ export default class Editproduct extends Component {
           : grouparray && grouparray.length > 0
           ? JSON.stringify(grouparray)
           : JSON.stringify(MultipleArray);
-          alert(this.state.configurableData.length)
       newmultipleimages.forEach((it, ind) => {
         var images = [];
         if (document.querySelector('input[name="image' + ind + '"]')) {
@@ -1219,7 +1240,51 @@ export default class Editproduct extends Component {
       .catch((error) => {
         console.log(error);
       });
-
+      await AdminApiRequest({ id: null }, "/getAllDescendantCategories", "POST")
+      .then((res) => {
+        if (res.status === 201 || res.status === 200) {
+          let allCategory = [];
+          res.data.data.forEach((cat) => {
+            let subCat = [];
+            cat.SubCatData &&
+              cat.SubCatData.forEach((c) => {
+                let subCat1 = [];
+                c.SubCatData &&
+                  c.SubCatData.forEach((i) => {
+                    subCat1.push({
+                      _id: i._id,
+                      category_name: i.category_name,
+                      SubCatData: i.SubCatData ? i.SubCatData : [],
+                      selectStatus: false,
+                    });
+                  });
+                subCat.push({
+                  _id: c._id,
+                  category_name: c.category_name,
+                  SubCatData: subCat1,
+                  selectStatus: false,
+                });
+              });
+            allCategory.push({
+              value: cat._id,
+              label: cat.category_name,
+            });
+          });
+          this.setState({
+            AllCategories: allCategory,
+          });
+        } else {
+          swal({
+            title: "Network Issue",
+            // text: "Are you sure that you want to leave this page?",
+            icon: "warning",
+            dangerMode: true,
+          });
+        }
+      })
+      .catch((error) => {
+        console.log(error);
+      });
     // await AdminApiRequest(requestData, "/admin/getTax", "POST")
     await AdminApiRequest(requestData, "/admin/getTax/active", "GET")
       .then((res) => {
@@ -1400,8 +1465,12 @@ export default class Editproduct extends Component {
                       </div>
                     </div>
                     <div className="card-body new_add_des">
+                      <div className="heading-top-row common--gap">
+                        <div ClassName="left-heading-section">
                       <h4 className="card-title">Edit product</h4>
+                      </div>
                       {/* <Link to="/admin-view-product"> */}
+                      <div className="right-heading-section">
                       <button
                         className="btn btn-primary m-r-5 float-right"
                         onClick={() => {
@@ -1414,12 +1483,14 @@ export default class Editproduct extends Component {
                         </i>{" "}
                         View Product
                       </button>
+                      </div>
+                      </div>
                       {/* </Link> */}
                       <form className="add_product_new">
                         <div className="prod_detail_new_admin">
                           <h3>Product Details</h3>
                           <div className="inner_details_admin">
-                            <div className="form-group">
+                            {/* <div className="form-group">
                               <div className="modal-left-bx">
                                 <label>
                                   Select Category
@@ -1454,6 +1525,24 @@ export default class Editproduct extends Component {
                                 ) : (
                                   <p>Loading.....</p>
                                 )}
+                                <span className="err err_category_add"></span>
+                              </div>
+                            </div> */}
+                            <div className="form-group">
+                              <div className="modal-left-bx">
+                                <label className="text-label">Select Category</label>
+                              </div>
+                              <div className="modal-right-bx">
+                                <Select
+                                  defaultValue={[]}
+                                  value={this.state.selectedCatDatawithname}
+                                  isMulti
+                                  name="Select Categories"
+                                  onChange={(ev)=>this.onchangingdata2(ev)}
+                                  options={this.state.AllCategories}
+                                  className="basic-multi-select"
+                                  classNamePrefix="select"
+                                />
                                 <span className="err err_category_add"></span>
                               </div>
                             </div>
@@ -1703,41 +1792,46 @@ export default class Editproduct extends Component {
 
                             <div className="form-group new_choose">
                               <div className="modal-left-bx">
-                                <label>Banner - 1920px * 400px</label>
+                                <label>Banner (1920px X 400px)</label>
                               </div>
-                              <img style={{ height: "50px" }} src={imageUrl + this.state.edit_banner} alt="" />
+                              <div className="banner-dash-col"><img style={{ height: "50px" }} src={imageUrl + this.state.edit_banner} alt="" />
                               {this.state.edit_banner ? (
                                 <i className="fa fa-times" onClick={() => this.removebanner()} aria-hidden="true"></i>
                               ) : (
                                 <></>
-                              )}
+                              )}</div>
+                              
 
                               <div className="modal-right-bx">
                                 <input type="file" name="edit_banner" className="form-control" onChange={this.formHandler} />
                                 <span className="err err_banner"></span>
                               </div>
                             </div>
-
+                            <div className="product-image-list-box common-flex full-box">
                             {multipleimages.map((item1, index) => {
                               return (
                                 <>
+                                
                                   <div className="form-group">
                                     <div className="modal-left-bx">
-                                      <label>Image - 800px * 800px</label>
+                                      <label>Image (800px X 800px)</label>
                                     </div>
                                     <div className="modal-right-bx">
+                                    <div className="banner-dash-col">
                                       <img style={{ height: "50px" }} src={imageUrl + item1.image} alt="images" />
                                       <span className={"err err_multi_img" + index}></span>
                                       <i className="fa fa-times" onClick={() => this.removeimagemultiple("Remove", index)} aria-hidden="true"></i>
+                                      </div>
                                     </div>
                                   </div>
+                                  
                                 </>
                               );
                             })}
                             {newmultipleimages.map((ittm, ind) => (
                               <div>
                                 <div className="modal-left-bx">
-                                  <label>Image - 800px * 800px</label>
+                                  <label>Image (800px X 800px)</label>
                                 </div>
                                 <div className="modal-right-bx">
                                   <input
@@ -1750,8 +1844,8 @@ export default class Editproduct extends Component {
                                 </div>
                               </div>
                             ))}
-
-                            <div className="form-group add_multli">
+                            </div>
+                            <div className="form-group add_multli  full-box mt-0 ml-0">
                               <button className="btn btn-primary feel-btnv2" type="button" onClick={() => this.addmoremultipleimage()}>
                                 Add Multiple Images{"  "}
                               </button>
@@ -1913,7 +2007,7 @@ export default class Editproduct extends Component {
                                 onChange={this.onChange4}
                                 options={this.state.region}
                                 value={this.state.main_region}
-                                className="basic-multi-select"
+                                className="basic-multi-select basic-scoll-ad"
                                 classNamePrefix="select"
                               />
                               <span className="err err_main_region"></span>
@@ -2159,12 +2253,14 @@ export default class Editproduct extends Component {
                           </>
 
                           <div className="inner_details_admin">
+                            
                             <>
                               {MultipleArray &&
                                 MultipleArray.map((item, index) => {
                                   return (
                                     <>
-                                      <div className="simple_package">
+                                    <div className="region-row">
+                                    <div className="simple_package">
                                         <div className="form-group">
                                           <div className="modal-left-bx">
                                             <label>
@@ -2303,159 +2399,161 @@ export default class Editproduct extends Component {
                                         ></i>
                                       </div>
                                       <div className={"err no-packageerror" + index}></div>
-                                      {item.package.length > 0 ? (
+                                      <div className="table-responsive table-scroll-box-data ful-padding-none mb-0 bg-product-box pb-4">
+                          <table
+                            id="datatables"
+                            className="table table-striped table-no-bordered table-hover bg-product-box bright-bg package-remove-border mb-0 "
+                            cellSpacing="0"
+                            width="100%"
+                          >
+                            <thead>
+                              <tr>
+                                <th scope="col"><div className="modal-left-bx">
+                                                    <label>Packet Label</label>
+                                                    <span className="asterisk">
+                                                      *
+                                                    </span>
+                                                  </div>
+                                                  </th>
+                                <th scope="col"><div className="modal-left-bx">
+                                                    <label>Packet Size</label>
+                                                    <span className="asterisk">
+                                                      *
+                                                    </span>
+                                                  </div>
+                                                  </th>
+                                <th scope="col">
+                                <div className="modal-left-bx">
+                                                    <label>
+                                                      Selling Price (incl. gst)
+                                                    </label>
+                                                    <span className="asterisk">
+                                                      *
+                                                    </span>
+                                                  </div>
+                                </th>
+                                <th scope="col">
+                                <div className="modal-left-bx">
+                                                    <label>
+                                                      B2B Price (incl. gst)
+                                                    </label>
+                                                  </div>
+                                </th>
+                                <th scope="col">
+                                <div className="modal-left-bx">
+                                                    <label>
+                                                      Retail Price (incl. gst)
+                                                    </label>
+                                                  </div>
+                                </th>
+                                <th scope="col">
+                                <div className="modal-left-bx">
+                                                    <label>
+                                                      MRP (incl. gst)
+                                                    </label>
+                                                  </div>
+                                </th>
+                                <th scope="col">
+                                <div className="modal-left-bx">
+                                                    <label>Status</label>
+                                                  </div>
+                                </th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                            {item.package.length > 0 && (
                                         item.package.map((itm, indexx) => {
-                                          return (
-                                            <div className="simple_sub_package">
-                                              <div className="form-group">
-                                                <div className="modal-left-bx">
-                                                  <label>Packet Label</label>
-                                                  <span className="asterisk">*</span>
-                                                </div>
-                                                <div className="modal-right-bx">
-                                                  <input
+                                          return (<tr>
+                                            <td>
+                                            <input
                                                     type="text"
                                                     name="label"
                                                     value={itm.packetLabel}
                                                     className="form-control"
-                                                    placeholder="Enter Label"
+                                                   
                                                     onChange={(ev) => this.formHandler12(ev, index, indexx, "label")}
                                                   />
-                                                  <span className={"err err_packetLabel" + index + indexx}></span>
-                                                </div>
-                                              </div>
-
-                                              <div className="form-group">
-                                                <div className="modal-left-bx">
-                                                  <label>Packet Size</label>
-                                                  <span className="asterisk">*</span>
-                                                </div>
-                                                <div className="modal-right-bx">
-                                                  <input
+                                            </td>
+                                            <td>
+                                            <input
                                                     type="number"
                                                     name="packet_size"
                                                     value={itm.packet_size}
                                                     className="form-control"
-                                                    placeholder="Enter Packet Size"
+                                                   
                                                     onChange={(ev) => this.formHandler12(ev, index, indexx, "packet_size")}
                                                   />
-                                                  <span className={"err err_packet_size" + index + indexx}></span>
-                                                </div>
-                                              </div>
-
-                                              <div className="form-group">
-                                                <div className="modal-left-bx">
-                                                  <label>Selling Price</label>
-                                                  <span className="asterisk">*</span>
-                                                </div>
-                                                <div className="modal-right-bx">
-                                                  <input
+                                            </td>
+                                            <td>
+                                            <input
                                                     type="number"
                                                     name="selling_price"
                                                     value={itm.selling_price}
                                                     className="form-control"
-                                                    placeholder="Enter Selling Price"
+                                                   
                                                     onChange={(ev) => this.formHandler12(ev, index, indexx, "selling_price")}
                                                   />
-                                                  <span className={"err err_selling_price" + index + indexx}></span>
-                                                </div>
-                                              </div>
-
-                                              <div className="form-group">
-                                                <div className="modal-left-bx">
-                                                  <label>B2B Price</label>
-                                                </div>
-                                                <div className="modal-right-bx">
-                                                  <input
+                                            </td>
+                                            <td>
+                                            <input
                                                     type="number"
                                                     name="B2B_price"
                                                     value={itm.B2B_price}
                                                     className="form-control"
-                                                    placeholder="Enter B2B Price"
+                                                   
                                                     onChange={(ev) => this.formHandler12(ev, index, indexx, "B2B_price")}
                                                   />
-                                                  <span className={"err err_B2B_price" + index + indexx}></span>
-                                                </div>
-                                              </div>
-
-                                              <div className="form-group">
-                                                <div className="modal-left-bx">
-                                                  <label>Retail Price</label>
-                                                </div>
-                                                <div className="modal-right-bx">
-                                                  <input
+                                            </td>
+                                            <td>
+                                            <input
                                                     type="number"
                                                     name="Retail_price"
                                                     value={itm.Retail_price}
                                                     className="form-control"
-                                                    placeholder="Enter Retail Price"
+                                                   
                                                     onChange={(ev) => this.formHandler12(ev, index, indexx, "Retail_price")}
                                                   />
-                                                  <span className={"err err_Retail_price" + index + indexx}></span>
-                                                </div>
-                                              </div>
-
-                                              <div className="form-group">
-                                                <div className="modal-left-bx">
-                                                  <label>MRP</label>
-                                                </div>
-                                                <div className="modal-right-bx">
-                                                  <input
+                                              </td>
+                                              <td>
+                                              <input
                                                     type="number"
                                                     name="packetmrp"
                                                     value={itm.packetmrp}
                                                     className="form-control"
-                                                    placeholder="Enter MRP"
+                                                  
                                                     onChange={(ev) => this.formHandler12(ev, index, indexx, "packetmrp")}
                                                   />
-                                                  <span className={"err err_packetmrp" + index + indexx}></span>
-                                                </div>
-                                              </div>
-                                              <div className="form-group">
-                                                <div className="modal-left-bx">
-                                                  <label>Status</label>
-                                                </div>
-                                                <div className="modal-right-bx">
-                                                  <Switch
+                                              </td>
+                                              <td className="text-center">
+                                              <Switch
                                                     onChange={(ev) => this.formHandler12(ev, index, indexx, "status")}
                                                     checked={itm.status}
                                                     id="normal-switch-package"
                                                   />
-                                                </div>
-                                              </div>
-
-                                              {/* <i
-                                                onClick={() =>
-                                                  this.deletepackage(
-                                                    index,
-                                                    indexx
-                                                  )
-                                                }
-                                                className="fa fa-trash"
-                                                aria-hidden="true"
-                                              ></i> */}
-                                            </div>
-                                          );
-                                        })
-                                      ) : (
-                                        <></>
-                                      )}
-
-                                      <div className="form-group">
+                                              </td>
+                                          </tr>)}))} 
+                            </tbody>
+                            </table>
+                            <div className="form-group full-box mt-4 ml-0 mb-0 text-center pb-0">
                                         <div className="add_packaging">
-                                          <button type="button" className="btn btn-primary feel-btnv2" onClick={() => this.addmorepackaging(index)}>
-                                            <i className="fa fa-plus" aria-hidden="true"></i>
-                                            Add More Packaging
+                                          <button type="button" className="btn btn-primary feel-btnv2 small-btn-bx" onClick={() => this.addmorepackaging(index)}>
+                                           Add Packaging
                                           </button>
                                         </div>
                                       </div>
+                            </div>
+
+</div>
+                                      
+
+                                      
                                       {this.state.sub_region.length === this.state.addregion.length ? (
                                         <div>
                                           All Region Added
                                           <span className="err err_simple_region"></span>
                                         </div>
                                       ) : (
-                                        <div>
+                                        <div className="mb-3">
                                           <button type="button" className="btn btn-primary feel-btnv2" onClick={() => this.addmoregion()}>
                                             <i className="fa fa-plus" aria-hidden="true"></i>
                                             Add Region
@@ -2775,7 +2873,8 @@ export default class Editproduct extends Component {
                             <></>
                           )}
                         </div>
-                        <div className="d-flex justify-content-between w-100">
+                        <div className="full-box">
+                          <div className="prio-row">
                           <div className="form-group">
                             <div className="modal-left-bx">
                               <label>Priority</label>
@@ -2792,7 +2891,9 @@ export default class Editproduct extends Component {
                               <span className={"err err_priority"}></span>
                             </div>
                           </div>
-                          <div className="form-group">
+                        </div>  
+                        <div className="prio-staus common-flex">
+                          <div className="form-group one-qtr">
                             <div className="modal-left-bx">
                               <label>Status</label>
                             </div>
@@ -2801,7 +2902,7 @@ export default class Editproduct extends Component {
                             </div>
                           </div>
 
-                          <div className="form-group">
+                          <div className="form-group one-qtr">
                             <div className="modal-left-bx">
                               <label>Catalogue List Status Status</label>
                             </div>
@@ -2809,7 +2910,7 @@ export default class Editproduct extends Component {
                               <Switch onChange={this.handleChangeStatus1} checked={this.state.showstatus} id="normal-switch" />
                             </div>
                           </div>
-                          <div className="form-group">
+                          <div className="form-group one-qtr">
                             <div className="modal-left-bx">
                               <label>Same Day Delivery</label>
                             </div>
@@ -2817,7 +2918,7 @@ export default class Editproduct extends Component {
                               <Switch onChange={this.handlesamedaydelivery} checked={this.state.samedaydelivery} id="normal-switch" />
                             </div>
                           </div>
-                          <div className="form-group">
+                          <div className="form-group one-qtr">
                             <div className="modal-left-bx">
                               <label>Farm Pickup</label>
                             </div>
@@ -2826,7 +2927,7 @@ export default class Editproduct extends Component {
                             </div>
                           </div>
                         </div>
-
+                      </div>
                         <div className="modal-bottom">
                           {this.state.loading ? (
                             <button type="button" className="btn btn-primary feel-btn" style={{ minWidth: "100px" }}>

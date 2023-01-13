@@ -677,3 +677,23 @@ Require stack:
 [2023-01-12T10:11:52.116] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
 [2023-01-12T10:50:48.221] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
 [2023-01-12T13:37:09.591] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-12T14:31:03.867] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot destructure property 'driverNumber' of '(intermediate value)' as it is null.
+      at module.exports.UpdateDriverDetail (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:8225:9)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+} reason: TypeError: Cannot destructure property 'driverNumber' of '(intermediate value)' as it is null.
+[2023-01-12T14:32:12.657] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot destructure property 'driverNumber' of '(intermediate value)' as it is null.
+      at module.exports.UpdateDriverDetail (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/booking.controller.js:8225:9)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+} reason: TypeError: Cannot destructure property 'driverNumber' of '(intermediate value)' as it is null.
+[2023-01-12T14:33:47.079] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-12T14:48:40.217] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot read properties of null (reading 'loyalty_added')
+      at module.exports.AddPointsToUser (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/loyality_program.controller.js:247:31)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+} reason: TypeError: Cannot read properties of null (reading 'loyalty_added')
+[2023-01-12T17:50:54.149] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-13T10:12:30.899] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db

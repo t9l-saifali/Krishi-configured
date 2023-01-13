@@ -698,7 +698,7 @@ export default class viewproduct extends Component {
                             </span>
                           </div>
 
-                          <div className="table-responsive table-scroll-box-data">
+                          <div className="table-responsive table-scroll-box-data ful-padding-none">
                             <table id="datatables" className="table table-striped table-no-bordered table-hover" cellSpacing="0" width="100%">
                               <thead>
                                 <tr>
@@ -863,20 +863,26 @@ export default class viewproduct extends Component {
                           </div>
                         </div>
                         <div className="card-body final_add_prod_admin">
+                          <div className="heading-top-row">
+                            <div className="left-heading-section">
                           <h4 className="card-title">View product</h4>
+                         </div>
+                         <div className="right-heading-section">
                           <button className="btn btn-primary m-r-5 float-right" onClick={() => this.backtoproducts()}>
                             <i style={{ color: "white" }} className="material-icons">
                               arrow_back_ios
                             </i>{" "}
                             View Product's
                           </button>
+                          </div>
+                          </div>
                           <form className="add_product_new onlyform-label-change">
                             <div className="pakaging_pricing ">
                               <h3>Product Details</h3>
-                              <div className="inner_details_admin">
+                              <div className="inner_details_admin common-flex">
                                 <div className="form-group">
                                   <div className="modal-left-bx">
-                                    <label>Categories</label>
+                                    <label className="heading-text-data">Categories</label>
                                   </div>
                                   <div className="modal-right-bx">
                                     <span className="view-prod-same-des" style={{ textTransform: "capitalize" }}>
@@ -895,7 +901,7 @@ export default class viewproduct extends Component {
                                 </div>
                                 <div className="form-group">
                                   <div className="modal-left-bx">
-                                    <label>Product Name </label>
+                                    <label className="heading-text-data">Product Name </label>
                                   </div>
                                   <div className="modal-right-bx">
                                     <span className="view-prod-same-des" style={{ textTransform: "capitalize" }}>
@@ -907,7 +913,7 @@ export default class viewproduct extends Component {
 
                                 <div className="form-group">
                                   <div className="modal-left-bx">
-                                    <label>Long Description</label>
+                                    <label className="heading-text-data">Long Description</label>
                                   </div>
                                   <div className="modal-right-bx">
                                     <span className="view-prod-same-des">
@@ -928,7 +934,7 @@ export default class viewproduct extends Component {
 
                                 <div className="form-group">
                                   <div className="modal-left-bx">
-                                    <label>Short Description</label>
+                                    <label className="heading-text-data">Short Description</label>
                                   </div>
                                   <div className="modal-right-bx">
                                     <span className="view-prod-same-des">
@@ -949,7 +955,7 @@ export default class viewproduct extends Component {
 
                                 <div className="form-group">
                                   <div className="modal-left-bx">
-                                    <label>Product Threshold</label>
+                                    <label className="heading-text-data">Product Threshold</label>
                                   </div>
                                   <div className="modal-right-bx">
                                     <span className="view-prod-same-des">
@@ -961,7 +967,7 @@ export default class viewproduct extends Component {
 
                                 <div className="form-group">
                                   <div className="modal-left-bx">
-                                    <label>Product Subscription</label>
+                                    <label className="heading-text-data">Product Subscription</label>
                                   </div>
                                   <div className="modal-right-bx">
                                     <span className="view-prod-same-des">
@@ -974,7 +980,7 @@ export default class viewproduct extends Component {
 
                                 <div className="form-group">
                                   <div className="modal-left-bx">
-                                    <label>Unit of Measurement</label>
+                                    <label className="heading-text-data">Unit of Measurement</label>
                                   </div>
                                   <div className="modal-right-bx">
                                     <span className="view-prod-same-des">
@@ -986,7 +992,7 @@ export default class viewproduct extends Component {
 
                                 <div className="form-group">
                                   <div className="modal-left-bx">
-                                    <label>Quantity / Unit Measurement</label>
+                                    <label className="heading-text-data">Quantity / Unit Measurement</label>
                                   </div>
                                   <div className="modal-right-bx">
                                     <span className="view-prod-same-des">
@@ -997,7 +1003,7 @@ export default class viewproduct extends Component {
                                 </div>
                                 <div className="form-group">
                                   <div className="modal-left-bx">
-                                    <label>Pre Order</label>
+                                    <label className="heading-text-data">Pre Order</label>
                                   </div>
                                   <div className="modal-right-bx">
                                     <span className="view-prod-same-des">{this.state.allsingledata.preOrder ? "Yes" : "No"}</span>
@@ -1007,7 +1013,7 @@ export default class viewproduct extends Component {
                                 {this.state.allsingledata.preOrder ? (
                                   <div className="form-group">
                                     <div className="modal-left-bx">
-                                      <label>Pre Order End Date</label>
+                                      <label className="heading-text-data">Pre Order End Date</label>
                                     </div>
                                     <div className="modal-right-bx">
                                       <span className="view-prod-same-des">
@@ -1023,7 +1029,7 @@ export default class viewproduct extends Component {
                                 )}
                                 <div className="form-group">
                                   <div className="modal-left-bx">
-                                    <label>Barcode</label>
+                                    <label className="heading-text-data">Barcode</label>
                                   </div>
                                   <div className="modal-right-bx">
                                     <span className="view-prod-same-des">
@@ -1040,7 +1046,7 @@ export default class viewproduct extends Component {
                               <div className="inner_details_admin">
                                 <div className="form-group">
                                   <div className="modal-left-bx">
-                                    <label>Attachment</label>
+                                    <label className="heading-text-data">Attachment</label>
                                   </div>
                                   <div className="modal-right-bx">
                                     <span className="view-prod-same-des">
@@ -1057,7 +1063,7 @@ export default class viewproduct extends Component {
 
                                 <div className="form-group">
                                   <div className="modal-left-bx">
-                                    <label>Banner - 1920px * 400px</label>
+                                    <label className="heading-text-data">Banner - 1920px * 400px</label>
                                   </div>
                                   <div className="modal-right-bx">
                                     <span className="view-prod-same-des">
@@ -1079,7 +1085,7 @@ export default class viewproduct extends Component {
                                       <div key={index}>
                                         <div className="form-group">
                                           <div className="modal-left-bx">
-                                            <label>Image - 800px * 800px</label>
+                                            <label className="heading-text-data">Image - 800px * 800px</label>
                                           </div>
                                           <div className="modal-right-bx">
                                             <span className="view-prod-same-des">
@@ -1100,7 +1106,7 @@ export default class viewproduct extends Component {
                               <div className="inner_details_admin">
                                 <div className="form-group">
                                   <div className="modal-left-bx">
-                                    <label>Related Product</label>
+                                    <label className="heading-text-data">Related Product</label>
                                   </div>
                                   <div className="modal-right-bx">
                                     <span className="view-prod-same-des">
@@ -1127,7 +1133,7 @@ export default class viewproduct extends Component {
 
                                 <div className="form-group">
                                   <div className="modal-left-bx">
-                                    <label>Related recipes</label>
+                                    <label className="heading-text-data">Related recipes</label>
                                   </div>
                                   <div className="modal-right-bx">
                                     <span className="view-prod-same-des">
@@ -1159,7 +1165,7 @@ export default class viewproduct extends Component {
                               <div className="inner_details_admin">
                                 <div className="form-group">
                                   <div className="modal-left-bx">
-                                    <label>HSN Code</label>
+                                    <label className="heading-text-data">HSN Code</label>
                                   </div>
                                   <div className="modal-right-bx">
                                     <span className="view-prod-same-des">
@@ -1170,7 +1176,7 @@ export default class viewproduct extends Component {
 
                                 <div className="form-group">
                                   <div className="modal-left-bx">
-                                    <label>SKU Code</label>
+                                    <label className="heading-text-data">SKU Code</label>
                                   </div>
                                   <div className="modal-right-bx">
                                     <span className="view-prod-same-des">
@@ -1181,7 +1187,7 @@ export default class viewproduct extends Component {
 
                                 <div className="form-group">
                                   <div className="modal-left-bx">
-                                    <label> Sales Tax Outside Haryana</label>
+                                    <label className="heading-text-data"> Sales Tax Outside Haryana</label>
                                   </div>
                                   <div className="modal-right-bx">
                                     <span className="view-prod-same-des">
@@ -1192,7 +1198,7 @@ export default class viewproduct extends Component {
 
                                 <div className="form-group">
                                   <div className="modal-left-bx">
-                                    <label> Sales Tax Within Haryana</label>
+                                    <label className="heading-text-data"> Sales Tax Within Haryana</label>
                                   </div>
                                   <div className="modal-right-bx">
                                     <span className="view-prod-same-des">
@@ -1203,7 +1209,7 @@ export default class viewproduct extends Component {
 
                                 <div className="form-group">
                                   <div className="modal-left-bx">
-                                    <label>Purchase Tax</label>
+                                    <label className="heading-text-data">Purchase Tax</label>
                                   </div>
                                   <div className="modal-right-bx">
                                     <span className="view-prod-same-des">
@@ -1215,7 +1221,7 @@ export default class viewproduct extends Component {
                             </div>
                             <div className="form-group">
                               <div className="modal-left-bx">
-                                <label>Type of Product</label>
+                                <label className="heading-text-data">Type of Product</label>
                               </div>
                               <div className="modal-right-bx">
                                 <span className="view-prod-same-des">
@@ -1247,11 +1253,11 @@ export default class viewproduct extends Component {
                                     {this.state.allsingledata.simpleData[0] &&
                                       this.state.allsingledata.simpleData.map((item, index) => {
                                         return (
-                                          <div className="new_lining_cla" key={index}>
+                                          <div className="new_lining_cla region-row" key={index}>
                                             <div className="simple_package">
                                               <div className="form-group">
                                                 <div className="modal-left-bx" style={displayBlock}>
-                                                  <label>Region Name </label>
+                                                  <label className="heading-text-data">Region Name </label>
                                                 </div>
                                                 <div className="modal-right-bx">
                                                   <span className="view-prod-same-des">{item.region && item.region.name}</span>
@@ -1260,7 +1266,7 @@ export default class viewproduct extends Component {
 
                                               <div className="form-group">
                                                 <div className="modal-left-bx" style={displayBlock}>
-                                                  <label>Available Quantity</label>
+                                                  <label className="heading-text-data">Available Quantity</label>
                                                 </div>
                                                 <div className="modal-right-bx">
                                                   <span className="view-prod-same-des">{item.availableQuantity}</span>
@@ -1268,7 +1274,7 @@ export default class viewproduct extends Component {
                                               </div>
                                               <div className="form-group">
                                                 <div className="modal-left-bx" style={displayBlock}>
-                                                  <label>Inhouse Quantity</label>
+                                                  <label className="heading-text-data">Inhouse Quantity</label>
                                                 </div>
                                                 <div className="modal-right-bx">
                                                   <span className="view-prod-same-des">{item.inhouseQuantity}</span>
@@ -1276,7 +1282,7 @@ export default class viewproduct extends Component {
                                               </div>
                                               <div className="form-group">
                                                 <div className="modal-left-bx" style={displayBlock}>
-                                                  <label>Lost Quantity</label>
+                                                  <label className="heading-text-data">Lost Quantity</label>
                                                 </div>
                                                 <div className="modal-right-bx">
                                                   <span className="view-prod-same-des">{item.lostQuantity}</span>
@@ -1284,7 +1290,7 @@ export default class viewproduct extends Component {
                                               </div>
                                               <div className="form-group">
                                                 <div className="modal-left-bx" style={displayBlock}>
-                                                  <label>Return Quantity</label>
+                                                  <label className="heading-text-data">Return Quantity</label>
                                                 </div>
                                                 <div className="modal-right-bx">
                                                   <span className="view-prod-same-des">{item.returnQuantity}</span>
@@ -1346,24 +1352,24 @@ export default class viewproduct extends Component {
                                                   </div>
                                                 </div> */}
                                             </div>
-                                            <div className="table-responsive table-scroll-box-data">
+                                            <div className="table-responsive table-scroll-box-data ful-padding-none mb-0 bg-product-box pb-4">
                           <table
                             id="datatables"
-                            className="table table-striped table-no-bordered table-hover"
+                            className="table table-striped table-no-bordered bg-product-box bright-bg package-remove-border mb-0"
                             cellSpacing="0"
                             width="100%"
                           >
                             <thead>
                               <tr>
                                 <th scope="col"><div className="modal-left-bx">
-                                                    <label>Packet Label</label>
+                                                    <label className="heading-text-data">Packet Label</label>
                                                     <span className="asterisk">
                                                       *
                                                     </span>
                                                   </div>
                                                   </th>
                                 <th scope="col"><div className="modal-left-bx">
-                                                    <label>Packet Size</label>
+                                                    <label className="heading-text-data">Packet Size</label>
                                                     <span className="asterisk">
                                                       *
                                                     </span>
@@ -1371,7 +1377,7 @@ export default class viewproduct extends Component {
                                                   </th>
                                 <th scope="col">
                                 <div className="modal-left-bx">
-                                                    <label>
+                                                    <label className="heading-text-data">
                                                       Selling Price (incl. gst)
                                                     </label>
                                                     <span className="asterisk">
@@ -1381,28 +1387,28 @@ export default class viewproduct extends Component {
                                 </th>
                                 <th scope="col">
                                 <div className="modal-left-bx">
-                                                    <label>
+                                                    <label className="heading-text-data">
                                                       B2B Price (incl. gst)
                                                     </label>
                                                   </div>
                                 </th>
                                 <th scope="col">
                                 <div className="modal-left-bx">
-                                                    <label>
+                                                    <label className="heading-text-data">
                                                       Retail Price (incl. gst)
                                                     </label>
                                                   </div>
                                 </th>
                                 <th scope="col">
                                 <div className="modal-left-bx">
-                                                    <label>
+                                                    <label className="heading-text-data">
                                                       MRP (incl. gst)
                                                     </label>
                                                   </div>
                                 </th>
                                 <th scope="col">
                                 <div className="modal-left-bx">
-                                                    <label>Status</label>
+                                                    <label className="heading-text-data">Status</label>
                                                   </div>
                                 </th>
                               </tr>
@@ -1459,7 +1465,7 @@ export default class viewproduct extends Component {
                                                     className="form-control"
                                                   />
                                               </td>
-                                              <td>
+                                              <td className="text-center">
                                               <Switch
                                                     checked={itm.status}
                                                     id="normal-switch-package"
@@ -1840,11 +1846,15 @@ export default class viewproduct extends Component {
                       </div>
 
                       <div className="card-body">
-                        <div>
+                        <div ClassName="heading-top-row">
+                          <div className="left-heading-section">
                           <h4 className="card-title"> View Product </h4>
+                          </div>
+                          <div className="right-heading-section">
                           <button className="btn btn-primary m-r-5 float-right" onClick={() => this.backtoproduct()}>
                             <i className="material-icons">arrow_back_ios</i>View Product
                           </button>
+                          </div>
                         </div>
                         {this.state.allVariant.length > 0 && <SelectSearch
                                 options={this.state.allVariant}

@@ -504,7 +504,7 @@ export default class User extends Component {
                         </span>
                       </div>
 
-                      <div className='table-responsive table-scroll-box-data'>
+                      <div className='table-responsive table-scroll-box-data ful-padding-none'>
                         <table
                           id='datatables'
                           className='table table-striped table-no-bordered table-hover'
@@ -941,7 +941,7 @@ export default class User extends Component {
                         &times;
                       </button>
                       <h4 className='modal-title'>View Details </h4>
-                      <div className='view-box'>
+                      <div className='view-box view-simplebox'>
                         <ul>
                           <li>
                             <span className='view-title'>User Name</span>

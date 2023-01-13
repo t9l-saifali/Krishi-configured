@@ -189,15 +189,20 @@ export default class Region extends Component {
                         </div>
                       </div>
                       <div className="card-body">
-                        <div className="manage_up_add_btn">
-                          <h4 className="card-title">Inventory Region</h4>
-                          <button
-                            className="btn btn-primary m-r-5 float-right"
-                            onClick={this.openModal}
-                          >
-                            {" "}
-                            <i className="fa fa-plus"></i> Add Region{" "}
-                          </button>
+                        <div className="heading-top-row">
+                          <div className="manage_up_add_btn margin-bottom-none left-heading-section">
+                            <h4 className="card-title">Inventory Region</h4>
+                          
+                          </div>
+                          <div className="right-heading-section">
+                            <button
+                                className="btn btn-primary m-r-5 float-right"
+                                onClick={this.openModal}
+                              >
+                                {" "}
+                                <i className="fa fa-plus"></i> Add Region{" "}
+                              </button>
+                            </div>
                         </div>
                       </div>
 

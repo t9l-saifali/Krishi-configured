@@ -364,7 +364,7 @@ export default class Slides extends Component {
                             <i className="fa fa-plus"></i> Add Slider{" "}
                           </button>
                         </div>
-                        <div className="table-responsive table-scroll-box-data">
+                        <div className="table-responsive table-scroll-box-data ful-padding-none">
                           <table
                             id="datatables"
                             className="table table-striped table-no-bordered table-hover"

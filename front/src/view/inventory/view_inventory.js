@@ -584,7 +584,7 @@ export default class viewinventory extends Component {
                           </span>
                         </div>
 
-                        <div className="table-responsive table-scroll-box-data">
+                        <div className="table-responsive table-scroll-box-data ful-padding-none">
                           <table
                             id="datatables"
                             className="table table-striped table-no-bordered table-hover"
@@ -865,7 +865,7 @@ export default class viewinventory extends Component {
               &times;
             </button>
             <h4 className="modal-title">View Details </h4>
-            <div className="view-box">
+            <div className="view-box view-simplebox">
               <ul>
                 <li>
                   <span className="view-title">Date</span>
@@ -912,7 +912,7 @@ export default class viewinventory extends Component {
                 </li>
                 <li>
                   <span className="view-title">Added IP Address</span>
-                  <span className="view-status">
+                  <span className="view-status ">
                     {this.state.allsingledata.updateByIP
                       ? this.state.allsingledata.updateByIP
                       : ""}
@@ -954,7 +954,7 @@ export default class viewinventory extends Component {
                 )}
                 {this.state.allsingledata.inventoryItems &&
                 <>
-                <table>
+                <table className="side-table-structure-data">
                         <tr>
                         <th>Product Name</th>
                           <th>Region</th>
@@ -962,14 +962,14 @@ export default class viewinventory extends Component {
                           <th>Quantity</th>
                           <th>Cost Price</th>
                         </tr>
-                        </table>
+                        
                 {
                   this.state.allsingledata.inventoryItems.map((ittm, indd) => (
                     <tr>
-                                      <td> {ittm.product_name}</td>
-                                      <td> {ittm.region.name}</td>
+                                      <td> {ittm.product_name ?ittm.product_name :"" }</td>
+                                      <td> {ittm.region.name ?ittm.region.name :""}</td>
                                       <td> {ittm?.variant_name ? ittm.variant_name : ""}</td>
-                                      <td> {+ittm.productQuantity}</td>
+                                      <td> {+ittm.productQuantity ? +ittm.productQuantity :""}</td>
                                       <td>
                                         {+ittm.quantity &&
                                         ittm.product_costPrice
@@ -981,6 +981,7 @@ export default class viewinventory extends Component {
                     
                   ))
                 }
+                </table>
                 </>
                   }
               </ul>

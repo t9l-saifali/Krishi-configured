@@ -447,7 +447,7 @@ export default class Tax extends Component {
                       </div>
                     </div>
                     <div className="card-body">
-                      <div className="manage_up_add_btn">
+                      <div className="manage_up_add_btn margin-bottom-none">
                         <h4 className="card-title">Tax</h4>
 
                         <button
@@ -458,7 +458,7 @@ export default class Tax extends Component {
                           <i className="fa fa-plus"></i> Add Tax
                         </button>
                       </div>
-                      <div className="table-responsive table-scroll-box-data">
+                      <div className="table-responsive table-scroll-box-data full-spacing-none">
                         <table
                           id="datatables"
                           className="table table-striped table-no-bordered table-hover"
@@ -478,7 +478,7 @@ export default class Tax extends Component {
                                 <tr>
                                   <td>{data.name}</td>
                                   <td>
-                                    {data.totalTax ? data.totalTax : null}
+                                    {data.totalTax ? data.totalTax + '%' : null}
                                   </td>
                                   <td>
                                     <i
@@ -935,7 +935,7 @@ export default class Tax extends Component {
                     &times;
                   </button>
                   <h4 className="modal-title">View Details </h4>
-                  <div className="view-box view-label-text">
+                  <div className="view-box view-simplebox view-label-text">
                     {this.state.editing_data ? (
                       <ul>
                         <li>
@@ -947,7 +947,7 @@ export default class Tax extends Component {
                         <li>
                           <span className="view-title view-label-text">Tax Total</span>
                           <span className="view-status">
-                            {this.state.editing_data.totalTax}
+                            {this.state.editing_data.totalTax + '%'}
                           </span>
                         </li>
                         <li>
@@ -956,7 +956,7 @@ export default class Tax extends Component {
                             ? this.state.editing_data.taxData.map(
                                 (data, index) => {
                                   return (
-                                    <div>
+                                    <div className="view-status">
                                       <span className="view-title view-normal-text">
                                         Tax Name
                                       </span>

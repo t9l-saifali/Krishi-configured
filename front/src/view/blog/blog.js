@@ -864,7 +864,7 @@ export default class blogmaster extends Component {
                         }}
                       >
                         <div
-                          className="manage_up_add_btn"
+                          className="manage_up_add_btn mb-0"
                           style={{ width: "100%" }}
                         >
                           <h4 className="card-title">Recipes</h4>
@@ -878,7 +878,7 @@ export default class blogmaster extends Component {
                           </button>
                         </div>
                       </div>
-                      <div className="modal-form-bx">
+                      <div className="modal-form-bx pt-0">
                         <form>
                           <div className="form-group">
                             <div className="modal-left-bx">
@@ -1420,15 +1420,21 @@ export default class blogmaster extends Component {
                   <div className="col-md-12 ml-auto mr-auto">
                     <div className="card admin_blog_new admin-form-stylewrp">
                       <div className="card-body">
+                      <div className="heading-top-row">
+                        <div className="left-heading-section">
                         <h4 className="card-title"> Recipes</h4>
+                        </div>
+                        <div className="right-heading-section">
                         <button
                           className="btn btn-primary m-r-5 float-right"
                           onClick={() => this.backtohome()}
                         >
                           Back
                         </button>
+                        </div>
+                        </div>
                       </div>
-                      <div className="modal-form-bx">
+                      <div className="modal-form-bx pt-0">
                         <form>
                           <div className="form-group">
                             <div className="modal-left-bx">
@@ -1925,7 +1931,7 @@ export default class blogmaster extends Component {
                             </button>
                           </span>
                         </div>
-                        <div className="table-responsive table-scroll-box-data">
+                        <div className="table-responsive table-scroll-box-data ful-padding-none">
                           <table
                             id="datatables"
                             className="table table-striped table-no-bordered table-hover"

@@ -1711,41 +1711,46 @@ onchangingdata2(ev) {
 
                             <div className="form-group new_choose">
                               <div className="modal-left-bx">
-                                <label>Banner - 1920px * 400px</label>
+                                <label>Banner (1920px X 400px)</label>
                               </div>
-                              <img style={{ height: "50px" }} src={imageUrl + this.state.edit_banner} alt="" />
+                              <div className="banner-dash-col"><img style={{ height: "50px" }} src={imageUrl + this.state.edit_banner} alt="" />
                               {this.state.edit_banner ? (
                                 <i className="fa fa-times" onClick={() => this.removebanner()} aria-hidden="true"></i>
                               ) : (
                                 <></>
-                              )}
+                              )}</div>
+                              
 
                               <div className="modal-right-bx">
                                 <input type="file" name="edit_banner" className="form-control" onChange={this.formHandler} />
                                 <span className="err err_banner"></span>
                               </div>
                             </div>
-
+                            <div className="product-image-list-box common-flex full-box">
                             {multipleimages.map((item1, index) => {
                               return (
                                 <>
+                                
                                   <div className="form-group">
                                     <div className="modal-left-bx">
-                                      <label>Image - 800px * 800px</label>
+                                      <label>Image (800px X 800px)</label>
                                     </div>
                                     <div className="modal-right-bx">
+                                    <div className="banner-dash-col">
                                       <img style={{ height: "50px" }} src={imageUrl + item1.image} alt="images" />
                                       <span className={"err err_multi_img" + index}></span>
                                       <i className="fa fa-times" onClick={() => this.removeimagemultiple("Remove", index)} aria-hidden="true"></i>
+                                      </div>
                                     </div>
                                   </div>
+                                  
                                 </>
                               );
                             })}
                             {newmultipleimages.map((ittm, ind) => (
                               <div>
                                 <div className="modal-left-bx">
-                                  <label>Image - 800px * 800px</label>
+                                  <label>Image (800px X 800px)</label>
                                 </div>
                                 <div className="modal-right-bx">
                                   <input
@@ -1758,8 +1763,8 @@ onchangingdata2(ev) {
                                 </div>
                               </div>
                             ))}
-
-                            <div className="form-group add_multli">
+                            </div>
+                            <div className="form-group add_multli  full-box mt-0 ml-0">
                               <button className="btn btn-primary feel-btnv2" type="button" onClick={() => this.addmoremultipleimage()}>
                                 Add Multiple Images{"  "}
                               </button>
@@ -1921,7 +1926,7 @@ onchangingdata2(ev) {
                                 onChange={this.onChange4}
                                 options={this.state.region}
                                 value={this.state.main_region}
-                                className="basic-multi-select"
+                                className="basic-multi-select basic-scoll-ad"
                                 classNamePrefix="select"
                               />
                               <span className="err err_main_region"></span>
@@ -2167,12 +2172,14 @@ onchangingdata2(ev) {
                           </>
 
                           <div className="inner_details_admin">
+                            
                             <>
                               {MultipleArray &&
                                 MultipleArray.map((item, index) => {
                                   return (
                                     <>
-                                      <div className="simple_package">
+                                    <div className="region-row">
+                                    <div className="simple_package">
                                         <div className="form-group">
                                           <div className="modal-left-bx">
                                             <label>
@@ -2311,10 +2318,10 @@ onchangingdata2(ev) {
                                         ></i>
                                       </div>
                                       <div className={"err no-packageerror" + index}></div>
-                                      <div className="table-responsive table-scroll-box-data">
+                                      <div className="table-responsive table-scroll-box-data ful-padding-none mb-0 bg-product-box pb-4">
                           <table
                             id="datatables"
-                            className="table table-striped table-no-bordered table-hover"
+                            className="table table-striped table-no-bordered table-hover bg-product-box bright-bg package-remove-border mb-0 "
                             cellSpacing="0"
                             width="100%"
                           >
@@ -2382,7 +2389,7 @@ onchangingdata2(ev) {
                                                     name="label"
                                                     value={itm.packetLabel}
                                                     className="form-control"
-                                                    placeholder="Enter Label"
+                                                   
                                                     onChange={(ev) => this.formHandler12(ev, index, indexx, "label")}
                                                   />
                                             </td>
@@ -2392,7 +2399,7 @@ onchangingdata2(ev) {
                                                     name="packet_size"
                                                     value={itm.packet_size}
                                                     className="form-control"
-                                                    placeholder="Enter Packet Size"
+                                                   
                                                     onChange={(ev) => this.formHandler12(ev, index, indexx, "packet_size")}
                                                   />
                                             </td>
@@ -2402,7 +2409,7 @@ onchangingdata2(ev) {
                                                     name="selling_price"
                                                     value={itm.selling_price}
                                                     className="form-control"
-                                                    placeholder="Enter Selling Price"
+                                                   
                                                     onChange={(ev) => this.formHandler12(ev, index, indexx, "selling_price")}
                                                   />
                                             </td>
@@ -2412,7 +2419,7 @@ onchangingdata2(ev) {
                                                     name="B2B_price"
                                                     value={itm.B2B_price}
                                                     className="form-control"
-                                                    placeholder="Enter B2B Price"
+                                                   
                                                     onChange={(ev) => this.formHandler12(ev, index, indexx, "B2B_price")}
                                                   />
                                             </td>
@@ -2422,7 +2429,7 @@ onchangingdata2(ev) {
                                                     name="Retail_price"
                                                     value={itm.Retail_price}
                                                     className="form-control"
-                                                    placeholder="Enter Retail Price"
+                                                   
                                                     onChange={(ev) => this.formHandler12(ev, index, indexx, "Retail_price")}
                                                   />
                                               </td>
@@ -2432,11 +2439,11 @@ onchangingdata2(ev) {
                                                     name="packetmrp"
                                                     value={itm.packetmrp}
                                                     className="form-control"
-                                                    placeholder="Enter MRP"
+                                                  
                                                     onChange={(ev) => this.formHandler12(ev, index, indexx, "packetmrp")}
                                                   />
                                               </td>
-                                              <td>
+                                              <td className="text-center">
                                               <Switch
                                                     onChange={(ev) => this.formHandler12(ev, index, indexx, "status")}
                                                     checked={itm.status}
@@ -2446,153 +2453,26 @@ onchangingdata2(ev) {
                                           </tr>)}))} 
                             </tbody>
                             </table>
-                            </div>
-                                      {/* {item.package.length > 0 ? (
-                                        item.package.map((itm, indexx) => {
-                                          return (
-                                          <>
-                                          <div className="simple_sub_package">
-                                              <div className="form-group">
-                                                <div className="modal-left-bx">
-                                                  <label>Packet Label</label>
-                                                  <span className="asterisk">*</span>
-                                                </div>
-                                                <div className="modal-right-bx">
-                                                  <input
-                                                    type="text"
-                                                    name="label"
-                                                    value={itm.packetLabel}
-                                                    className="form-control"
-                                                    placeholder="Enter Label"
-                                                    onChange={(ev) => this.formHandler12(ev, index, indexx, "label")}
-                                                  />
-                                                  <span className={"err err_packetLabel" + index + indexx}></span>
-                                                </div>
-                                              </div>
-
-                                              <div className="form-group">
-                                                <div className="modal-left-bx">
-                                                  <label>Packet Size</label>
-                                                  <span className="asterisk">*</span>
-                                                </div>
-                                                <div className="modal-right-bx">
-                                                  <input
-                                                    type="number"
-                                                    name="packet_size"
-                                                    value={itm.packet_size}
-                                                    className="form-control"
-                                                    placeholder="Enter Packet Size"
-                                                    onChange={(ev) => this.formHandler12(ev, index, indexx, "packet_size")}
-                                                  />
-                                                  <span className={"err err_packet_size" + index + indexx}></span>
-                                                </div>
-                                              </div>
-
-                                              <div className="form-group">
-                                                <div className="modal-left-bx">
-                                                  <label>Selling Price</label>
-                                                  <span className="asterisk">*</span>
-                                                </div>
-                                                <div className="modal-right-bx">
-                                                  <input
-                                                    type="number"
-                                                    name="selling_price"
-                                                    value={itm.selling_price}
-                                                    className="form-control"
-                                                    placeholder="Enter Selling Price"
-                                                    onChange={(ev) => this.formHandler12(ev, index, indexx, "selling_price")}
-                                                  />
-                                                  <span className={"err err_selling_price" + index + indexx}></span>
-                                                </div>
-                                              </div>
-
-                                              <div className="form-group">
-                                                <div className="modal-left-bx">
-                                                  <label>B2B Price</label>
-                                                </div>
-                                                <div className="modal-right-bx">
-                                                  <input
-                                                    type="number"
-                                                    name="B2B_price"
-                                                    value={itm.B2B_price}
-                                                    className="form-control"
-                                                    placeholder="Enter B2B Price"
-                                                    onChange={(ev) => this.formHandler12(ev, index, indexx, "B2B_price")}
-                                                  />
-                                                  <span className={"err err_B2B_price" + index + indexx}></span>
-                                                </div>
-                                              </div>
-
-                                              <div className="form-group">
-                                                <div className="modal-left-bx">
-                                                  <label>Retail Price</label>
-                                                </div>
-                                                <div className="modal-right-bx">
-                                                  <input
-                                                    type="number"
-                                                    name="Retail_price"
-                                                    value={itm.Retail_price}
-                                                    className="form-control"
-                                                    placeholder="Enter Retail Price"
-                                                    onChange={(ev) => this.formHandler12(ev, index, indexx, "Retail_price")}
-                                                  />
-                                                  <span className={"err err_Retail_price" + index + indexx}></span>
-                                                </div>
-                                              </div>
-
-                                              <div className="form-group">
-                                                <div className="modal-left-bx">
-                                                  <label>MRP</label>
-                                                </div>
-                                                <div className="modal-right-bx">
-                                                  <input
-                                                    type="number"
-                                                    name="packetmrp"
-                                                    value={itm.packetmrp}
-                                                    className="form-control"
-                                                    placeholder="Enter MRP"
-                                                    onChange={(ev) => this.formHandler12(ev, index, indexx, "packetmrp")}
-                                                  />
-                                                  <span className={"err err_packetmrp" + index + indexx}></span>
-                                                </div>
-                                              </div>
-                                              <div className="form-group">
-                                                <div className="modal-left-bx">
-                                                  <label>Status</label>
-                                                </div>
-                                                <div className="modal-right-bx">
-                                                  <Switch
-                                                    onChange={(ev) => this.formHandler12(ev, index, indexx, "status")}
-                                                    checked={itm.status}
-                                                    id="normal-switch-package"
-                                                  />
-                                                </div>
-                                              </div>
-
-                                            </div>
-                                          </>
-                                            
-                                          );
-                                        })
-                                      ) : (
-                                        <></>
-                                      )} */}
-
-                                      <div className="form-group">
+                            <div className="form-group full-box mt-4 ml-0 mb-0 text-center pb-0">
                                         <div className="add_packaging">
-                                          <button type="button" className="btn btn-primary feel-btnv2" onClick={() => this.addmorepackaging(index)}>
-                                            <i className="fa fa-plus" aria-hidden="true"></i>
-                                            Add More Packaging
+                                          <button type="button" className="btn btn-primary feel-btnv2 small-btn-bx" onClick={() => this.addmorepackaging(index)}>
+                                           Add Packaging
                                           </button>
                                         </div>
                                       </div>
+                            </div>
+
+</div>
+                                      
+
+                                      
                                       {this.state.sub_region.length === this.state.addregion.length ? (
                                         <div>
                                           All Region Added
                                           <span className="err err_simple_region"></span>
                                         </div>
                                       ) : (
-                                        <div>
+                                        <div className="mb-3">
                                           <button type="button" className="btn btn-primary feel-btnv2" onClick={() => this.addmoregion()}>
                                             <i className="fa fa-plus" aria-hidden="true"></i>
                                             Add Region
@@ -2634,7 +2514,8 @@ onchangingdata2(ev) {
                             <></>
                           )}
                         </div>
-                        <div className="d-flex justify-content-between w-100">
+                        <div className="full-box">
+                          <div className="prio-row">
                           <div className="form-group">
                             <div className="modal-left-bx">
                               <label>Priority</label>
@@ -2651,7 +2532,9 @@ onchangingdata2(ev) {
                               <span className={"err err_priority"}></span>
                             </div>
                           </div>
-                          <div className="form-group">
+                        </div>  
+                        <div className="prio-staus common-flex">
+                          <div className="form-group one-qtr">
                             <div className="modal-left-bx">
                               <label>Status</label>
                             </div>
@@ -2660,7 +2543,7 @@ onchangingdata2(ev) {
                             </div>
                           </div>
 
-                          <div className="form-group">
+                          <div className="form-group one-qtr">
                             <div className="modal-left-bx">
                               <label>Catalogue List Status Status</label>
                             </div>
@@ -2668,7 +2551,7 @@ onchangingdata2(ev) {
                               <Switch onChange={this.handleChangeStatus1} checked={this.state.showstatus} id="normal-switch" />
                             </div>
                           </div>
-                          <div className="form-group">
+                          <div className="form-group one-qtr">
                             <div className="modal-left-bx">
                               <label>Same Day Delivery</label>
                             </div>
@@ -2676,7 +2559,7 @@ onchangingdata2(ev) {
                               <Switch onChange={this.handlesamedaydelivery} checked={this.state.samedaydelivery} id="normal-switch" />
                             </div>
                           </div>
-                          <div className="form-group">
+                          <div className="form-group one-qtr">
                             <div className="modal-left-bx">
                               <label>Farm Pickup</label>
                             </div>
@@ -2685,7 +2568,7 @@ onchangingdata2(ev) {
                             </div>
                           </div>
                         </div>
-
+                      </div>
                         <div className="modal-bottom">
                           {this.state.loading ? (
                             <button type="button" className="btn btn-primary feel-btn" style={{ minWidth: "100px" }}>

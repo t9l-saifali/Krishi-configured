@@ -22,6 +22,7 @@ class setting extends React.Component {
       maintenanceBanner: "",
       maintenanceLink: "",
       maintenanceStatus: false,
+      appMaintenanceStatus:false,
       tokenExpiration: "",
       emailOnSignup: false,
     };
@@ -29,6 +30,8 @@ class setting extends React.Component {
     this.handleChangeloyality = this.handleChangeloyality.bind(this);
     this.formHandler = this.formHandler.bind(this);
     this.maintenanceStatusstatus = this.maintenanceStatusstatus.bind(this);
+    this.appMaintenanceStatusstatus = this.appMaintenanceStatusstatus.bind(this);
+
     this.onEditorChange = this.onEditorChange.bind(this);
   }
   async formHandler(val, type) {
@@ -46,6 +49,13 @@ class setting extends React.Component {
       this.setState({ maintenanceStatus: true });
     } else {
       this.setState({ maintenanceStatus: false });
+    }
+  }
+  appMaintenanceStatusstatus(checked) {
+    if (checked) {
+      this.setState({ appMaintenanceStatus: true });
+    } else {
+      this.setState({ appMaintenanceStatus: false });
     }
   }
 
@@ -179,6 +189,10 @@ class setting extends React.Component {
       "maintenanceStatus",
       this.state.maintenanceStatus ? this.state.maintenanceStatus : ""
     );
+    data.append(
+      "appMaintenanceStatus",
+      this.state.appMaintenanceStatus ? this.state.appMaintenanceStatus : ""
+    );
     data.append("user_id", this.state.user_id ? this.state.user_id : "");
     data.append("weblink", this.state.weblink ? this.state.weblink : "");
     data.append("apilink", this.state.apilink ? this.state.apilink : "");
@@ -293,6 +307,7 @@ class setting extends React.Component {
             _id: res.data.data[0]._id,
             mailBanner: res.data.data[0].mailBanner,
             maintenanceStatus: res.data.data[0].maintenanceStatus,
+            appMaintenanceStatus: res.data.data[0].appMaintenanceStatus,
             maintenanceLink: res.data.data[0].maintenanceLink,
             maintenanceBanner: res.data.data[0].maintenanceBanner,
             tokenExpiration: res.data.data[0].tokenExpiration,
@@ -326,10 +341,12 @@ class setting extends React.Component {
           <Adminsiderbar />
           <div className="main-panel">
             <Adminheader />
-            <div className="container"> 
+            <div className="content">
+            <div className="container-fluid"> 
               <div className="setting-page setting-modify">
                 <div className="contact_details setting-col-box">
                   <h3>Contact Details</h3>
+                  <div className="settinginner-col">
                   <div className="form-group">
                     <div className="modal-left-bx">
                       <label>Company Name</label>
@@ -512,10 +529,13 @@ class setting extends React.Component {
                       />
                     </div>{" "}
                   </div>
+                 
+                  </div>
                 </div>
 
                 <div className="social_media setting-col-box">
                   <h3>Social Media</h3>
+                  <div className="settinginner-col">
                   <div className="form-group">
                     <div className="modal-left-bx">
                       <label>Whatsapp Number</label>
@@ -622,10 +642,12 @@ class setting extends React.Component {
                       />
                     </div>{" "}
                   </div>
+                  </div>
                 </div>
 
                 <div className="smsalert-gateway setting-col-box">
                   <h3>SMS Alert Gateway</h3>
+                  <div className="settinginner-col">
                   <div className="form-group">
                     <div className="modal-left-bx">
                       <label>Sender ID</label>
@@ -672,10 +694,12 @@ class setting extends React.Component {
                       />
                     </div>{" "}
                   </div>
+                  </div>
                 </div>
 
                 <div className="emailcredentials setting-col-box">
                   <h3>E-Mail Credentials</h3>
+                  <div className="settinginner-col">
                   <div className="form-group">
                     <div className="modal-left-bx">
                       <label>Mail Host</label>
@@ -735,6 +759,7 @@ class setting extends React.Component {
                         value={this.state.mail_password}
                       />
                     </div>{" "}
+                  </div>
                   </div>
                 </div>
 
@@ -828,12 +853,24 @@ class setting extends React.Component {
                 <div className="Default_icon">
                   <div className="form-group">
                     <div className="modal-left-bx">
-                      <label>Maintenance Status</label>
+                      <label> Website Maintenance Status</label>
                     </div>
                     <div className="modal-right-bx">
                       <Switch
                         onChange={this.maintenanceStatusstatus}
                         checked={this.state.maintenanceStatus}
+                        id="normal-switch"
+                      />
+                    </div>{" "}
+                  </div>
+                  <div className="form-group">
+                    <div className="modal-left-bx">
+                      <label> App Maintenance Status</label>
+                    </div>
+                    <div className="modal-right-bx">
+                      <Switch
+                        onChange={this.appMaintenanceStatusstatus}
+                        checked={this.state.appMaintenanceStatus}
                         id="normal-switch"
                       />
                     </div>{" "}
@@ -1075,6 +1112,7 @@ class setting extends React.Component {
                   </button>
                 </div>
               </div>
+            </div>
             </div>
             <Footer />
           </div>

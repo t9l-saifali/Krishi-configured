@@ -675,7 +675,7 @@ export default class lostinventory extends Component {
                                         type="text"
                                         autoComplete="off"
                                         className="form-control"
-                                        value={item.package[0]?.availableQuantity + item.product_details.unitMeasurement ? item.product_details.unitMeasurement.name : ""}
+                                        value={item.package[0]?.availableQuantity}
                                         readOnly
                                         placeholder="Available Quantity"
                                       />

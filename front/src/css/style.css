@@ -2173,5 +2173,5 @@ ul.pagination li:focus a {
   height:100% !important
 }
 .react-datetime-picker__calendar, .react-datetime-picker__clock {
-  z-index: 99;
+  z-index: 99 !important;
 }

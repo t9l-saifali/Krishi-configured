@@ -410,7 +410,7 @@ export default class FAQmanagement extends Component {
                             </span>
                           </div>
 
-                          <div className="table-responsive table-scroll-box-data">
+                          <div className="table-responsive table-scroll-box-data ful-padding-none">
                             <table
                               className="table table-striped table-no-bordered table-hover line_break_new"
                               cellSpacing="0"

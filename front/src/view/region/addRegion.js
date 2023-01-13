@@ -366,7 +366,11 @@ export default class AddRegion extends Component {
                 </div>
               </div>
               <div className="card-body">
-                <h4 className="card-title">Add Region</h4>
+              <div className="heading-top-row">
+                <div className="left-heading-section">
+                  <h4 className="card-title">Add Region</h4>
+                </div>
+                <div className="right-heading-section">
                 <button
                   type="button"
                   className="btn btn-primary m-r-5 float-right pointer"
@@ -378,14 +382,16 @@ export default class AddRegion extends Component {
                   ></i>{" "}
                   Back
                 </button>
+                </div>
+                </div>
               </div>
 
-              <div className="modal-form-bx m-50">
+              <div className="modal-form-bx m-20 mt-0">
                 <form>
                   <div className="form-group">
                     <div className="modal-left-bx">
                       <label className="region-headig-block">
-                        <b>Region Name</b>
+                        <b className="view-label-text">Region Name</b>
                         <span className="asterisk">*</span>
                       </label>
                     </div>
@@ -402,6 +408,7 @@ export default class AddRegion extends Component {
                   </div>
 
                   <div className="form-group region-block-list">
+                  <h6>Select Name and City</h6>
                     {/* <div className="modal-left-bx"><label>District<span className="asterisk">*</span></label></div> */}
                     <div className="modal-right-bx">
                       {this.state.modifiedRegionData &&
@@ -420,12 +427,14 @@ export default class AddRegion extends Component {
                                     margin: "10px",
                                   }}
                                 >
+                                  
                                   <div
-                                    className="regions-form-header"
+                                    className="regions-form-header region-dark-heading"
                                     onClick={(e) =>
                                       this.toggleDropdown(e, index)
                                     }
                                   >
+                                   
                                     <label for={item.stateName}>
                                       <strong>{item.stateName}</strong>
                                     </label>
@@ -444,9 +453,9 @@ export default class AddRegion extends Component {
                                   <div className="region-subcategory hide">
                                     <thead>
                                       <tr>
-                                        <th>Status</th>
+                                       {/*<th>Status</th>
                                         <th>Name</th>
-                                        {/* <th>Delivery Charges</th>
+                                         <th>Delivery Charges</th>
                                         <th>COD Available</th>
                                         <th>COD Charges</th>
                                         <th>Min Order Value</th> */}

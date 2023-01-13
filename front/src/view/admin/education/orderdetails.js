@@ -1725,7 +1725,7 @@ export default class orderdetails extends Component {
                         //   ""
                         // )
                       }
-                      <div className="table-responsive general-data-search-block table-scroll-box-data">
+                      <div className="table-responsive general-data-search-block table-scroll-box-data ful-padding-none">
                         <table
                           id="datatables"
                           className="table table-striped table-no-bordered table-hover new_tabulardesign"
@@ -3637,7 +3637,7 @@ export default class orderdetails extends Component {
               {this.state.order_detail ? (
                 <div role="dialog">
                   <div className="modal-dialog our_order_new new_des_apr9">
-                    <div className="modal-content default_form_design">
+                    <div className="modal-content default_form_design ">
                       <div>
                         <h4 className="modal-title">
                           <span>{this.state.order_detail.booking_code}</span>
@@ -3708,7 +3708,7 @@ export default class orderdetails extends Component {
                   }
                 }
                                         return (
-                                          <div className="flex">
+                                          <div className="flex common--gap">
                                             <div className="left_main_card_new">
                                             {item?.TypeOfProduct === "configurable" ? <Link to={"/product-configured/" + item.slug}>
                                                 <img
@@ -3769,7 +3769,7 @@ export default class orderdetails extends Component {
                                                   {varient_name && <span>{varient_name}</span>}
                                                   {item.TypeOfProduct ===
                                                     "simple" && (
-                                                    <span>
+                                                    <span className="dark-text-color">
                                                       {!item.without_package
                                                         ? item.packetLabel
                                                         : item.unitQuantity +
@@ -3781,7 +3781,7 @@ export default class orderdetails extends Component {
                                                     </span>
                                                   )}
                                                 </span>
-                                                <span>
+                                                <span className="dark-text-color">
                                                   ₹
                                                   {item.itemWiseGst
                                                     ? (
@@ -3792,14 +3792,14 @@ export default class orderdetails extends Component {
                                                 </span>{" "}
                                               </div>
                                               <div>
-                                                <span>Quantity {item.qty}</span>
+                                                <span className="dark-text-color">Quantity {item.qty}</span>
                                               </div>
                                               {item.TypeOfProduct ===
                                               "group" ? (
                                                 <ul>
                                                   {groupItem.map((group) => {
                                                     return (
-                                                      <li
+                                                      <li className="dark-text-color"
                                                         style={{
                                                           textTransform:
                                                             "capitalize",
@@ -3837,7 +3837,7 @@ export default class orderdetails extends Component {
                             </div>
                             {this.state.order_detail && (
                               <div className="modal-right-bx white_bg">
-                                <p
+                                <p className="dark-text-color"
                                   style={{
                                     textTransform: "capitalize",
                                     fontSize: "18px",
@@ -3851,7 +3851,7 @@ export default class orderdetails extends Component {
                                     : "--"}
                                 </p>
                                 {this.state.order_detail.booking_address && (
-                                  <span style={{ textTransform: "capitalize" }}>
+                                  <span className="dark-text-color" style={{ textTransform: "capitalize" }}>
                                     {
                                       this.state.order_detail.booking_address
                                         .address
@@ -3873,10 +3873,10 @@ export default class orderdetails extends Component {
 
                               <div className="modal-right-bx white_bg">
                                 <div className="flex_justify border_bottom">
-                                  <span style={{ fontWeight: "600" }}>
+                                  <span className="dark-text-color" style={{ fontWeight: "600" }}>
                                     Name
                                   </span>
-                                  <span>
+                                  <span className="dark-text-color">
                                     {this.state.order_detail &&
                                     this.state.order_detail.giftingName
                                       ? this.state.order_detail.giftingName
@@ -3884,16 +3884,17 @@ export default class orderdetails extends Component {
                                   </span>
                                 </div>
                                 <div className="flex_justify border_bottom">
-                                  <span style={{ fontWeight: "600" }}>
+                                  <span className="dark-text-color" style={{ fontWeight: "600" }}>
                                     Contact
                                   </span>
-                                  <span>
+                                  <span className="dark-text-color">
                                     {this.state.order_detail.giftingContact &&
                                       this.state.order_detail.giftingContact}
                                   </span>
                                 </div>
-                                <div className="flex_justify border_bottom">
-                                  <span style={{ fontWeight: "600" }}>
+                                {this.state.order_detail.giftingNote && 
+                                <div className="dark-text-color flex_justify border_bottom">
+                                  <span className="dark-text-color" style={{ fontWeight: "600" }}>
                                     Note
                                   </span>
                                   <span>
@@ -3901,11 +3902,13 @@ export default class orderdetails extends Component {
                                       this.state.order_detail.giftingNote}
                                   </span>
                                 </div>
+                                }
+                                
                                 <div className="flex_justify border_bottom">
-                                  <span style={{ fontWeight: "600" }}>
+                                  <span className="dark-text-color" style={{ fontWeight: "600" }}>
                                     Address
                                   </span>
-                                  <span>
+                                  <span className="dark-text-color">
                                     {this.state.order_detail.giftingAddress &&
                                       this.state.order_detail.giftingAddress
                                         .address}
@@ -3980,10 +3983,10 @@ export default class orderdetails extends Component {
                           </span>
                         </div> */}
                               <div className="flex_justify border_bottom">
-                                <span style={{ fontWeight: "600" }}>
+                                <span className="dark-text-color" style={{ fontWeight: "600" }}>
                                   Sub-Total
                                 </span>
-                                <span>
+                                <span className="dark-text-color">
                                   ₹
                                   {this.truncateToDecimals(
                                     +this.state.order_detail
@@ -3993,7 +3996,7 @@ export default class orderdetails extends Component {
                               </div>
                               {this.state.order_detail
                                 .totalCouponDiscountAmount ? (
-                                <div className="flex_justify border_bottom">
+                                <div className="flex_justify border_bottom dark-text-color">
                                   <span style={{ fontWeight: "600" }}>
                                     Discount{" "}
                                     {this.state.order_detail.coupon_code
@@ -4002,7 +4005,7 @@ export default class orderdetails extends Component {
                                         ")"
                                       : ""}
                                   </span>
-                                  <span>
+                                  <span className="dark-text-color">
                                     ₹{" "}
                                     {
                                       this.state.order_detail
@@ -4015,10 +4018,10 @@ export default class orderdetails extends Component {
                               )}
                               {this.state.order_detail.referralDiscount > 0 ? (
                                 <div className="flex_justify border_bottom">
-                                  <span style={{ fontWeight: "600" }}>
+                                  <span className="dark-text-color" style={{ fontWeight: "600" }}>
                                     Referral Discount
                                   </span>
-                                  <span>
+                                  <span className="dark-text-color">
                                     ₹
                                     {this.truncateToDecimals(
                                       this.state.order_detail.referralDiscount
@@ -4029,11 +4032,11 @@ export default class orderdetails extends Component {
                                 ""
                               )}
                               {this.state.order_detail.redeem_point > 0 ? (
-                                <div className="flex_justify border_bottom">
-                                  <span style={{ fontWeight: "600" }}>
+                                <div className="flex_justify border_bottom ">
+                                  <span className="dark-text-color" style={{ fontWeight: "600" }}>
                                     Redeem Point Discount
                                   </span>
-                                  <span>
+                                  <span className="dark-text-color">
                                     ₹
                                     {this.truncateToDecimals(
                                       this.state.order_detail.redeemDiscount
@@ -4045,7 +4048,7 @@ export default class orderdetails extends Component {
                               )}
 
                               <div className="flex_justify border_bottom">
-                                <span style={{ fontWeight: "600" }}>
+                                <span className="dark-text-color" style={{ fontWeight: "600" }}>
                                   Total GST <br />{" "}
                                   {this.state.order_detail.gst > 0
                                     ? this.state.order_detail.allGstLists &&
@@ -4055,7 +4058,7 @@ export default class orderdetails extends Component {
                                             <>
                                               {gst.tax_name && (
                                                 <>
-                                                  <span
+                                                  <span className="dark-text-color"
                                                     style={{ fontSize: "12px" }}
                                                   >
                                                     {gst.tax_name}{" "}
@@ -4071,7 +4074,7 @@ export default class orderdetails extends Component {
                                       )
                                     : ""}
                                 </span>
-                                <span>
+                                <span className="dark-text-color">
                                   ₹{this.state.order_detail.gst} <br />
                                 </span>
                               </div>
@@ -4094,20 +4097,20 @@ export default class orderdetails extends Component {
                         )} */}
 
                               <div className="flex_justify border_bottom">
-                                <span style={{ fontWeight: "600" }}>
+                                <span className="dark-text-color" style={{ fontWeight: "600" }}>
                                   Delivery Charges
                                 </span>
-                                <span>
+                                <span className="dark-text-color">
                                   ₹{this.state.order_detail.deliveryCharges}
                                 </span>
                               </div>
 
                               {this.state.order_detail.cod ? (
                                 <div className="flex_justify border_bottom">
-                                  <span style={{ fontWeight: "600" }}>
+                                  <span className="dark-text-color" style={{ fontWeight: "600" }}>
                                     COD Charges
                                   </span>
-                                  <span>
+                                  <span className="dark-text-color">
                                     ₹
                                     {this.truncateToDecimals(
                                       this.state.order_detail.codCharges

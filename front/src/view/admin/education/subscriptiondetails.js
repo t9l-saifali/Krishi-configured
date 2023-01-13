@@ -942,7 +942,7 @@ export default class orderdetails extends Component {
                         </span>
                       </div>
 
-                      <div className="table-responsive general-data-admin-block table-scroll-box-data">
+                      <div className="table-responsive general-data-admin-block table-scroll-box-data ful-padding-none">
                         <table
                           id="datatables"
                           className="table table-striped table-no-bordered table-hover"
@@ -2300,7 +2300,8 @@ export default class orderdetails extends Component {
                                                     "simple" && (
                                                     <span>
                                                       {!item.without_package
-                                                        ? item.simpleItem?.packetLabel
+                                                        ? item.simpleItem
+                                                            ?.packetLabel
                                                         : item.unitQuantity +
                                                           " " +
                                                           (item.unitMeasurement

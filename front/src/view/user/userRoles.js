@@ -332,7 +332,7 @@ export default class UserRole extends Component {
                           <i className="fa fa-plus"></i> Add Role{" "}
                         </button>
                       </div>
-                      <div className="table-responsive table-scroll-box-data">
+                      <div className="table-responsive table-scroll-box-data ful-padding-none">
                         <table
                           id="datatables"
                           className="table table-striped table-no-bordered table-hover role-data-table"
@@ -355,8 +355,7 @@ export default class UserRole extends Component {
                                 <tr>
                                   <td>{data.role_name}</td>
                                   <td
-                                    style={{ textTransform: "capitalize" }}
-                                    style={{ whiteSpace: "unset" }}
+                                    style={{ textTransform: "capitalize",whiteSpace: "unset" }}
                                   >
                                     {data.modules.map((i) => {
                                       return (
@@ -445,8 +444,8 @@ export default class UserRole extends Component {
                                   </div>
                                 </div>
 
-                                <div className="form-group">
-                                  <div className="modal-left-bx">
+                                <div className="form-group common-flex common--gap edit-fo-role">
+                                  <div className="modal-left-bx flex-full">
                                     <label>
                                       Modules<span className="asterisk">*</span>
                                     </label>
@@ -549,8 +548,8 @@ export default class UserRole extends Component {
                                   </div>
                                 </div>
 
-                                <div className="form-group">
-                                  <div className="modal-left-bx">
+                                <div className="form-group common-flex common--gap edit-fo-role">
+                                  <div className="modal-left-bx flex-full">
                                     <label>
                                       Modules<span className="asterisk">*</span>
                                     </label>
