@@ -2759,7 +2759,7 @@ module.exports.addOne = async (req, res) => {
     });
   }
 
-  var maxRedeemAllowed = (userData.TotalPoint ? +userData.TotalPoint : 0) * getSettings.seedValue;
+  var maxRedeemAllowed = (userData.TotalPoint ? +userData.TotalPoint : 0) * (getSettings?.seedValue ? getSettings?.seedValue : 0);
 
   if (+redeemDiscount * dates.length > maxRedeemAllowed) {
     return res.status(500).json({

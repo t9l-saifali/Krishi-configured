@@ -6610,7 +6610,7 @@ module.exports.CSVReportGenrate = async function (req, res) {
               },
               { id: "OutletName", title: "Region" },
               { id: "ItemName", title: "Item Name" },
-              { id: "packaging", title: "Packaging" },
+              { id: "packaging", title: "Packaging/Variant" },
               { id: "ItemQuantity", title: "Item Quantity" },
               { id: "category", title: "category" },
               {
@@ -6719,7 +6719,33 @@ module.exports.CSVReportGenrate = async function (req, res) {
                 var ItemDiscount = BookingDetail[k].itemDiscountAmount ? +BookingDetail[k].totalprice - +BookingDetail[k].itemDiscountAmount : 0;
                 var ItemTaxes = BookingDetail[k].itemWiseGst;
               }
+              if (BookingDetailZ.TypeOfProduct == "configurable") {
+                
+                var product_categoriesArray = [];
+                if (BookingDetailZ.product_categories) {
+                  var product_categories = BookingDetailZ.product_categories;
+                  for (var i1 = 0; i1 < product_categories.length; i1++) {
+                    product_categoriesArray.push(product_categories[i1].category_name);
+                  }
+                }
 
+                var product_name = BookingDetailZ.product_name;
+                let varientName = BookingDetail[k]?.variant_name ? BookingDetail[k]?.variant_name?.split("__") : ""
+
+                var packaging = ""
+                if(varientName?.length > 0){
+                  for (let n in varientName){
+                    if(n%2 != 0 && typeof varientName[n] == "string"){
+                      packaging = packaging + "-" + varientName[n]
+                    }
+                  }
+                }
+                var qty = BookingDetail[k].qty;
+                var totalPrice = BookingDetail[k].totalprice;
+                var totalPriceBeforeGST = BookingDetail[k].totalPriceBeforeGST;
+                var ItemDiscount = BookingDetail[k].itemDiscountAmount ? +BookingDetail[k].totalprice - +BookingDetail[k].itemDiscountAmount : 0;
+                var ItemTaxes = BookingDetail[k].itemWiseGst;
+              }
               if (iData.BookingStatusByAdmin == "Pending" && iData.payment == "Pending" && iData.paymentmethod == "Paytm") {
                 var BookingStatusByAdmin = "Failed";
               } else {
@@ -7933,6 +7959,7 @@ module.exports.CSVReportGenrate = async function (req, res) {
             { id: "ProductName", title: "Product Name" },
             { id: "Region", title: "Region" },
             { id: "Quantity", title: "Quantity" },
+            { id: "Variant", title: "Variant" },
             { id: "unitMeasurement", title: "Product Measurement" },
             { id: "Note", title: "Note" },
             { id: "admin_name", title: "Added By" },
@@ -7951,6 +7978,16 @@ module.exports.CSVReportGenrate = async function (req, res) {
           } else if (iData.voucherType == "return") {
             var voucherType = "Return Inventory";
           }
+          let varientName = iData?.variant_name ? iData?.variant_name?.split("__") : ""
+          let variant_name = ""
+          if(varientName?.length > 0){
+            for (let n in varientName){
+              if(n%2 != 0 && typeof varientName[n] != "function"){
+                variant_name = variant_name + "-" + varientName[n]
+              }
+            }
+          }
+          console.log(variant_name)
 
           jsonData.push({
             Date: Dated,
@@ -7958,6 +7995,7 @@ module.exports.CSVReportGenrate = async function (req, res) {
             ProductName: iData.product_id.product_name,
             Region: iData.regionID.name,
             Quantity: iData.TotalQuantity,
+            Variant:variant_name,
             unitMeasurement: iData.unitMeasurement,
             Note: iData.note,
             admin_name: iData.admin_id.username,
@@ -8578,7 +8616,6 @@ module.exports.CSVReportGenrate = async function (req, res) {
               model: 'admin'
             } 
          })
-        // .populate('bookingdetail.product_id')
         .exec(function (err, data) {
           var t = Math.random();
           var FileName = "SalesReportWithTaxationAccounts";
@@ -8587,49 +8624,14 @@ module.exports.CSVReportGenrate = async function (req, res) {
 
           const csvWriter = createCsvWriter({
             path: "./public/reports/" + file_Name + ".csv",
-            // header: [
-            //   { id: "OrderDate", title: "Order Date" },
-            //   { id: "BillingDate", title: "Billing Date" },
-            //   { id: "OrderTime", title: "Order Time" },
-            //   { id: "OrderStatus", title: "Order Status" },
-            //   { id: "PaymentMethod", title: "Payment Method" },
-            //   { id: "CustomerName", title: "Customer Name" },
-            //   { id: "CustomerMobileNo", title: "Customer Mobile No" },
-            //   { id: "CustomerType", title: "Customer Type" },
-            //   {id: "AsignedPerson",title: "Asigned Person"},
-            //   { id: "CustomerEmail", title: "Customer Email" },
-            //   { id: "DeliveryboyName", title: "Delivery Boy Name" },
-            //   { id: "deliverySlot", title: "Delivery Slot" },
-            //   {
-            //     id: "OrderDeliveryDate",
-            //     title: "Order Delivery Date",
-            //   },
-            //   {
-            //     id: "ReferenceNumber",
-            //     title: "Order ID",
-            //   },
-            //   { id: "OutletName", title: "Region" },
-            //   { id: "ItemName", title: "Item Name" },
-            //   { id: "packaging", title: "Packaging" },
-            //   { id: "ItemQuantity", title: "Item Quantity" },
-            //   { id: "category", title: "category" },
-            //   {
-            //     id: "totalPriceBeforeGST",
-            //     title: "Item Total Price Without GST",
-            //   },
-            //   { id: "ItemTaxes", title: "Item Taxes" },
-            //   { id: "ItemDiscount", title: "Item Discount" },
-            //   { id: "ItemTotal", title: "Item Total Price" },
-            // ],
             header: [
-              
               { id: "VchNo", title: "Vch No" },
               { id: "VchType", title: "Vch Type" },
               { id: "Date", title: "Date" },
               { id: "BillingDate", title: "Billing Date" },
               { id: "reffNo", title: "reffNo" },
               { id: "Item", title: "Item" },
-              { id: "packaging", title: "Packaging" },
+              { id: "packaging", title: "Packaging/Variant" },
               { id: "description", title: "description" },
               { id: "Qty", title: "Qty" },
               { id: "Rate", title: "Rate" },
@@ -8729,14 +8731,8 @@ module.exports.CSVReportGenrate = async function (req, res) {
                       if(ItemQuantity){
                       	itemsArray.push(product_name + " " + ItemQuantity);
                       }
-                    // itemsArray.push(product_name + " " + ItemQuantity);
-                    // product_name = set.sets[k].product.product_name;
-                    // totalPrice = set.sets[k].qty*BookingDetailZ.qty*set.sets[k].price
-                    // qty = set.sets[k].qty*BookingDetailZ.qty
-                    // ItemQuantity = (set.sets[k].package ? set.sets[k].package.packetLabel : set.sets[k].unitQuantity+' '+BookingDetailZ.unitMeasurement)
-                  }
+                   }
                   product_categoriesArray.push(product_categoriesArray);
-                  // product_name.push(BookingDetailZ.product_name + "(" + itemsArray + ")");
                   product_name = BookingDetailZ.product_name;
                   description = "(" + itemsArray + ")";
                   totalPrice = BookingDetailZ.totalprice;
@@ -8768,39 +8764,38 @@ module.exports.CSVReportGenrate = async function (req, res) {
                 var description = "";
                 var hsnCode = BookingDetail[k]?.product_id?.hsnCode
               }
+              if (BookingDetailZ.TypeOfProduct == "configurable") {
+                
+                var product_categoriesArray = [];
+                if (BookingDetailZ.product_categories) {
+                  var product_categories = BookingDetailZ.product_categories;
+                  for (var i1 = 0; i1 < product_categories.length; i1++) {
+                    product_categoriesArray.push(product_categories[i1].category_name);
+                  }
+                }
+
+                var product_name = BookingDetailZ.product_name;
+                let varientName = BookingDetail[k]?.variant_name ? BookingDetail[k]?.variant_name?.split("__") : ""
+
+                var packaging = ""
+                if(varientName?.length > 0){
+                  for (let n in varientName){
+                    if(n%2 != 0 && typeof varientName[n] == "string"){
+                      packaging = packaging + "-" + varientName[n]
+                    }
+                  }
+                }
+                var qty = BookingDetail[k].qty;
+                var totalPrice = BookingDetail[k].totalprice;
+                var totalPriceBeforeGST = BookingDetail[k].totalPriceBeforeGST;
+                var ItemDiscount = BookingDetail[k].itemDiscountAmount ? +BookingDetail[k].totalprice - +BookingDetail[k].itemDiscountAmount : 0;
+                var ItemTaxes = BookingDetail[k].itemWiseGst;
+              }
               if (iData.BookingStatusByAdmin == "Pending" && iData.payment == "Pending" && iData.paymentmethod == "Paytm") {
                 var BookingStatusByAdmin = "Failed";
               } else {
                 var BookingStatusByAdmin = iData.BookingStatusByAdmin;
               }
-              // var ItemQuantity;
-              // var ItemQuantity =  BookingDetail[k].without_package ? BookingDetail[k].unitQuantity+' '+BookingDetail[k].unitMeasurement : BookingDetail[k].packetLabel
-              // jsonData.push({
-              //   OrderDate: OrderDate,
-              //   BillingDate:backend_OrderDate,
-              //   OrderTime: OrderTime,
-              //   PaymentMethod: iData.paymentmethod,
-              //   OrderStatus: BookingStatusByAdmin,
-              //   CustomerName: iData.userName,
-              //   CustomerMobileNo: iData.userMobile,
-              //   CustomerType: iData.userType,
-              //   CustomerEmail: iData.userEmail,
-              //   DeliveryboyName: driverName,
-              //   deliverySlot: iData.deliverySlot,
-              //   OrderDeliveryDate: DeliveryDate,
-              //   ReferenceNumber: iData.booking_code,
-              //   OutletName: iData.regionName,
-              //   ItemName: product_name,
-              //   packaging: packaging,
-              //   ItemQuantity: qty,
-              //   category: product_categoriesArray,
-              //   ItemTotal: totalPrice,
-              //   totalPriceBeforeGST: totalPriceBeforeGST,
-              //   ItemDiscount: ItemDiscount,
-              //   ItemTaxes: ItemTaxes,
-              //   AsignedPerson: iData?.user_id?.sales_person?.username ? iData?.user_id?.sales_person.username : "N/A",
-
-              // });
               var Cgstledger = totalPriceBeforeGST != totalPrice ? data[i]?.allGstLists.filter((cur)=>cur.tax_name == "CGST").length >0 ? "OUTPUT CGST @" + (data[i]?.allGstLists.filter((cur)=>cur.tax_name == "CGST")[0].tax_percent) + "%" : "" : ""
               var Sgstledger = totalPriceBeforeGST != totalPrice ? data[i]?.allGstLists.filter((cur)=>cur.tax_name == "SGST").length >0 ? "OUTPUT SGST @" + (data[i]?.allGstLists.filter((cur)=>cur.tax_name == "SGST")[0].tax_percent) + "%" : "": ""
               var Igstledger = totalPriceBeforeGST != totalPrice ? data[i]?.allGstLists.filter((cur)=>cur.tax_name == "IGST").length >0 ? "OUTPUT IGST @" + (data[i]?.allGstLists.filter((cur)=>cur.tax_name == "IGST")[0].tax_percent) + "%" : "": ""

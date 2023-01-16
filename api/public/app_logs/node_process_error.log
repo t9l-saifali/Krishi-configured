@@ -697,3 +697,38 @@ Require stack:
 } reason: TypeError: Cannot read properties of null (reading 'loyalty_added')
 [2023-01-12T17:50:54.149] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
 [2023-01-13T10:12:30.899] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-13T10:40:18.774] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-13T10:40:38.713] [ERROR] node_process_error - unhandled error / uncaughtException :::::: ReferenceError: itm is not defined
+[2023-01-13T10:41:08.717] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-13T10:45:34.448] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-13T10:47:56.688] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-13T10:50:44.868] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-13T10:52:08.260] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-13T11:02:17.981] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-13T11:04:26.172] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-13T11:05:42.356] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-13T11:17:09.912] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-13T11:38:25.726] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-13T11:42:39.216] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-13T11:46:25.457] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-13T11:56:17.869] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-13T12:00:19.646] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-13T12:01:46.027] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-13T12:03:37.489] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-13T12:04:00.874] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-13T14:01:45.280] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-13T14:03:51.580] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-13T14:08:38.176] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-16T09:16:31.322] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-16T09:21:39.051] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot read properties of undefined (reading 'seedValue')
+      at module.exports.addOne (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/subscription.controller.js:2762:89)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+} reason: TypeError: Cannot read properties of undefined (reading 'seedValue')
+[2023-01-16T09:24:51.888] [DEBUG] node_process_error - Mongoose connected to mongodb://127.0.01:27017/krishicress_db
+[2023-01-16T09:37:25.306] [ERROR] node_process_error - Unhandled rejection at  Promise {
+  <rejected> TypeError: Cannot read properties of null (reading 'subscription_accepted')
+      at /home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/subscription.controller.js:4200:79
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+} reason: TypeError: Cannot read properties of null (reading 'subscription_accepted')

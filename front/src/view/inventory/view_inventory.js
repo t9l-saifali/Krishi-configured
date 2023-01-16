@@ -964,22 +964,23 @@ export default class viewinventory extends Component {
                         </tr>
                         
                 {
-                  this.state.allsingledata.inventoryItems.map((ittm, indd) => (
+                  this.state.allsingledata.inventoryItems.map((ittm, indd) => {
+                    console.log(ittm,"lkkkkkkkkkkkkkkkkkkkk")
+                    return (
                     <tr>
-                                      <td> {ittm.product_name ?ittm.product_name :"" }</td>
-                                      <td> {ittm.region.name ?ittm.region.name :""}</td>
-                                      <td> {ittm?.variant_name ? ittm.variant_name : ""}</td>
-                                      <td> {+ittm.productQuantity ? +ittm.productQuantity :""}</td>
-                                      <td>
-                                        {+ittm.quantity &&
-                                        ittm.product_costPrice
-                                          ? +ittm.quantity *
-                                            ittm.product_costPrice
-                                          : 0}
-                                      </td>
-                                    </tr>
-                    
-                  ))
+                    <td> {ittm.product_name ?ittm.product_name :"" }</td>
+                    <td> {ittm.region.name ?ittm.region.name :""}</td>
+                    <td> {ittm?.variant_name ? ittm.variant_name : ""}</td>
+                    <td> {+ittm.productQuantity ? +ittm.productQuantity :""}</td>
+                    <td>
+                      {+ittm.productQuantity &&
+                      ittm.product_costPrice
+                        ? +ittm.productQuantity *
+                          ittm.product_costPrice
+                        : 0}
+                    </td>
+                  </tr>
+                  )})
                 }
                 </table>
                 </>

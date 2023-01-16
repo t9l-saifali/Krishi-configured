@@ -1003,9 +1003,241 @@ async componentWillMount(){
                             </div>
                           </div>
                         </div>
+                        {/* <div className="table-responsive table-scroll-box-data ful-padding-none">
+                          <table
+                            id="datatables"
+                            className="table table-striped table-no-bordered table-hover"
+                            cellSpacing="0"
+                            width="100%"
+                          >
+                            <thead>
+                              <tr>
+                                <th scope="col">Product</th>
+                                <th scope="col">Cost Price</th>
+                                <th scope="col">Expiration</th>
+                                <th scope="col">Region</th>
+                                <th scope="col">Variant name</th>
+                                <th scope="col">Quantity</th>
+                                <th scope="col">Total Amount</th>
+
+
+
+                              </tr>
+                            </thead>
+                            <tbody>
+                            {MultipleArray.length > 0 &&
+                          MultipleArray.map((item, index) => {
+                            return (
+<tr>
+  <td>
+  <div className="modal-right-bx">
+                                      <SelectSearch
+                                        placeholder="Search Product"
+                                        options={this.state.all_product}
+                                        onChange={(e) =>
+                                          this.onChange112(e, index)
+                                        }
+                                        className="select-search"
+                                        value={item.product}
+                                        name={"selected_product" + index}
+                                      />
+                                      <span
+                                        className={
+                                          "err err_productsearch" + index
+                                        }
+                                      ></span>
+                                    </div>
+  </td>
+  <td>
+  <div className="modal-right-bx">
+                                      <input
+                                        type="text"
+                                        autoComplete="off"
+                                        name={"product_costPrice" + index}
+                                        className="form-control"
+                                        value={item.product_costPrice}
+                                        onChange={(e) =>
+                                          this.formHandler1(
+                                            e,
+                                            index,
+                                            0,
+                                            "product_costPrice"
+                                          )
+                                        }
+                                        placeholder="Enter Cost Price"
+                                      />
+                                      <span
+                                        className={
+                                          "err err_product_costPrice" + index
+                                        }
+                                      ></span>
+                                    </div>
+  </td>
+  <td>
+  <div className="modal-right-bx">
+                                      <DatePicker
+                                        selected={item.product_expiry}
+                                        dateFormat="dd/MM/yyyy"
+                                        onChange={(date) =>
+                                          this.setexpdate11(date, index)
+                                        }
+                                        minDate={new Date()}
+                                      />
+                                      <span
+                                        className={
+                                          "err err_product_expiry" + index
+                                        }
+                                      ></span>
+                                    </div>
+  </td>
+  {item.regionalData.map((it, ind) => {
+                                    return (
+                                      <td>
+<div className="modal-right-bx">
+                                      <SelectSearch
+                                        placeholder="Search Region"
+                                        options={
+                                          this.state[
+                                            "regiondata" + item.slug
+                                          ]
+                                        }
+                                        onChange={(e) =>
+                                          this.onChangeregion(
+                                            e,
+                                            index,
+                                            ind,
+                                            item.product
+                                          )
+                                        }
+                                        className="select-search"
+                                        value={it.region}
+                                        autoComplete="off"
+                                      />
+                                      <span
+                                        className={
+                                          "err err_region" + index + ind
+                                        }
+                                      ></span>
+                                    </div>
+                                      </td>
+                                      
+                                    )})}
+                                    {item.regionalData.map((it, ind) => item.prodType === "configurable" ? (
+                                      <td>
+                                        <div className="modal-right-bx">
+                                          <select
+                                            name="variant_name"
+                                            className="form-control"
+                                            onChange={(e) =>
+                                              this.formHandler1(
+                                                e,
+                                                index,
+                                                ind,
+                                                "variant_name"
+                                              )
+                                            }
+                                          >
+                                            <option value="">
+                                              Select variant name
+                                            </option>
+                                            {
+                                              item.prodType == "configurable" &&
+                                              item.configurableData.map((dta)=>{
+                                                return(
+                                                  <option value={dta.variant_name}>
+                                                  {dta.variant_name}
+                                                </option>
+                                              )
+                                              })
+                                            }
+                                          </select>
+                                          <span
+                                            className={
+                                              "err err_variant" +
+                                              index +
+                                              ind
+                                            }
+                                          ></span>
+                                        </div>
+                                      </td>
+                                    ) :   <td></td>
+                                  )}
+                                  {item.regionalData.map((it, ind) => {
+                                    return (
+                                      <td>
+<div className="modal-right-bx">
+                                            <input
+                                              type="number"
+                                              autoComplete="off"
+                                              name={"quantity" + index}
+                                              className="form-control"
+                                              value={it.quantity || ""}
+                                              onChange={(e) =>
+                                                this.formHandler1(
+                                                  e,
+                                                  index,
+                                                  ind,
+                                                  "quantity"
+                                                )
+                                              }
+                                              placeholder="Enter Quantity"
+                                            />
+                                            <span
+                                              className={
+                                                "err err_quantity" + index + ind
+                                              }
+                                            ></span>
+                                          </div>
+                                      </td>
+                                      
+                                    )})}
+                                     {item.regionalData.map((it, ind) => {
+                                    return (
+                                      <td>
+<div className="modal-right-bx">
+                                            <input
+                                              type="text"
+                                              autoComplete="off"
+                                              name={"total_amount" + index}
+                                              className="form-control"
+                                              value={it.total_amount}
+                                              onChange={(e) =>
+                                                this.formHandler1(
+                                                  e,
+                                                  index,
+                                                  ind,
+                                                  "total_amount"
+                                                )
+                                              }
+                                              placeholder="Enter total_amount"
+                                              readOnly
+                                            />
+                                            <span
+                                              className={
+                                                "err err_total_amount" +
+                                                index +
+                                                ind
+                                              }
+                                            ></span>
+                                          </div>
+                                      </td>
+                                      
+                                    )})}
+  <td>
+  <i
+                                    className="fa fa-times"
+                                    onClick={() => this.removeproduct(index)}
+                                    aria-hidden="true"
+                                  ></i>
+  </td>
+
+</tr>
+                            )})}
+                            </tbody>
+                            </table>
+                            </div> */}
                         {MultipleArray.length > 0 &&
                           MultipleArray.map((item, index) => {
-                            console.log("sdfdfdsf", item);
                             return (
                               <div className="productvariant" key={index}>
                                 <div className="form-group inventory_three">
@@ -1028,8 +1260,6 @@ async componentWillMount(){
                                         value={item.product}
                                         name={"selected_product" + index}
                                       />
-                                      {/* <input type="text" autoComplete="off" name={"product" + index} className="form-control" value={item.product} onChange={(e) => this.formHandler1(e, index, "product")} placeholder="Enter Product" /> */}
-
                                       <span
                                         className={
                                           "err err_productsearch" + index
@@ -1037,29 +1267,6 @@ async componentWillMount(){
                                       ></span>
                                     </div>
                                   </div>
-
-                                  {/* <div className="form-group">
-                                  <div className="modal-left-bx">
-                                    <label> Unit Quantity</label>
-                                  </div>
-                                  <div className="modal-right-bx">
-                                    <input
-                                      type="text"
-                                      autoComplete="off"
-                                      name={"product_costPrice" + index}
-                                      className="form-control"
-                                      value={item.unit_quantity}
-                                      readOnly
-                                      
-                                    />
-                                    <span
-                                      className={
-                                        "err err_product_costPrice" + index
-                                      }
-                                    ></span>
-                                  </div>
-                                </div> */}
-
                                   <div className="form-group">
                                     <div className="modal-left-bx">
                                       <label> Cost Price</label>
@@ -1192,13 +1399,7 @@ async componentWillMount(){
                                                   )
                                                   })
                                                 }
-                                                {/* {item.variants.map((dta) => {
-                                                  return (
-                                                    <option value={dta.value}>
-                                                      {dta.name}
-                                                    </option>
-                                                  );
-                                                })} */}
+                                                
                                               </select>
                                               <span
                                                 className={
@@ -1247,38 +1448,7 @@ async componentWillMount(){
                                             ></span>
                                           </div>
                                         </div>
-                                        {/* <div className="form-group">
-                                        <div className="modal-left-bx">
-                                          <label>
-                                            {" "}
-                                            Cost Price
-                                            <span className="asterisk">*</span>
-                                          </label>
-                                        </div>
-                                        <div className="modal-right-bx">
-                                          <input
-                                            type="text"
-                                            autoComplete="off"
-                                            name={"cost_price" + index}
-                                            className="form-control"
-                                            value={it.cost_price}
-                                            onChange={(e) =>
-                                              this.formHandler1(
-                                                e,
-                                                index,
-                                                ind,
-                                                "cost_price"
-                                              )
-                                            }
-                                            placeholder="Enter Cost Price"
-                                          />
-                                          <span
-                                            className={
-                                              "err err_cost_price" + index + ind
-                                            }
-                                          ></span>
-                                        </div>
-                                      </div> */}
+                                     
                                         <div className="form-group">
                                           <div className="modal-left-bx">
                                             <label> Total Amount</label>
@@ -1310,59 +1480,12 @@ async componentWillMount(){
                                             ></span>
                                           </div>
                                         </div>
-                                        {/* <div className="form-group">
-                                        <div className="modal-left-bx">
-                                          <label> Expiration</label>
-                                        </div>
-                                        <div className="modal-right-bx">
-                                          <DatePicker
-                                            selected={it.expiration}
-                                            dateFormat="dd/MM/yyyy"
-                                            onChange={(date) =>
-                                              this.setexpdate(date, index, ind)
-                                            }
-                                            minDate={new Date()}
-                                          />
-                                          <span className={"err err_expiration" + index + ind}></span>
-                                        </div>
-                                      </div> */}
-                                        {/* <i
-                                        className="fa fa-times"
-                                        onClick={() =>
-                                          this.removeregion(
-                                            "Remove",
-                                            index,
-                                            ind
-                                          )
-                                        }
-                                        aria-hidden="true"
-                                      ></i> */}
+                                       
                                       </div>
                                     );
                                   })}
                                 </div>
-                                {/* {item.product ? (
-                                <>
-                                  <button
-                                    type="button"
-                                    className="btn btn-primary feel-btnv2"
-                                    onClick={() => this.addmoregion(index)}
-                                  >
-                                    <i
-                                      className="fa fa-plus"
-                                      aria-hidden="true"
-                                    ></i>
-                                    Add Region
-                                  </button>
-                                  <span
-                                    className={
-                                      "err err_regionselection" + index
-                                    }
-                                  ></span>
-                                </>
-                              ) : (
-                                ""
-                              )} */}
+                                
                               </div>
                             );
                           })}

@@ -2275,6 +2275,15 @@ export default class orderdetails extends Component {
                                               });
                                             });
                                         }
+                                let varientName = item?.TypeOfProduct === "configurable" &&  item?.variant_name ? item?.variant_name?.split("__") : ""
+                               let varient_name = ""
+                                  if(varientName?.length > 0){
+                                 for (let n in varientName){
+                                   if(n%2 != 0){
+                                  varient_name = varient_name + "-" + varientName[n]
+                                 }
+                              }
+                           }
                                         return (
                                           <div className="flex" key={index}>
                                             <div className="left_main_card_new">
@@ -2296,6 +2305,7 @@ export default class orderdetails extends Component {
                                               <div className="new_pro_custommer">
                                                 <span>
                                                   {item.product_name}
+                                                  {varient_name && <span>{varient_name}</span>}
                                                   {item.TypeOfProduct ===
                                                     "simple" && (
                                                     <span>

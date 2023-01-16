@@ -2157,3 +2157,50 @@
     at processTicksAndRejections (node:internal/process/task_queues:96:5) 
  
 
+[2023-01-13T10:59:00.158] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-13T11:00:00.288] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-13T11:59:00.225] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-13T12:00:00.415] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-13T14:59:00.565] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-13T15:00:00.696] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-16T09:59:00.239] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-16T10:00:00.382] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+
+[2023-01-16T10:59:00.294] [ERROR] errors - TypeError: Cannot read properties of null (reading 'out_of_stock')
+    at Task.cron.schedule.scheduled [as _execution] (/home/t9l_saif/Desktop/Saif/Configured/api/api/controllers/report_summary.controller.js:354:42)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+ 
+

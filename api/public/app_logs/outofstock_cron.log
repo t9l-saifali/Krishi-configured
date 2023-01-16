@@ -8087,3 +8087,741 @@
   __v: 0,
   availableQuantity: 0
 } Product found successfully
+[2023-01-13T10:59:00.148] [INFO] outofstock_cron - ######################################################################
+[2023-01-13T10:59:00.149] [INFO] outofstock_cron - Cron run on  2023-01-13T05:29:00.149Z mail start successfully
+[2023-01-13T10:59:00.153] [INFO] outofstock_cron - {
+  _id: new ObjectId("63b4f92b9043566c454657ba"),
+  barcode: [],
+  admin_id: new ObjectId("63a956e5fc47eaa3eb4dab19"),
+  product_categories: [
+    new ObjectId("63a3ee8c317b2b2f634e63b2"),
+    new ObjectId("63a3ee9f317b2b2f634e63b9"),
+    new ObjectId("63a413cb62716af2502cfb9b")
+  ],
+  product_subCat1_id: null,
+  product_cat_id: null,
+  base_price: 0,
+  group_mrp: 0,
+  product_name: 'test',
+  slug: 'test',
+  longDesc: '',
+  shortDesc: '',
+  images: [],
+  attachment: '',
+  banner: '',
+  relatedProduct: [
+    {
+      product_id: new ObjectId("63a3f59fa8d140a816065a8b"),
+      _id: new ObjectId("63b50b759043566c45465e2f")
+    }
+  ],
+  relatedRecipes: [],
+  productThreshold: null,
+  productSubscription: '',
+  preOrderQty: 0,
+  preOrderBookQty: 0,
+  preOrderRemainQty: 0,
+  preOrder: false,
+  preOrderStartDate: 2023-01-04T03:56:29.000Z,
+  preOrderEndDate: null,
+  ProductRegion: [
+    {
+      region_id: new ObjectId("63a3eeea317b2b2f634e63dd"),
+      _id: new ObjectId("63b50b759043566c45465e2e")
+    }
+  ],
+  salesTaxOutSide: new ObjectId("63a3f44da8d140a816065a14"),
+  salesTaxWithIn: new ObjectId("63a3f44da8d140a816065a14"),
+  purchaseTax: new ObjectId("63a3f44da8d140a816065a14"),
+  hsnCode: '1234322',
+  SKUCode: '',
+  unitMeasurement: {
+    _id: new ObjectId("63a3f35da8d140a8160659bd"),
+    name: 'gram',
+    availability: 'yes',
+    status: true,
+    created_at: 2022-12-22T06:04:13.545Z,
+    __v: 0
+  },
+  unitQuantity: 1,
+  TypeOfProduct: 'simple',
+  productExpiryDay: null,
+  batchID: 0,
+  attribute_group: null,
+  configurableData: [],
+  simpleData: [
+    {
+      region: new ObjectId("63a3eeea317b2b2f634e63dd"),
+      package: [Array],
+      ExpirationDate: null,
+      _id: new ObjectId("63b50b759043566c45465e2d")
+    }
+  ],
+  groupData: [],
+  sameDayDelivery: true,
+  farmPickup: true,
+  youtube_link: null,
+  priority: Infinity,
+  status: true,
+  showstatus: true,
+  priority_obj: [],
+  created_at: 2023-01-04T03:57:31.636Z,
+  __v: 0,
+  availableQuantity: 0
+} Product found successfully
+[2023-01-13T11:00:00.281] [INFO] outofstock_cron - ######################################################################
+[2023-01-13T11:00:00.281] [INFO] outofstock_cron - Cron run on  2023-01-13T05:30:00.281Z mail start successfully
+[2023-01-13T11:00:00.283] [INFO] outofstock_cron - {
+  _id: new ObjectId("63b4f92b9043566c454657ba"),
+  barcode: [],
+  admin_id: new ObjectId("63a956e5fc47eaa3eb4dab19"),
+  product_categories: [
+    new ObjectId("63a3ee8c317b2b2f634e63b2"),
+    new ObjectId("63a3ee9f317b2b2f634e63b9"),
+    new ObjectId("63a413cb62716af2502cfb9b")
+  ],
+  product_subCat1_id: null,
+  product_cat_id: null,
+  base_price: 0,
+  group_mrp: 0,
+  product_name: 'test',
+  slug: 'test',
+  longDesc: '',
+  shortDesc: '',
+  images: [],
+  attachment: '',
+  banner: '',
+  relatedProduct: [
+    {
+      product_id: new ObjectId("63a3f59fa8d140a816065a8b"),
+      _id: new ObjectId("63b50b759043566c45465e2f")
+    }
+  ],
+  relatedRecipes: [],
+  productThreshold: null,
+  productSubscription: '',
+  preOrderQty: 0,
+  preOrderBookQty: 0,
+  preOrderRemainQty: 0,
+  preOrder: false,
+  preOrderStartDate: 2023-01-04T03:56:29.000Z,
+  preOrderEndDate: null,
+  ProductRegion: [
+    {
+      region_id: new ObjectId("63a3eeea317b2b2f634e63dd"),
+      _id: new ObjectId("63b50b759043566c45465e2e")
+    }
+  ],
+  salesTaxOutSide: new ObjectId("63a3f44da8d140a816065a14"),
+  salesTaxWithIn: new ObjectId("63a3f44da8d140a816065a14"),
+  purchaseTax: new ObjectId("63a3f44da8d140a816065a14"),
+  hsnCode: '1234322',
+  SKUCode: '',
+  unitMeasurement: {
+    _id: new ObjectId("63a3f35da8d140a8160659bd"),
+    name: 'gram',
+    availability: 'yes',
+    status: true,
+    created_at: 2022-12-22T06:04:13.545Z,
+    __v: 0
+  },
+  unitQuantity: 1,
+  TypeOfProduct: 'simple',
+  productExpiryDay: null,
+  batchID: 0,
+  attribute_group: null,
+  configurableData: [],
+  simpleData: [
+    {
+      region: new ObjectId("63a3eeea317b2b2f634e63dd"),
+      package: [Array],
+      ExpirationDate: null,
+      _id: new ObjectId("63b50b759043566c45465e2d")
+    }
+  ],
+  groupData: [],
+  sameDayDelivery: true,
+  farmPickup: true,
+  youtube_link: null,
+  priority: Infinity,
+  status: true,
+  showstatus: true,
+  priority_obj: [],
+  created_at: 2023-01-04T03:57:31.636Z,
+  __v: 0,
+  availableQuantity: 0
+} Product found successfully
+[2023-01-13T11:59:00.212] [INFO] outofstock_cron - ######################################################################
+[2023-01-13T11:59:00.213] [INFO] outofstock_cron - Cron run on  2023-01-13T06:29:00.213Z mail start successfully
+[2023-01-13T11:59:00.218] [INFO] outofstock_cron - {
+  _id: new ObjectId("63b4f92b9043566c454657ba"),
+  barcode: [],
+  admin_id: new ObjectId("63a956e5fc47eaa3eb4dab19"),
+  product_categories: [
+    new ObjectId("63a3ee8c317b2b2f634e63b2"),
+    new ObjectId("63a3ee9f317b2b2f634e63b9"),
+    new ObjectId("63a413cb62716af2502cfb9b")
+  ],
+  product_subCat1_id: null,
+  product_cat_id: null,
+  base_price: 0,
+  group_mrp: 0,
+  product_name: 'test',
+  slug: 'test',
+  longDesc: '',
+  shortDesc: '',
+  images: [],
+  attachment: '',
+  banner: '',
+  relatedProduct: [
+    {
+      product_id: new ObjectId("63a3f59fa8d140a816065a8b"),
+      _id: new ObjectId("63b50b759043566c45465e2f")
+    }
+  ],
+  relatedRecipes: [],
+  productThreshold: null,
+  productSubscription: '',
+  preOrderQty: 0,
+  preOrderBookQty: 0,
+  preOrderRemainQty: 0,
+  preOrder: false,
+  preOrderStartDate: 2023-01-04T03:56:29.000Z,
+  preOrderEndDate: null,
+  ProductRegion: [
+    {
+      region_id: new ObjectId("63a3eeea317b2b2f634e63dd"),
+      _id: new ObjectId("63b50b759043566c45465e2e")
+    }
+  ],
+  salesTaxOutSide: new ObjectId("63a3f44da8d140a816065a14"),
+  salesTaxWithIn: new ObjectId("63a3f44da8d140a816065a14"),
+  purchaseTax: new ObjectId("63a3f44da8d140a816065a14"),
+  hsnCode: '1234322',
+  SKUCode: '',
+  unitMeasurement: {
+    _id: new ObjectId("63a3f35da8d140a8160659bd"),
+    name: 'gram',
+    availability: 'yes',
+    status: true,
+    created_at: 2022-12-22T06:04:13.545Z,
+    __v: 0
+  },
+  unitQuantity: 1,
+  TypeOfProduct: 'simple',
+  productExpiryDay: null,
+  batchID: 0,
+  attribute_group: null,
+  configurableData: [],
+  simpleData: [
+    {
+      region: new ObjectId("63a3eeea317b2b2f634e63dd"),
+      package: [Array],
+      ExpirationDate: null,
+      _id: new ObjectId("63b50b759043566c45465e2d")
+    }
+  ],
+  groupData: [],
+  sameDayDelivery: true,
+  farmPickup: true,
+  youtube_link: null,
+  priority: Infinity,
+  status: true,
+  showstatus: true,
+  priority_obj: [],
+  created_at: 2023-01-04T03:57:31.636Z,
+  __v: 0,
+  availableQuantity: 0
+} Product found successfully
+[2023-01-13T12:00:00.357] [INFO] outofstock_cron - ######################################################################
+[2023-01-13T12:00:00.357] [INFO] outofstock_cron - Cron run on  2023-01-13T06:30:00.357Z mail start successfully
+[2023-01-13T12:00:00.390] [INFO] outofstock_cron - {
+  _id: new ObjectId("63b4f92b9043566c454657ba"),
+  barcode: [],
+  admin_id: new ObjectId("63a956e5fc47eaa3eb4dab19"),
+  product_categories: [
+    new ObjectId("63a3ee8c317b2b2f634e63b2"),
+    new ObjectId("63a3ee9f317b2b2f634e63b9"),
+    new ObjectId("63a413cb62716af2502cfb9b")
+  ],
+  product_subCat1_id: null,
+  product_cat_id: null,
+  base_price: 0,
+  group_mrp: 0,
+  product_name: 'test',
+  slug: 'test',
+  longDesc: '',
+  shortDesc: '',
+  images: [],
+  attachment: '',
+  banner: '',
+  relatedProduct: [
+    {
+      product_id: new ObjectId("63a3f59fa8d140a816065a8b"),
+      _id: new ObjectId("63b50b759043566c45465e2f")
+    }
+  ],
+  relatedRecipes: [],
+  productThreshold: null,
+  productSubscription: '',
+  preOrderQty: 0,
+  preOrderBookQty: 0,
+  preOrderRemainQty: 0,
+  preOrder: false,
+  preOrderStartDate: 2023-01-04T03:56:29.000Z,
+  preOrderEndDate: null,
+  ProductRegion: [
+    {
+      region_id: new ObjectId("63a3eeea317b2b2f634e63dd"),
+      _id: new ObjectId("63b50b759043566c45465e2e")
+    }
+  ],
+  salesTaxOutSide: new ObjectId("63a3f44da8d140a816065a14"),
+  salesTaxWithIn: new ObjectId("63a3f44da8d140a816065a14"),
+  purchaseTax: new ObjectId("63a3f44da8d140a816065a14"),
+  hsnCode: '1234322',
+  SKUCode: '',
+  unitMeasurement: {
+    _id: new ObjectId("63a3f35da8d140a8160659bd"),
+    name: 'gram',
+    availability: 'yes',
+    status: true,
+    created_at: 2022-12-22T06:04:13.545Z,
+    __v: 0
+  },
+  unitQuantity: 1,
+  TypeOfProduct: 'simple',
+  productExpiryDay: null,
+  batchID: 0,
+  attribute_group: null,
+  configurableData: [],
+  simpleData: [
+    {
+      region: new ObjectId("63a3eeea317b2b2f634e63dd"),
+      package: [Array],
+      ExpirationDate: null,
+      _id: new ObjectId("63b50b759043566c45465e2d")
+    }
+  ],
+  groupData: [],
+  sameDayDelivery: true,
+  farmPickup: true,
+  youtube_link: null,
+  priority: Infinity,
+  status: true,
+  showstatus: true,
+  priority_obj: [],
+  created_at: 2023-01-04T03:57:31.636Z,
+  __v: 0,
+  availableQuantity: 0
+} Product found successfully
+[2023-01-13T14:59:00.547] [INFO] outofstock_cron - ######################################################################
+[2023-01-13T14:59:00.547] [INFO] outofstock_cron - Cron run on  2023-01-13T09:29:00.547Z mail start successfully
+[2023-01-13T14:59:00.556] [INFO] outofstock_cron - {
+  _id: new ObjectId("63b4f92b9043566c454657ba"),
+  barcode: [],
+  admin_id: new ObjectId("63a956e5fc47eaa3eb4dab19"),
+  product_categories: [
+    new ObjectId("63a3ee8c317b2b2f634e63b2"),
+    new ObjectId("63a3ee9f317b2b2f634e63b9"),
+    new ObjectId("63a413cb62716af2502cfb9b")
+  ],
+  product_subCat1_id: null,
+  product_cat_id: null,
+  base_price: 0,
+  group_mrp: 0,
+  product_name: 'test',
+  slug: 'test',
+  longDesc: '',
+  shortDesc: '',
+  images: [],
+  attachment: '',
+  banner: '',
+  relatedProduct: [
+    {
+      product_id: new ObjectId("63a3f59fa8d140a816065a8b"),
+      _id: new ObjectId("63b50b759043566c45465e2f")
+    }
+  ],
+  relatedRecipes: [],
+  productThreshold: null,
+  productSubscription: '',
+  preOrderQty: 0,
+  preOrderBookQty: 0,
+  preOrderRemainQty: 0,
+  preOrder: false,
+  preOrderStartDate: 2023-01-04T03:56:29.000Z,
+  preOrderEndDate: null,
+  ProductRegion: [
+    {
+      region_id: new ObjectId("63a3eeea317b2b2f634e63dd"),
+      _id: new ObjectId("63b50b759043566c45465e2e")
+    }
+  ],
+  salesTaxOutSide: new ObjectId("63a3f44da8d140a816065a14"),
+  salesTaxWithIn: new ObjectId("63a3f44da8d140a816065a14"),
+  purchaseTax: new ObjectId("63a3f44da8d140a816065a14"),
+  hsnCode: '1234322',
+  SKUCode: '',
+  unitMeasurement: {
+    _id: new ObjectId("63a3f35da8d140a8160659bd"),
+    name: 'gram',
+    availability: 'yes',
+    status: true,
+    created_at: 2022-12-22T06:04:13.545Z,
+    __v: 0
+  },
+  unitQuantity: 1,
+  TypeOfProduct: 'simple',
+  productExpiryDay: null,
+  batchID: 0,
+  attribute_group: null,
+  configurableData: [],
+  simpleData: [
+    {
+      region: new ObjectId("63a3eeea317b2b2f634e63dd"),
+      package: [Array],
+      ExpirationDate: null,
+      _id: new ObjectId("63b50b759043566c45465e2d")
+    }
+  ],
+  groupData: [],
+  sameDayDelivery: true,
+  farmPickup: true,
+  youtube_link: null,
+  priority: Infinity,
+  status: true,
+  showstatus: true,
+  priority_obj: [],
+  created_at: 2023-01-04T03:57:31.636Z,
+  __v: 0,
+  availableQuantity: 0
+} Product found successfully
+[2023-01-13T15:00:00.666] [INFO] outofstock_cron - ######################################################################
+[2023-01-13T15:00:00.666] [INFO] outofstock_cron - Cron run on  2023-01-13T09:30:00.666Z mail start successfully
+[2023-01-13T15:00:00.686] [INFO] outofstock_cron - {
+  _id: new ObjectId("63b4f92b9043566c454657ba"),
+  barcode: [],
+  admin_id: new ObjectId("63a956e5fc47eaa3eb4dab19"),
+  product_categories: [
+    new ObjectId("63a3ee8c317b2b2f634e63b2"),
+    new ObjectId("63a3ee9f317b2b2f634e63b9"),
+    new ObjectId("63a413cb62716af2502cfb9b")
+  ],
+  product_subCat1_id: null,
+  product_cat_id: null,
+  base_price: 0,
+  group_mrp: 0,
+  product_name: 'test',
+  slug: 'test',
+  longDesc: '',
+  shortDesc: '',
+  images: [],
+  attachment: '',
+  banner: '',
+  relatedProduct: [
+    {
+      product_id: new ObjectId("63a3f59fa8d140a816065a8b"),
+      _id: new ObjectId("63b50b759043566c45465e2f")
+    }
+  ],
+  relatedRecipes: [],
+  productThreshold: null,
+  productSubscription: '',
+  preOrderQty: 0,
+  preOrderBookQty: 0,
+  preOrderRemainQty: 0,
+  preOrder: false,
+  preOrderStartDate: 2023-01-04T03:56:29.000Z,
+  preOrderEndDate: null,
+  ProductRegion: [
+    {
+      region_id: new ObjectId("63a3eeea317b2b2f634e63dd"),
+      _id: new ObjectId("63b50b759043566c45465e2e")
+    }
+  ],
+  salesTaxOutSide: new ObjectId("63a3f44da8d140a816065a14"),
+  salesTaxWithIn: new ObjectId("63a3f44da8d140a816065a14"),
+  purchaseTax: new ObjectId("63a3f44da8d140a816065a14"),
+  hsnCode: '1234322',
+  SKUCode: '',
+  unitMeasurement: {
+    _id: new ObjectId("63a3f35da8d140a8160659bd"),
+    name: 'gram',
+    availability: 'yes',
+    status: true,
+    created_at: 2022-12-22T06:04:13.545Z,
+    __v: 0
+  },
+  unitQuantity: 1,
+  TypeOfProduct: 'simple',
+  productExpiryDay: null,
+  batchID: 0,
+  attribute_group: null,
+  configurableData: [],
+  simpleData: [
+    {
+      region: new ObjectId("63a3eeea317b2b2f634e63dd"),
+      package: [Array],
+      ExpirationDate: null,
+      _id: new ObjectId("63b50b759043566c45465e2d")
+    }
+  ],
+  groupData: [],
+  sameDayDelivery: true,
+  farmPickup: true,
+  youtube_link: null,
+  priority: Infinity,
+  status: true,
+  showstatus: true,
+  priority_obj: [],
+  created_at: 2023-01-04T03:57:31.636Z,
+  __v: 0,
+  availableQuantity: 0
+} Product found successfully
+[2023-01-16T09:59:00.229] [INFO] outofstock_cron - ######################################################################
+[2023-01-16T09:59:00.229] [INFO] outofstock_cron - Cron run on  2023-01-16T04:29:00.229Z mail start successfully
+[2023-01-16T09:59:00.236] [INFO] outofstock_cron - {
+  _id: new ObjectId("63b4f92b9043566c454657ba"),
+  barcode: [],
+  admin_id: new ObjectId("63a956e5fc47eaa3eb4dab19"),
+  product_categories: [
+    new ObjectId("63a3ee8c317b2b2f634e63b2"),
+    new ObjectId("63a3ee9f317b2b2f634e63b9"),
+    new ObjectId("63a413cb62716af2502cfb9b")
+  ],
+  product_subCat1_id: null,
+  product_cat_id: null,
+  base_price: 0,
+  group_mrp: 0,
+  product_name: 'test',
+  slug: 'test',
+  longDesc: '',
+  shortDesc: '',
+  images: [],
+  attachment: '',
+  banner: '',
+  relatedProduct: [
+    {
+      product_id: new ObjectId("63a3f59fa8d140a816065a8b"),
+      _id: new ObjectId("63b50b759043566c45465e2f")
+    }
+  ],
+  relatedRecipes: [],
+  productThreshold: null,
+  productSubscription: '',
+  preOrderQty: 0,
+  preOrderBookQty: 0,
+  preOrderRemainQty: 0,
+  preOrder: false,
+  preOrderStartDate: 2023-01-04T03:56:29.000Z,
+  preOrderEndDate: null,
+  ProductRegion: [
+    {
+      region_id: new ObjectId("63a3eeea317b2b2f634e63dd"),
+      _id: new ObjectId("63b50b759043566c45465e2e")
+    }
+  ],
+  salesTaxOutSide: new ObjectId("63a3f44da8d140a816065a14"),
+  salesTaxWithIn: new ObjectId("63a3f44da8d140a816065a14"),
+  purchaseTax: new ObjectId("63a3f44da8d140a816065a14"),
+  hsnCode: '1234322',
+  SKUCode: '',
+  unitMeasurement: {
+    _id: new ObjectId("63a3f35da8d140a8160659bd"),
+    name: 'gram',
+    availability: 'yes',
+    status: true,
+    created_at: 2022-12-22T06:04:13.545Z,
+    __v: 0
+  },
+  unitQuantity: 1,
+  TypeOfProduct: 'simple',
+  productExpiryDay: null,
+  batchID: 0,
+  attribute_group: null,
+  configurableData: [],
+  simpleData: [
+    {
+      region: new ObjectId("63a3eeea317b2b2f634e63dd"),
+      package: [Array],
+      ExpirationDate: null,
+      _id: new ObjectId("63b50b759043566c45465e2d")
+    }
+  ],
+  groupData: [],
+  sameDayDelivery: true,
+  farmPickup: true,
+  youtube_link: null,
+  priority: Infinity,
+  status: true,
+  showstatus: true,
+  priority_obj: [],
+  created_at: 2023-01-04T03:57:31.636Z,
+  __v: 0,
+  availableQuantity: 0
+} Product found successfully
+[2023-01-16T10:00:00.367] [INFO] outofstock_cron - ######################################################################
+[2023-01-16T10:00:00.367] [INFO] outofstock_cron - Cron run on  2023-01-16T04:30:00.367Z mail start successfully
+[2023-01-16T10:00:00.378] [INFO] outofstock_cron - {
+  _id: new ObjectId("63b4f92b9043566c454657ba"),
+  barcode: [],
+  admin_id: new ObjectId("63a956e5fc47eaa3eb4dab19"),
+  product_categories: [
+    new ObjectId("63a3ee8c317b2b2f634e63b2"),
+    new ObjectId("63a3ee9f317b2b2f634e63b9"),
+    new ObjectId("63a413cb62716af2502cfb9b")
+  ],
+  product_subCat1_id: null,
+  product_cat_id: null,
+  base_price: 0,
+  group_mrp: 0,
+  product_name: 'test',
+  slug: 'test',
+  longDesc: '',
+  shortDesc: '',
+  images: [],
+  attachment: '',
+  banner: '',
+  relatedProduct: [
+    {
+      product_id: new ObjectId("63a3f59fa8d140a816065a8b"),
+      _id: new ObjectId("63b50b759043566c45465e2f")
+    }
+  ],
+  relatedRecipes: [],
+  productThreshold: null,
+  productSubscription: '',
+  preOrderQty: 0,
+  preOrderBookQty: 0,
+  preOrderRemainQty: 0,
+  preOrder: false,
+  preOrderStartDate: 2023-01-04T03:56:29.000Z,
+  preOrderEndDate: null,
+  ProductRegion: [
+    {
+      region_id: new ObjectId("63a3eeea317b2b2f634e63dd"),
+      _id: new ObjectId("63b50b759043566c45465e2e")
+    }
+  ],
+  salesTaxOutSide: new ObjectId("63a3f44da8d140a816065a14"),
+  salesTaxWithIn: new ObjectId("63a3f44da8d140a816065a14"),
+  purchaseTax: new ObjectId("63a3f44da8d140a816065a14"),
+  hsnCode: '1234322',
+  SKUCode: '',
+  unitMeasurement: {
+    _id: new ObjectId("63a3f35da8d140a8160659bd"),
+    name: 'gram',
+    availability: 'yes',
+    status: true,
+    created_at: 2022-12-22T06:04:13.545Z,
+    __v: 0
+  },
+  unitQuantity: 1,
+  TypeOfProduct: 'simple',
+  productExpiryDay: null,
+  batchID: 0,
+  attribute_group: null,
+  configurableData: [],
+  simpleData: [
+    {
+      region: new ObjectId("63a3eeea317b2b2f634e63dd"),
+      package: [Array],
+      ExpirationDate: null,
+      _id: new ObjectId("63b50b759043566c45465e2d")
+    }
+  ],
+  groupData: [],
+  sameDayDelivery: true,
+  farmPickup: true,
+  youtube_link: null,
+  priority: Infinity,
+  status: true,
+  showstatus: true,
+  priority_obj: [],
+  created_at: 2023-01-04T03:57:31.636Z,
+  __v: 0,
+  availableQuantity: 0
+} Product found successfully
+[2023-01-16T10:59:00.286] [INFO] outofstock_cron - ######################################################################
+[2023-01-16T10:59:00.286] [INFO] outofstock_cron - Cron run on  2023-01-16T05:29:00.286Z mail start successfully
+[2023-01-16T10:59:00.288] [INFO] outofstock_cron - {
+  _id: new ObjectId("63b4f92b9043566c454657ba"),
+  barcode: [],
+  admin_id: new ObjectId("63a956e5fc47eaa3eb4dab19"),
+  product_categories: [
+    new ObjectId("63a3ee8c317b2b2f634e63b2"),
+    new ObjectId("63a3ee9f317b2b2f634e63b9"),
+    new ObjectId("63a413cb62716af2502cfb9b")
+  ],
+  product_subCat1_id: null,
+  product_cat_id: null,
+  base_price: 0,
+  group_mrp: 0,
+  product_name: 'test',
+  slug: 'test',
+  longDesc: '',
+  shortDesc: '',
+  images: [],
+  attachment: '',
+  banner: '',
+  relatedProduct: [
+    {
+      product_id: new ObjectId("63a3f59fa8d140a816065a8b"),
+      _id: new ObjectId("63b50b759043566c45465e2f")
+    }
+  ],
+  relatedRecipes: [],
+  productThreshold: null,
+  productSubscription: '',
+  preOrderQty: 0,
+  preOrderBookQty: 0,
+  preOrderRemainQty: 0,
+  preOrder: false,
+  preOrderStartDate: 2023-01-04T03:56:29.000Z,
+  preOrderEndDate: null,
+  ProductRegion: [
+    {
+      region_id: new ObjectId("63a3eeea317b2b2f634e63dd"),
+      _id: new ObjectId("63b50b759043566c45465e2e")
+    }
+  ],
+  salesTaxOutSide: new ObjectId("63a3f44da8d140a816065a14"),
+  salesTaxWithIn: new ObjectId("63a3f44da8d140a816065a14"),
+  purchaseTax: new ObjectId("63a3f44da8d140a816065a14"),
+  hsnCode: '1234322',
+  SKUCode: '',
+  unitMeasurement: {
+    _id: new ObjectId("63a3f35da8d140a8160659bd"),
+    name: 'gram',
+    availability: 'yes',
+    status: true,
+    created_at: 2022-12-22T06:04:13.545Z,
+    __v: 0
+  },
+  unitQuantity: 1,
+  TypeOfProduct: 'simple',
+  productExpiryDay: null,
+  batchID: 0,
+  attribute_group: null,
+  configurableData: [],
+  simpleData: [
+    {
+      region: new ObjectId("63a3eeea317b2b2f634e63dd"),
+      package: [Array],
+      ExpirationDate: null,
+      _id: new ObjectId("63b50b759043566c45465e2d")
+    }
+  ],
+  groupData: [],
+  sameDayDelivery: true,
+  farmPickup: true,
+  youtube_link: null,
+  priority: Infinity,
+  status: true,
+  showstatus: true,
+  priority_obj: [],
+  created_at: 2023-01-04T03:57:31.636Z,
+  __v: 0,
+  availableQuantity: 0
+} Product found successfully

@@ -684,3 +684,21 @@
 [2023-01-12T17:59:00.075] [INFO] threshold_cron - Cron run on  2023-01-12T12:29:00.075Z mail start successfully
 [2023-01-12T18:00:00.208] [INFO] threshold_cron - ######################################################################
 [2023-01-12T18:00:00.209] [INFO] threshold_cron - Cron run on  2023-01-12T12:30:00.209Z mail start successfully
+[2023-01-13T10:59:00.143] [INFO] threshold_cron - ######################################################################
+[2023-01-13T10:59:00.147] [INFO] threshold_cron - Cron run on  2023-01-13T05:29:00.147Z mail start successfully
+[2023-01-13T11:00:00.279] [INFO] threshold_cron - ######################################################################
+[2023-01-13T11:00:00.279] [INFO] threshold_cron - Cron run on  2023-01-13T05:30:00.279Z mail start successfully
+[2023-01-13T11:59:00.208] [INFO] threshold_cron - ######################################################################
+[2023-01-13T11:59:00.210] [INFO] threshold_cron - Cron run on  2023-01-13T06:29:00.210Z mail start successfully
+[2023-01-13T12:00:00.352] [INFO] threshold_cron - ######################################################################
+[2023-01-13T12:00:00.352] [INFO] threshold_cron - Cron run on  2023-01-13T06:30:00.352Z mail start successfully
+[2023-01-13T14:59:00.542] [INFO] threshold_cron - ######################################################################
+[2023-01-13T14:59:00.545] [INFO] threshold_cron - Cron run on  2023-01-13T09:29:00.545Z mail start successfully
+[2023-01-13T15:00:00.662] [INFO] threshold_cron - ######################################################################
+[2023-01-13T15:00:00.662] [INFO] threshold_cron - Cron run on  2023-01-13T09:30:00.662Z mail start successfully
+[2023-01-16T09:59:00.223] [INFO] threshold_cron - ######################################################################
+[2023-01-16T09:59:00.227] [INFO] threshold_cron - Cron run on  2023-01-16T04:29:00.227Z mail start successfully
+[2023-01-16T10:00:00.365] [INFO] threshold_cron - ######################################################################
+[2023-01-16T10:00:00.365] [INFO] threshold_cron - Cron run on  2023-01-16T04:30:00.365Z mail start successfully
+[2023-01-16T10:59:00.283] [INFO] threshold_cron - ######################################################################
+[2023-01-16T10:59:00.284] [INFO] threshold_cron - Cron run on  2023-01-16T05:29:00.284Z mail start successfully

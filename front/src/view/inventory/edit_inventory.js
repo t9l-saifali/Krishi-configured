@@ -302,20 +302,22 @@ export default class EditInventory extends Component {
     let changeRegion = true;
     var data_to_filer = MultipleArray.filter((itm) => itm.product == prod_id);
 
-    if (data_to_filer.length) {
-      data_to_filer.forEach((dt) => {
-        if (dt.regionalData?.[0].region === valu.value) {
-          swal({
-            title: "",
-            text: "Product with same region already exists.",
-            icon: "warning",
-          });
-          changeRegion = false;
-        }
-      });
-    } else {
-      changeRegion = true;
-    }
+    // if (data_to_filer.length) {
+    //   data_to_filer.forEach((dt) => {
+    //     if (dt.regionalData?.[0].region === valu.value) {
+    //       swal({
+    //         title: "",
+    //         text: "Product with same region already exists.",
+    //         icon: "warning",
+    //       });
+    //       changeRegion = false;
+    //     }
+    //   });
+    // } else {
+    //   changeRegion = true;
+    // }
+    changeRegion = true;
+
     if (changeRegion) {
       let data = MultipleArray;
       data[index].regionalData[ind].region = valu.value;
@@ -373,6 +375,7 @@ export default class EditInventory extends Component {
     });
   };
   onChange112(valu, index, callFrom, type) {
+    console.log(type,"strstrstrstrstrstr")
     let str = "/admin/product/"
     if(type == "configurable"){
       str = "/product-configured/"
@@ -885,6 +888,7 @@ export default class EditInventory extends Component {
               this.state.all_product.push({
                 value: item._id,
                 name: item.product_name,
+                TypeOfProduct:item.TypeOfProduct
               });
             }
           });
